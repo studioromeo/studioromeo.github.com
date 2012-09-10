@@ -73,6 +73,12 @@ footer {
 	clear: both;
 }
 
+.highlight {
+	padding: 20px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
 #logo {
 	background: url('/img/logo.png') no-repeat;
 	top: 130px;
