@@ -3,7 +3,7 @@ table{border-collapse:separate;border-spacing:0;margin-bottom:1.4em}caption,th,t
 blockquote,q{quotes:}a img{border:0 none}body{background:white url('/img/header.png');background-repeat:repeat-x;background-position:0 -3px;background-size:357px;max-width:850px;margin:0 auto;margin-top:120px}
 aside{width:175px;margin-right:75px;margin-top:10px;float:left;text-align:right;position:absolute}aside p{font-size:1.1em}aside ul{list-style:none;font-size:1.2em}
 aside ol{margin-top:120px}aside li{display:inline;margin-left:10px}aside ul a,aside ol li a{text-decoration:none;border:0;color:#aaa}section{float:left;margin-right:50px;margin-left:250px}
-footer{border-top:1px solid #EEE;padding:20px 0;margin:10px 0;clear:both}.highlight{padding:20px;margin:20px 0;-webkit-border-radius:5px;border-radius:5px}
+section :first-child{margin-top:0}footer{border-top:1px solid #EEE;padding:20px 0;margin:10px 0;clear:both}.highlight{padding:20px;margin:20px 0;-webkit-border-radius:5px;border-radius:5px}
 #logo{background:url('/img/logo.png') no-repeat;top:130px;background-size:60px;left:300px;width:60px;height:55px;text-indent:100%;white-space:nowrap;overflow:hidden;display:inline-block;border:0}
 .right{float:right}.left{float:left}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}
 ::-moz-selection{background:#eee;color:#444;text-shadow:none}::selection{background:#eee;color:#444;text-shadow:none}body{color:#565665;font:normal 14px/1.6 'Open Sans' serif}

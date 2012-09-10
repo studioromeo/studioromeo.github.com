@@ -67,6 +67,8 @@ section {
 	margin-left: 250px;
 }
 
+section :first-child { margin-top: 0;}
+
 footer {
 	border-top: 1px solid #EEE;
 	padding: 20px 0;
