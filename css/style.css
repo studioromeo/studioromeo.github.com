@@ -90,6 +90,7 @@ footer {
 	white-space: nowrap;
 	overflow: hidden;
 	display: inline-block;
+	border:0;
 }
 
 .right { float: right; }
