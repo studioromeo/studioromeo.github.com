@@ -22,6 +22,12 @@
 			<li><a href="http://github.com/studioromeo" class="icon-github" id="github"></a></li>
 			<li><a href="https://plus.google.com/u/0/101733486307310199404" class="icon-google-circles" id="google"></a></li>
 		</ul>
+
+		<ol>
+		{% for page in site.posts limit:10 %}
+			<li><a href="{{page.url}}">{{page.title}}</a></li>
+		{% endfor %}
+		</ol>
 	</aside>
 	<section>
 		{% if paginator == null and page.title %}

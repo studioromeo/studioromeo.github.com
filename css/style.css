@@ -46,12 +46,16 @@ aside ul {
 	font-size: 1.2em;
 }
 
+aside ol {
+	margin-top: 120px;
+}
+
 aside li {
 	display: inline;
 	margin-left: 10px;
 }
 
-aside ul a {
+aside ul a, aside ol li a {
 	text-decoration: none;
 	border: 0;
 	color: #aaa;
@@ -146,7 +150,7 @@ a {
 
 a:hover { color: #3fa9f5;}
 
-aside ul a:hover { color: #000; }
+aside ul a:hover, aside ol a:hover { color: #000; }
 
 footer { font-size: 12px; }
 
@@ -199,8 +203,7 @@ footer { font-size: 12px; }
  }
  body {width: auto; background-size: 178.5px; margin-top: 40px; }
 
- aside ul { display: none; }
- aside p { display: none; }
+ aside ul, aside ol, aside p { display: none; }
 
  section {
  	width: 84%;
