@@ -37,7 +37,7 @@ aside {
 	margin-top: 10px;
 	float: left;
 	text-align: right;
-	position: fixed;
+	position: absolute;
 }
 
 aside p {
