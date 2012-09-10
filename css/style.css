@@ -32,7 +32,6 @@ aside {
 	width: 175px;
 	margin-right: 75px;
 	margin-top: 10px;
-	float: left;
 	text-align: right;
 	position: absolute;
 }
@@ -67,8 +66,6 @@ section {
 	margin-left: 250px;
 }
 
-section :first-child { margin-top: 0;}
-
 footer {
 	border-top: 1px solid #EEE;
 	padding: 20px 0;
@@ -78,9 +75,10 @@ footer {
 
 .highlight {
 	padding: 20px;
-	margin: 20px 0;
+	margin-bottom: 20px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	overflow: auto;
 }
 
 #logo {
@@ -203,7 +201,7 @@ footer { font-size: 12px; }
  	margin-bottom: 20px;
  	position: relative;
  }
- body {width: auto; background-size: 178.5px; margin-top: 40px; }
+ body {width: auto; background-size: 178.5px; margin-top: 50px; }
 
  aside ul, aside ol, aside p { display: none; }
 
