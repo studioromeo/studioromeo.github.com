@@ -24,7 +24,7 @@ a img{border:0 none;}
 body {
 	background: white url('/img/header.png');
 	background-repeat: repeat-x;
-	background-position: 0 -2px;
+	background-position: 0 -3px;
 	background-size: 357px;
 	width: 800px;
 	margin: 0 auto;
@@ -185,5 +185,30 @@ footer { font-size: 12px; }
 /* Media Queries
 -------------------------------------------------------------- */
 @media screen and (max-width: 480px) {
+
+ aside {
+ 	width: 84%;
+ 	padding: 0 8%;
+ 	text-align: center;
+ 	margin-bottom: 20px;
+ }
+ body {width: auto; background-size: 178.5px; margin-top: 40px; }
+
+ aside ul { display: none; }
+ aside p { display: none; }
+
+ section {
+ 	width: 84%;
+ 	padding: 0 8%;
+ 	float: none;
+ }
+
+ footer {
+ 	width: 84%;
+ 	padding: 15px 8%;
+ }
+
+ h1 {font-size: 22px; margin-bottom: 10px; line-height: 1.4;}
+ h2, h3 { font-size: 14px; margin-bottom: 10px; line-height: 1.4;}
 
 }
