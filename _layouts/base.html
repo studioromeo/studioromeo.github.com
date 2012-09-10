@@ -29,6 +29,7 @@
 
 		{{content}}
 
+		{% if paginator.total_pages > 1 %}
 		<footer>
 			<nav class="clearfix">
 				{% if paginator.next_page %}
@@ -42,6 +43,7 @@
 				{% endif %}
 			</nav>
 		</footer>
+		{% endif %}
 
 	</section>
 
