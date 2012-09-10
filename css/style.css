@@ -22,7 +22,9 @@ a img{border:0 none;}
 /* Typography
 -------------------------------------------------------------- */
 body {
-	background: url('/img/header.png') repeat-x;
+	background: white url('/img/header.png');
+	background-repeat: repeat-x;
+	background-size: 357px; /* width of stuff */
 	width: 800px;
 	margin: 0 auto;
 	margin-top: 120px;
