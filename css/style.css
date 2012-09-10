@@ -24,7 +24,8 @@ a img{border:0 none;}
 body {
 	background: white url('/img/header.png');
 	background-repeat: repeat-x;
-	background-size: 357px; /* width of stuff */
+	background-position: 0 -2px;
+	background-size: 357px;
 	width: 800px;
 	margin: 0 auto;
 	margin-top: 120px;
