@@ -32,13 +32,13 @@
 	<footer>
 		<nav class="clearfix">
 			{% if paginator.next_page %}
-			<a href="/page{{paginator.next_page}}" class="left">earlier</a>
+			<a href="/page{{paginator.next_page}}" class="left">earlier articles</a>
 			{% endif %}
 			{% if paginator.previous_page and paginator.previous_page > 1 %}
-			<a href="/page{{paginator.next_page}}" class="right">later</a>
+			<a href="/page{{paginator.next_page}}" class="right">later articles</a>
 			{% endif %}
 			{% if paginator.previous_page == 1 %}
-			<a href="/" class="right">later</a>
+			<a href="/" class="right">later articles</a>
 			{% endif %}
 		</nav>
 	</footer>
