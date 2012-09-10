@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }}{% else %}Robert Rhoades{% endif %}</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans' rel='stylesheet' />
-	<link href='/css/style.css' rel='stylesheet' />
+	<meta name="author" content="Robert Rhoades">
+	<meta name="viewport" content="width=device-width">
+
+	<link href='http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans' rel='stylesheet'>
+	<link href='/css/style.css' rel='stylesheet'>
 
 </head>
 <body>
@@ -38,5 +42,12 @@
 			{% endif %}
 		</nav>
 	</footer>
+
+	<script>
+			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
 </body>
 </html>
