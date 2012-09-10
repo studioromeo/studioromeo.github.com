@@ -2,8 +2,6 @@
 layout: base
 ---
 
-<ul>
-{% for post in site.posts %}
-	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for page in paginator.posts %}
+{% include article.ext %}
 {% endfor %}
-</ul>

@@ -3,13 +3,39 @@
 <head>
 	<title>{% if page.title %}{{ page.title }}{% else %}Robert Rhoades{% endif %}</title>
 
-	<link rel="stylesheet" href="/css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans' rel='stylesheet' />
+	<link href='/css/style.css' rel='stylesheet' />
+
 </head>
 <body>
-	Hello World
+	<aside>
+		<a href="/" id="logo">studioromeo</a>
+		<p>Hey, I'm Robert<br/>I build stuff for the web</p>
+		<ul>
+			<li><a href="http://last.fm/user/studioromeo" class="icon-lastfm" id="lastfm"></a></li>
+			<li><a href="http://twitter.com/studioromeo" class="icon-twitter-bird" id="twitter"></a></li>
+			<li><a href="http://github.com/studioromeo" class="icon-github" id="github"></a></li>
+			<li><a href="https://plus.google.com/u/0/101733486307310199404" class="icon-google-circles" id="google"></a></li>
+		</ul>
+	</aside>
+	<section>
+		{% if paginator == null %}
+		<h1>{{page.title}}</h1>
+		{% endif %}
 
-	{{content}}
-
-	Bye World
+		{{content}}
+	</section>
+	<footer>
+		{% if paginator.next_page %}
+		<a href="/page{{paginator.next_page}}" class="left">earlier</a>
+		{% endif %}
+		{% if paginator.previous_page and paginator.previous_page > 1 %}
+		<a href="/page{{paginator.next_page}}" class="right">later</a>
+		{% endif %}
+		{% if paginator.previous_page == 1 %}
+		<a href="/" class="right">later</a>
+		{% endif %}
+		<div style="clear:both; height: 0;">&nbsp;</div>
+	</footer>
 </body>
 </html>
