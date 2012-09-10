@@ -26,16 +26,17 @@
 		{{content}}
 	</section>
 	<footer>
-		{% if paginator.next_page %}
-		<a href="/page{{paginator.next_page}}" class="left">earlier</a>
-		{% endif %}
-		{% if paginator.previous_page and paginator.previous_page > 1 %}
-		<a href="/page{{paginator.next_page}}" class="right">later</a>
-		{% endif %}
-		{% if paginator.previous_page == 1 %}
-		<a href="/" class="right">later</a>
-		{% endif %}
-		<div style="clear:both; height: 0;">&nbsp;</div>
+		<nav class="clearfix">
+			{% if paginator.next_page %}
+			<a href="/page{{paginator.next_page}}" class="left">earlier</a>
+			{% endif %}
+			{% if paginator.previous_page and paginator.previous_page > 1 %}
+			<a href="/page{{paginator.next_page}}" class="right">later</a>
+			{% endif %}
+			{% if paginator.previous_page == 1 %}
+			<a href="/" class="right">later</a>
+			{% endif %}
+		</nav>
 	</footer>
 </body>
 </html>

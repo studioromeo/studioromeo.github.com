@@ -48,6 +48,15 @@ h1 {
 	float: left;
 }
 
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
 p {
 	margin: 25px 0;
 }
