@@ -1,10 +1,7 @@
 /**
- * Theme:       studioromeo.co.uk
  * Version:     1
  * Author:      Robert Rhoades
  * Author URL:  http://studioromeo.co.uk
- * License:     TBA
- * License URI: TBA
 */
 
 @charset "UTF-8";
@@ -149,7 +146,7 @@ a {
 
 a:hover { color: #3fa9f5;}
 
-aside a:hover { color: #000; }
+aside ul a:hover { color: #000; }
 
 footer { font-size: 12px; }
 
