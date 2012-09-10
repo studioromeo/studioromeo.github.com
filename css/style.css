@@ -50,7 +50,7 @@ aside ol {
 }
 
 aside li {
-	display: inline;
+	display: inline-block;
 	margin-left: 10px;
 }
 
@@ -64,6 +64,10 @@ section {
 	float: left;
 	margin-right: 50px;
 	margin-left: 250px;
+}
+
+article {
+	margin-bottom: 50px;
 }
 
 footer {
