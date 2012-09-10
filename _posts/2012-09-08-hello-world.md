@@ -11,11 +11,10 @@ Aliquam non nunc magna. Phasellus malesuada dolor id nisl feugiat sodales. Sed v
 [Vestibulum vestibulum eros mauris](http://google.com), id egestas felis. Ut magna ante, hendrerit in hendrerit quis, consectetur sit amet lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi suscipit accumsan odio, non varius velit adipiscing vel. Donec justo magna, vehicula vel adipiscing ut, consequat vitae mauris. Aliquam urna dui, gravida eget viverra ut, rutrum in ligula. Nunc a fringilla augue. Suspendisse bibendum rutrum ullamcorper. Aliquam non leo vehicula quam commodo volutpat nec et arcu. Aenean interdum ullamcorper fermentum.
 
 
-{% highlight css %}
-a {
-	color: red;
-	background: red
-}
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
 {% endhighlight %}
 
 
