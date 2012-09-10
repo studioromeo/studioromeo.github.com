@@ -26,7 +26,7 @@ body {
 	background-repeat: repeat-x;
 	background-position: 0 -3px;
 	background-size: 357px;
-	width: 800px;
+	max-width: 850px;
 	margin: 0 auto;
 	margin-top: 120px;
 }
@@ -37,6 +37,7 @@ aside {
 	margin-top: 10px;
 	float: left;
 	text-align: right;
+	position: fixed;
 }
 
 aside p {
@@ -60,13 +61,12 @@ aside ul a {
 }
 
 section {
-	width: 550px;
 	float: left;
+	margin-right: 50px;
+	margin-left: 250px;
 }
 
 footer {
-	width: 550px;
-	float: right;
 	border-top: 1px solid #EEE;
 	padding: 20px 0;
 	margin: 10px 0;
@@ -197,6 +197,7 @@ footer { font-size: 12px; }
  	padding: 0 8%;
  	text-align: center;
  	margin-bottom: 20px;
+ 	position: relative;
  }
  body {width: auto; background-size: 178.5px; margin-top: 40px; }
 
@@ -206,12 +207,8 @@ footer { font-size: 12px; }
  section {
  	width: 84%;
  	padding: 0 8%;
+ 	margin: 0;
  	float: none;
- }
-
- footer {
- 	width: 84%;
- 	padding: 15px 8%;
  }
 
  h1 {font-size: 22px; margin-bottom: 10px; line-height: 1.4;}

@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link href='http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans' rel='stylesheet'>
-	<link href='/css/style.css' rel='stylesheet'>
+	<link href='/css/style.css?v=20120910' rel='stylesheet'>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
@@ -28,20 +28,23 @@
 		{% endif %}
 
 		{{content}}
+
+		<footer>
+			<nav class="clearfix">
+				{% if paginator.next_page %}
+				<a href="/page{{paginator.next_page}}" class="left">earlier articles</a>
+				{% endif %}
+				{% if paginator.previous_page and paginator.previous_page > 1 %}
+				<a href="/page{{paginator.next_page}}" class="right">later articles</a>
+				{% endif %}
+				{% if paginator.previous_page == 1 %}
+				<a href="/" class="right">later articles</a>
+				{% endif %}
+			</nav>
+		</footer>
+
 	</section>
-	<footer>
-		<nav class="clearfix">
-			{% if paginator.next_page %}
-			<a href="/page{{paginator.next_page}}" class="left">earlier articles</a>
-			{% endif %}
-			{% if paginator.previous_page and paginator.previous_page > 1 %}
-			<a href="/page{{paginator.next_page}}" class="right">later articles</a>
-			{% endif %}
-			{% if paginator.previous_page == 1 %}
-			<a href="/" class="right">later articles</a>
-			{% endif %}
-		</nav>
-	</footer>
+
 
 	<script>
 			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
