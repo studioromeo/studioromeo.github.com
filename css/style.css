@@ -105,7 +105,7 @@ footer {
 }
 
 #logo {
-	background: url('/img/logo.png') no-repeat;
+	background: #3FA9F5 url('/img/logo.png') no-repeat;
 	top: 130px;
 	background-size: 60px;
 	left: 300px;
@@ -116,7 +116,11 @@ footer {
 	overflow: hidden;
 	display: inline-block;
 	border:0;
+
+	-webkit-animation: super-rainbow 40s infinite alternate linear;
 }
+
+#logo:hover { background-color: #3FA9F5; -webkit-animation: none; }
 
 .right { float: right; }
 .left { float: left; }
@@ -169,9 +173,11 @@ a {
 	-webkit-transition: 0.1s ease all;
 	-moz-transition: 0.1s ease all;
 	transition: 0.1s ease all;
+
+	-webkit-animation: super-rainbow2 40s infinite alternate linear;
 }
 
-a:hover { color: #3fa9f5;}
+a:hover { color: #3fa9f5; border-color: #3fa9f5; -webkit-animation: none; }
 
 aside ul a:hover, aside ol a:hover { color: #000; }
 
@@ -212,6 +218,25 @@ footer { font-size: 12px; }
 .icon-google-circles:before { content: '\f310'; } /* '' */
 .icon-lastfm:before { content: '\f318'; } /* '' */
 
+/* Animation
+-------------------------------------------------------------- */
+@-webkit-keyframes super-rainbow {
+    0%   { background-color: #3FA9F5; }
+    20%  { background-color: #BDCCD4; }
+    40%  { background-color: #ED1E79; }
+    60%  { background-color: #93278F; }
+    80%  { background-color: #ED1E79; }
+    100% { background-color: #BDCCD4; }
+}
+
+@-webkit-keyframes super-rainbow2 {
+    0%   { border-color: #3FA9F5; }
+    20%  { border-color: #BDCCD4; }
+    40%  { border-color: #ED1E79; }
+    60%  { border-color: #93278F; }
+    80%  { border-color: #ED1E79; }
+    100% { border-color: #BDCCD4; }
+}
 
 /* Media Queries
 -------------------------------------------------------------- */
