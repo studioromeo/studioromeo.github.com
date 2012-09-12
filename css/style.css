@@ -179,7 +179,7 @@ a {
 
 a:hover { color: #3fa9f5; border-color: #3fa9f5; -webkit-animation: none; }
 
-img { width: 100%; border: 3px solid #222; border-radius: 3px; box-sizing: border-box; }
+img { width: 100%; border: 1px solid #eee; padding: 8px; border-radius: 1px; box-sizing: border-box; }
 
 aside ul a:hover, aside ol a:hover { color: #000; }
 
