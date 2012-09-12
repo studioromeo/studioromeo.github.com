@@ -21,4 +21,11 @@ Like many in the industry I decided I should start writing some of my *aha* mome
 2. Hopefully I save someone else some head scratching
 3. So I can share some my ideas with the rest of the world
 
+###Credit where due
+
+* [Matt Kersley](#) - Help
+* [Peter Rhoades](#) - Motiv
+* [Laura Kalbag](#) & [Jack Franklin](#) - Convincing
+* [James Koster](#) & [Chris Balchin](#) - Inspiring
+
 It's going to be a fun ride & I hope you enjoy reading my posts as much as I enjoyed creating them :)
