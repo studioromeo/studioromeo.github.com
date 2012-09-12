@@ -170,6 +170,8 @@ em { font-style: italic; }
 
 strong { font-weight: 700; }
 
+ol { margin: 25px 0; }
+
 a {
 	color: #222;
 	text-decoration: none;
