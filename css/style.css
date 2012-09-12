@@ -166,6 +166,8 @@ h3 {
 
 p { margin: 25px 0; }
 
+em { font-style: italic; }
+
 a {
 	color: #222;
 	text-decoration: none;
