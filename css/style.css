@@ -168,6 +168,8 @@ p { margin: 25px 0; }
 
 em { font-style: italic; }
 
+strong { font-weight: 700; }
+
 a {
 	color: #222;
 	text-decoration: none;
