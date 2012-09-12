@@ -9,12 +9,16 @@ And what a beauty she is. From start to finish this site has taken me about 4 da
 I'd like to send out a special thanks to [David Darnes](http://david.darn.es), for helping me not only with my snazzy logo but also solving a few of the irritating bugs webkit & friends threw my way.
 
 ###So who am I?
-I'm Rob, a developer from Great Britain. Like many in my industry I decided I should start writing some of my _aha_ moments down so one; I never forget them & two; hopefully save someone else some head scratching.
+I'm Rob, a developer from Great Britain. I started coding in 2007 while studying at school with ASP.NET A lot of people love & hate it & personally I don't blame them. Looking back  there was a lot of good stuff in the .net framework if you knew what you were doing from the outset. I clearly didn't!
 
-I started coding in 2007 while studying at school. My first experience was Learning how to make eCommerce websites in ASP.NET 2. Unfortunately for me, learning ASP.NET without any prior knowledge it was like learning to swim in strong currents. Regardless I had fun & I love what I do & a few months later I cofounded Orange Peel with @createdbypete.
+So one thing lead to another & I made the switch to PHP. Moving over was a breath of fresh air from the often complicated world of xml config files & code behind files. Initially I started using Kohana after being recommended by [Richard Standbrook](http://twitter.com), but I also dabbled in WordPress after discovering its ability to get a basic site up in minutes.
 
-After moving into some new offices we started experimenting with new languages and techniques. A really talented developer @richardstandbrook introduced me to the comparably simple world of PHP where I have lived ever since. Initially I developed using [kohana]() which introduced me to concepts like MVC, routing & ORM's.
+It wasn't until working on the famed Jigoshop plugin that I discovered all the new things that WordPress could do such as custom post types, routing to name just a few. I also had good fun learning about working on a distributed product to boot!
 
+###What's occuring
+Like many in the industry I decided I should start writing some of my *aha* moments down so:
+1. I have a reference to check if I've forgotten
+2. Hopefully I save someone else some head scratching
+3. So I can share some my ideas with the rest of the world
 
-###I met WordPress
-My first encounter with WordPress was when I joined Jigowatt to work on the Jigoshop plugin. It wasn't until looking through Jigoshop that I realised just how powerful WordPress is, if you use it's API's to their full potential. It was fantastic & terrifying to experience the fast pace of open source development. Every day a new pull request comes, or a bug is filed which can be overwhelming at times.
+It's going to be a fun ride & I hope you enjoy reading my posts as much as I enjoyed creating them :)
