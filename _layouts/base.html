@@ -24,7 +24,7 @@
 			<li><a href="http://last.fm/user/studioromeo" class="icon-lastfm" id="lastfm"></a></li>
 			<li><a href="http://twitter.com/studioromeo" class="icon-twitter-bird" id="twitter"></a></li>
 			<li><a href="http://github.com/studioromeo" class="icon-github" id="github"></a></li>
-			<li><a href="https://plus.google.com/u/0/101733486307310199404" class="icon-google-circles" id="google"></a></li>
+			<li><a href="https://plus.google.com/u/0/101733486307310199404?rel=author" rel="author" class="icon-google-circles" id="google"></a></li>
 		</ul>
 
 		<ol>
@@ -35,10 +35,6 @@
 		</ol>
 	</aside>
 	<section>
-		{% if paginator == null and page.title %}
-		<h1>{{page.title}}</h1>
-		{% endif %}
-
 		{{content}}
 
 		{% if paginator.total_pages > 1 %}
@@ -56,14 +52,12 @@
 			</nav>
 		</footer>
 		{% endif %}
-
 	</section>
-
 
 	<script>
 			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			g.async=1;g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 			s.parentNode.insertBefore(g,s)}(document,'script'));
 	</script>
 </body>

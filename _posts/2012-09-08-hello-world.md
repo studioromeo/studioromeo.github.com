@@ -1,5 +1,6 @@
 ---
-layout: base
+layout: post
+category: wordpress
 ---
 
 ##Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quam tellus, congue et elementum nec

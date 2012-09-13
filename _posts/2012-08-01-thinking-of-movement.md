@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quam tellus, congue et elementum nec, dapibus quis eros. Aliquam feugiat consequat est, et varius dolor egestas a. Curabitur semper tellus sit amet risus varius vulputate. Duis tellus metus, auctor vitae faucibus id, vehicula at magna. Nunc porta egestas adipiscing. Aliquam vel erat sed arcu mattis bibendum. Cras dignissim ipsum eu diam malesuada eu pretium dolor semper. Curabitur ut erat tortor, eget mollis nulla. Mauris iaculis nunc ac tellus sollicitudin sodales.
