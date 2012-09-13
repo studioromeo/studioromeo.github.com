@@ -28,6 +28,7 @@
 		</ul>
 
 		<ol>
+			<li>Latest Posts</li>
 		{% for page in site.posts limit:10 %}
 			<li><a href="{{page.url}}">{{page.title}}</a></li>
 		{% endfor %}
