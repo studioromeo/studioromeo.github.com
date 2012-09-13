@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 ---
 
 ##Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quam tellus, congue et elementum nec
