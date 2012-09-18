@@ -28,7 +28,7 @@ Like many in my world I decided I should start writing some of my *eureka* momen
 * [Peter Rhoades] - for helping with the logo and setting up the site
 * [Matt Kersley] - for providing some much needed illustrator help
 * [Laura Kalbag], [Jack Franklin] and [Rachel Shillcock] - for motivating me to finally get around to creating this blog
-* [Chris Coyier] - for providing the fantastic tutorials on css-tricks
+* [Chris Coyier] - for providing the fantastic tutorials on [CSS-Tricks]
 * [Github] - for providing a platform for me to use and just generally being awesome!
 
 It's going to be a fun ride and I hope you enjoy reading my posts as much as I enjoyed creating them :)
@@ -43,3 +43,4 @@ It's going to be a fun ride and I hope you enjoy reading my posts as much as I e
 [Rachel Shillcock]:  http://twitter.com/missrachilli
 [Chris Coyier]:   http://twitter.com/chriscoyier
 [Github]:  http://github.com
+[CSS-Tricks]: http://css-tricks.com
