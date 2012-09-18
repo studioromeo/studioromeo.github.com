@@ -164,13 +164,10 @@ h3 {
 	margin-bottom: 10px;
 }
 
-p { margin: 25px 0; }
+p, ol, ul { margin: 25px 0; }
 
 em { font-style: italic; }
-
 strong { font-weight: 700; }
-
-ol { margin: 25px 0; }
 
 a {
 	color: #222;
