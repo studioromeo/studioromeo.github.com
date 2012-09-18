@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 ---
 
 ##So finally, after too many years of world class procrastination I finally have my first site!
