@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }}{% else %}Robert Rhoades{% endif %}</title>
+	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.author.name }}</title>
 
-	<meta name="author" content="Robert Rhoades">
+	<meta name="author" content="{{ site.author.name }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!--[if lt IE 9]>
@@ -12,7 +12,7 @@
 	<![endif]-->
 
 	<link href='http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400' rel='stylesheet'>
-	<link href='/css/style.min.css?v=20120910' rel='stylesheet'>
+	<link href='/css/style.min.css?v={{ site.time | date: "%Y%m%d"}}' rel='stylesheet'>
 	<meta property="og:image" content="/img/logo.png" />
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -23,17 +23,17 @@
 		</div>
 		<p>Hey, I'm <a href="/me.html">Robert</a><br/>I build stuff for the web</p>
 		<ul>
-			<li><a href="http://last.fm/user/studioromeo" class="icon-lastfm" id="lastfm"></a></li>
-			<li><a href="http://twitter.com/studioromeo" class="icon-twitter-bird" id="twitter"></a></li>
-			<li><a href="http://github.com/studioromeo" class="icon-github" id="github"></a></li>
-			<li><a href="https://plus.google.com/u/0/101733486307310199404?rel=author" rel="author" class="icon-google-circles" id="google"></a></li>
+			<li><a href="{{ site.author.lastfm }}" class="icon-lastfm" id="lastfm"></a></li>
+			<li><a href="{{ site.author.twitter }}" class="icon-twitter-bird" id="twitter"></a></li>
+			<li><a href="{{ site.author.github }}" class="icon-github" id="github"></a></li>
+			<li><a href="{{ site.author.google }}?rel=author" rel="author" class="icon-google-circles" id="google"></a></li>
 		</ul>
 
 		<ol>
 			<li>Latest Posts</li>
-		{% for page in site.posts limit:10 %}
+			{% for page in site.posts limit:10 %}
 			<li><a href="{{page.url}}">{{page.title}}</a></li>
-		{% endfor %}
+			{% endfor %}
 		</ol>
 	</aside>
 	<section>
@@ -57,7 +57,7 @@
 	</section>
 
 	<script>
-			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+			var _gaq=[['_setAccount','{{ site.googleanalytics }}'],['_trackPageview']];
 			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 			g.async=1;g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 			s.parentNode.insertBefore(g,s)}(document,'script'));

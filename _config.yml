@@ -1,3 +1,11 @@
-paginate: 5
+lsi: false
 pygments: true
+paginate: 5
 permalink: /:categories/:title/
+googleanalytics: UA-XXXXX-X
+author:
+  name: Robert Rhoades
+  twitter: http://twitter.com/studioromeo
+  google: https://plus.google.com/u/0/101733486307310199404
+  lastfm: http://last.fm/user/studioromeo
+  github: http://github.com/studioromeo
