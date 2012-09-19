@@ -106,21 +106,26 @@ footer {
 
 #logo {
 	background: #3FA9F5 url('/img/logo.png') no-repeat;
-	top: 130px;
 	background-size: 60px;
-	left: 300px;
+	display: inline-block;
 	width: 60px;
 	height: 55px;
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	display: inline-block;
-	border:0;
-
 	-webkit-animation: super-rainbow 40s infinite;
 }
 
-#logo:hover { background-color: #3FA9F5; -webkit-animation-name: super-rainbow, super-rainbow-hover; }
+#logo a {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 100%;
+	display: block;
+	border:0;
+	background: #139DFF url('/img/logo.png') no-repeat;
+	background-size: 60px;
+	opacity: 0;
+	-webkit-transition: opacity .2s ease;
+}
+#logo a:hover { opacity: 1; }
 
 .right { float: right; }
 .left { float: left; }
@@ -143,7 +148,7 @@ footer {
 -------------------------------------------------------------- */
 body {
 	color: #565665;
-	font: normal 14px/1.6 'Open Sans' sans-serif;
+	font: normal 14px/1.6 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -180,7 +185,7 @@ a {
 	-webkit-animation: super-rainbow2 40s infinite;
 }
 
-a:hover { color: #3fa9f5; border-color: #3fa9f5; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }
+a:hover { color: #139DFF; border-color: #139DFF; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }
 
 img { width: 100%; border: 1px solid #eee; padding: 8px; border-radius: 1px; box-sizing: border-box; }
 
@@ -233,11 +238,6 @@ footer { font-size: 12px; }
   100% { background-color: #3FA9F5; } /* blue */
 }
 
-@-webkit-keyframes super-rainbow-hover {
-	0% { background-color: #3FA9F5; }
-	100% { background-color: #3FA9F5; }
-}
-
 @-webkit-keyframes super-rainbow2 {
   0%   { border-color: #3FA9F5; } /* blue */
   25%  { border-color: #93278F; } /* purple */
@@ -247,8 +247,8 @@ footer { font-size: 12px; }
 }
 
 @-webkit-keyframes super-rainbow2-hover {
-	0% { border-color: #3FA9F5; }
-	100% { border-color: #3FA9F5; }
+	0% { border-color: #139DFF; }
+	100% { border-color: #139DFF; }
 }
 
 /* Media Queries
