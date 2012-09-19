@@ -120,7 +120,7 @@ footer {
 	height: 100%;
 	display: block;
 	border:0;
-	background: #3FA9F5 url('/img/logo.png') no-repeat;
+	background: #139DFF url('/img/logo.png') no-repeat;
 	background-size: 60px;
 	opacity: 0;
 	-webkit-transition: opacity .2s ease;
@@ -182,7 +182,7 @@ a {
 	-webkit-animation: super-rainbow2 40s infinite;
 }
 
-a:hover { color: #3fa9f5; border-color: #3fa9f5; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }
+a:hover { color: #139DFF; border-color: #139DFF; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }
 
 img { width: 100%; border: 1px solid #eee; padding: 8px; border-radius: 1px; box-sizing: border-box; }
 
@@ -244,8 +244,8 @@ footer { font-size: 12px; }
 }
 
 @-webkit-keyframes super-rainbow2-hover {
-	0% { border-color: #3FA9F5; }
-	100% { border-color: #3FA9F5; }
+	0% { border-color: #139DFF; }
+	100% { border-color: #139DFF; }
 }
 
 /* Media Queries
