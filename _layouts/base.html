@@ -19,9 +19,9 @@
 <body>
 	<aside>
 		<div id="logo">
-			<a href="/">studioromeo</a>
+			<a href="/" title="{{ site.author.name }}">{{ site.author.name }}</a>
 		</div>
-		<p>Hey, I'm <a href="/me.html">Robert</a><br/>I build stuff for the web</p>
+		<p>Hey, I'm <a href="/me.html" title="Hey There!">Robert</a><br/>I build stuff for the web</p>
 		<ul>
 			<li><a href="{{ site.author.lastfm }}" class="icon-lastfm" id="lastfm"></a></li>
 			<li><a href="{{ site.author.twitter }}" class="icon-twitter-bird" id="twitter"></a></li>
@@ -29,12 +29,13 @@
 			<li><a href="{{ site.author.google }}?rel=author" rel="author" class="icon-google-circles" id="google"></a></li>
 		</ul>
 
+		<!-- I'll uncomment you when you're older
 		<ol>
 			<li>Latest Posts</li>
 			{% for page in site.posts limit:10 %}
 			<li><a href="{{page.url}}">{{page.title}}</a></li>
 			{% endfor %}
-		</ol>
+		</ol> -->
 	</aside>
 	<section>
 		{{content}}
