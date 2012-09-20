@@ -1,6 +1,5 @@
 ---
 layout: post
-category: news
 ---
 
 ##So finally, after many years of world class procrastination I finally have my first site
