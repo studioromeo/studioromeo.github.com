@@ -2,7 +2,7 @@ lsi: false
 pygments: true
 paginate: 5
 permalink: /:categories/:title/
-googleanalytics: UA-XXXXX-X
+googleanalytics: UA-22599205-2
 author:
   name: Robert Rhoades
   twitter: http://twitter.com/studioromeo
