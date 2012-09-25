@@ -21,6 +21,7 @@ aside ul a:hover,aside ol a:hover{color:#000}footer{font-size:12px}@font-face{fo
 50%{border-color:#ed1e79}75%{border-color:#bdccd4}100%{border-color:#3fa9f5}}@-webkit-keyframes super-rainbow2-hover{0%{border-color:#139dff}100%{border-color:#139dff}
 }@media screen and (max-width:480px){aside{width:84%;padding:0 8%;text-align:center;margin-bottom:20px;position:relative}body{width:auto;background-size:178.5px;margin-top:50px}
 aside ul,aside ol,aside p{display:none}section{width:84%;padding:0 8%;margin:0;float:none}h1{font-size:22px;margin-bottom:10px;line-height:1.4}h2,h3{font-size:14px;margin-bottom:10px;line-height:1.4}
+}@media print{body{color:#222;margin-top:50pt}h1,h2,h3{color:#000}aside{display:none}section{float:none;width:80%;margin:0 auto}p a[href^="http://"]:after{content:" (" attr(href) ")";font-size:90%}
 }.highlight .hll{background-color:#49483e}.highlight{background:#272822;color:#f8f8f2}.highlight .c{color:#75715e}.highlight .err{color:#960050;background-color:#1e0010}
 .highlight .k{color:#66d9ef}.highlight .l{color:#ae81ff}.highlight .n{color:#f8f8f2}.highlight .o{color:#f92672}.highlight .p{color:#f8f8f2}.highlight .cm{color:#75715e}
 .highlight .cp{color:#75715e}.highlight .c1{color:#75715e}.highlight .cs{color:#75715e}.highlight .ge{font-style:italic}.highlight .gs{font-weight:bold}

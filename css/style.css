@@ -278,6 +278,24 @@ footer { font-size: 12px; }
 
 }
 
+@media print {
+
+	body { color: #222; margin-top: 50pt; }
+	h1,h2,h3 { color: #000; }
+	aside { display: none; }
+
+	section {
+		float: none;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	p a[href^="http://"]:after {
+		content: " (" attr(href) ")";
+		font-size: 90%;
+	}
+
+}
 
 /* Syntax Pygments
 -------------------------------------------------------------- */
