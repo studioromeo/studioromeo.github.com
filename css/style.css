@@ -187,7 +187,7 @@ a {
 
 a:hover { color: #139DFF; border-color: #139DFF; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }
 
-img { width: 100%; border: 1px solid #eee; padding: 8px; border-radius: 1px; box-sizing: border-box; }
+img { max-width: 100%; border: 1px solid #eee; padding: 8px; border-radius: 1px; box-sizing: border-box; }
 
 aside ul a:hover, aside ol a:hover { color: #000; }
 
