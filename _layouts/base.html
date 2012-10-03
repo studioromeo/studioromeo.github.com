@@ -36,7 +36,7 @@
 			{% endfor %}
 		</ol> -->
 	</aside>
-	<section>
+	<section{% if page.animate or paginator.page == 1 %} class="animate"{% endif %}>
 		{{content}}
 
 		{% if paginator.total_pages > 1 %}
