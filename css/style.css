@@ -114,6 +114,7 @@ footer {
 	display: inline-block;
 	width: 60px;
 	height: 55px;
+	outline: 1px solid #fff;
 	-webkit-animation: super-rainbow 40s infinite;
 }
 
