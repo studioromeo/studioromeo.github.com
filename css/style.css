@@ -265,7 +265,7 @@ footer { font-size: 12px; }
 
 /* Media Queries
 -------------------------------------------------------------- */
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 
  aside {
  	width: 84%;
