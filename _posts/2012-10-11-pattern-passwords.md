@@ -4,7 +4,7 @@ layout: post
 
 ## Let's face it we all hate coming up with a password, especially if we forget what it is!
 
-Meet my old password, it was a 12 character monstrosity full of numbers, punctuation and buckets of frustration! In the end I decided enough was enough this password had to go, but what would be it's replacement? The answer lay in Androids pattern lock screen.
+Meet my old password, it was a 12 character monstrosity full of numbers, punctuation and buckets of frustration! In the end I decided enough was enough this password had to go, but what would be it's replacement? The answer lay in Android's pattern lock screen.
 
 For the uninitiated the pattern lock screen can only be unlocked when the user joins the dots up in a certain order. It's a very simple yet surprisingly secure way of locking your smartphone, unlike numbers or passwords there is no personal connection so it can't be guessed!
 
