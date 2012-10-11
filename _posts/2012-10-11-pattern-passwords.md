@@ -12,6 +12,6 @@ For the uninitialted the pattern lockscreen can only be unlocked when the user j
 
 I decided to apply this concept to my keyboard using the keys as 'dots' where I could draw a pattern on. Starting from *q* I travel 3 *columns* along to *e* and then 3 rows down to *z*. So from there you can draw any pattern you like (eg a square would be q > w > s > a).
 
-I'm not sure how secure this is but I find it much easier to remember and so far it as proven just as secure as any other password I've used. If anyone has stats on how effective this is I'd love to see them, for the rest I hope this is useful to you.
+I'm not sure how secure this is but I find it much easier to remember and so far it as proven just as secure as any other password I've used. If anyone has stats on how effective this is I'd love to see them.
 
 That's all folks!

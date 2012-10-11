@@ -72,6 +72,7 @@ section.animate {
 
 article {
 	margin-bottom: 50px;
+	border-bottom: 1px dashed #DDD;
 }
 
 footer {
