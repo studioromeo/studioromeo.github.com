@@ -16,7 +16,7 @@ So one thing lead to another and I made the switch to PHP. Moving over was a bre
 
 It wasn't until working on the famed Jigoshop plugin that I discovered all the new things that WordPress could do such as custom post types, routing to name just a few. I also had good fun learning about working on a distributed product to boot!
 
-###What's occuring
+###What's occurring
 Like many in my world I decided I should start writing some of my *eureka* moments down so:
 1. I now have a reference to check incase I've forgotten how to do something.
 2. Hopefully I can save someone else who's in the same boat some bother.
