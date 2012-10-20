@@ -76,9 +76,7 @@ article {
 }
 
 footer {
-	border-top: 1px solid #EEE;
-	padding: 20px 0;
-	margin: 10px 0;
+	margin: 20px 0;
 	clear: both;
 }
 
@@ -284,6 +282,9 @@ footer { font-size: 12px; }
  	padding: 0 8%;
  	margin: 0;
  	float: none;
+ }
+
+ section.animate {
  	-webkit-animation: none;
  }
 
