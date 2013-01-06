@@ -1,5 +1,5 @@
 /**
- * Version:     1
+ * Version:     2
  * Author:      Robert Rhoades
  * Author URL:  http://studioromeo.co.uk
 */
@@ -8,12 +8,7 @@
 
 /* Reset
 -------------------------------------------------------------- */
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
-table{border-collapse:separate;border-spacing:0;margin-bottom:1.4em;}
-caption,th,td{text-align:left;font-weight:400;}
-blockquote:before,blockquote:after,q:before,q:after{content:"";}
-blockquote,q{quotes:;}
-a img{border:0 none;}
+* { margin: 0; padding: 0; }
 
 
 /* General Layout
