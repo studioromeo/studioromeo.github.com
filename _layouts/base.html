@@ -12,14 +12,18 @@
 	<![endif]-->
 
 	<link href='http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400,700' rel='stylesheet'>
-	<link href='/css/style.min.css?v={{ site.time | date: "%Y%m%d"}}' rel='stylesheet'>
+	<link href='/css/style.css?v={{ site.time | date: "%Y%m%d"}}' rel='stylesheet'>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
-	<aside>
-		<div id="logo">
+	<!-- <div id="logo">
+		<a href="/" title="{{ site.author.name }}">{{ site.author.name }}</a>
+	</div> -->
+	<!-- <aside>
+	<div id="logo">
 			<a href="/" title="{{ site.author.name }}">{{ site.author.name }}</a>
 		</div>
+
 		<p>Hey, I'm <a href="/me.html" title="Hey There!">Robert</a><br/>I build stuff for the web</p>
 		<ul>
 			<li><a href="{{ site.author.lastfm }}" class="icon-lastfm" id="lastfm"></a></li>
@@ -27,7 +31,7 @@
 			<li><a href="{{ site.author.github }}" class="icon-github" id="github"></a></li>
 			<li><a href="{{ site.author.google }}?rel=author" rel="author" class="icon-google-circles" id="google"></a></li>
 		</ul>
-
+	</aside> -->
 		<!-- I'll uncomment you when you're older
 		<ol>
 			<li>Latest Posts</li>
@@ -35,8 +39,12 @@
 			<li><a href="{{page.url}}">{{page.title}}</a></li>
 			{% endfor %}
 		</ol> -->
-	</aside>
-	<section{% if page.animate or paginator.page == 1 %} class="animate"{% endif %}>
+
+	<section>
+		<!-- <div class="imgs">
+			image goes here
+		</div> -->
+		<!-- <small class="test">NOVEMBER 21, 2012</small> -->
 		{{content}}
 
 		{% if paginator.total_pages > 1 %}
