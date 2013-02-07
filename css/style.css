@@ -8,24 +8,14 @@
 
 /* Reset
 -------------------------------------------------------------- */
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
-table{border-collapse:separate;border-spacing:0;margin-bottom:1.4em;}
-caption,th,td{text-align:left;font-weight:400;}
-blockquote:before,blockquote:after,q:before,q:after{content:"";}
-blockquote,q{quotes:;}
-a img{border:0 none;}
-
+* {border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
+* { -webkit-font-smoothing: antialiased; }
 
 /* General Layout
 -------------------------------------------------------------- */
-body {
-	background: white url('/img/header.png');
-	background-repeat: repeat-x;
-	background-position: 0 -3px;
-	background-size: 357px;
-	max-width: 850px;
-	margin: 0 auto;
-	margin-top: 120px;
+section {
+	margin-right: 350px;
+	padding: 50px;
 }
 
 aside {
@@ -61,9 +51,6 @@ aside ul a, aside ol li a {
 }
 
 section {
-	float: left;
-	margin-right: 50px;
-	margin-left: 250px;
 }
 
 section.animate {
@@ -71,8 +58,8 @@ section.animate {
 }
 
 article {
-	margin-bottom: 50px;
-	border-bottom: 1px dashed #DDD;
+	/*margin-bottom: 50px;*/
+	/*border-bottom: 1px dashed #DDD;*/
 }
 
 footer {
@@ -151,8 +138,8 @@ footer {
 /* Typography
 -------------------------------------------------------------- */
 body {
-	color: #565665;
-	font: normal 14px/1.6 'Open Sans', sans-serif;
+	color: #343434;
+	font: normal 15px/1.5 'Bitter' serif;
 }
 
 h1 {
@@ -164,29 +151,29 @@ h1 {
 h1 a { border: 0; }
 
 h2 {
-	font: 700 22px/1.4 'Arvo', sans-serif;
+	font: 700 32px/1.4 'Bitter', sans-serif;
 	margin-bottom: 15px;
 }
 
-h3 {
-	font: 700 16px/1.3 'Arvo', sans-serif;
+/*h3 {
+	font: 700 22px/1.3 'Arvo', sans-serif;
 	margin-bottom: 10px;
-}
+}*/
 
-p, ol, ul { margin: 25px 0; }
+p, ol, ul { margin: 10px 0; }
 
 em { font-style: italic; }
 strong { font-weight: 700; }
 
 a {
-	color: #222;
+	color: #333332;
 	text-decoration: none;
-	border-bottom: 1px solid #3fa9f5;
+	/*border-bottom: 1px solid #3fa9f5;
 	-webkit-transition: 0.1s ease all;
 	-moz-transition: 0.1s ease all;
-	transition: 0.1s ease all;
+	transition: 0.1s ease all;*/
 
-	-webkit-animation: super-rainbow2 40s infinite;
+	/*-webkit-animation: super-rainbow2 40s infinite;*/
 }
 
 a:hover { color: #139DFF; border-color: #139DFF; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }

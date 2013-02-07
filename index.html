@@ -1,10 +1,33 @@
----
-layout: base
----
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
 
-{% for page in paginator.posts %}
-<article>
-	<h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
-	{{page.content}}
-</article>
-{% endfor %}
+	<meta name="author" content="{{ site.author.name }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--[if lt IE 9]>
+	<script src="/js/html5shiv.js"></script>
+	<![endif]-->
+
+	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,700' rel='stylesheet'>
+	<link href='/css/style.css' rel='stylesheet'>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+	<div style="-webkit-background-size: cover; background-image: url(http://placekitten.com/g/1280/1024); position: fixed; top: 0; right: 0; max-width: 350px; width: 100%; height: 100%; margin-left: 600px;"></div>
+	<section>
+		<header style="margin-bottom: 40px; border-bottom: 1px solid #ddd; padding-bottom: 20px; ">
+			STUDIOROMEO
+		</header>
+
+		<article>
+			<h2><a href="/deue-1-2/" title="Deue 1.2">Deue 1.2</a></h2>
+
+			<p>This update brings with it a new shortcode which allows you to show when the post is expiring either as a date or a really simple javascript powered countdown</p>
+		</article>
+
+	</section>
+</body>
+</html>
