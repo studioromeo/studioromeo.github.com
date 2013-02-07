@@ -138,8 +138,34 @@ footer {
 /* Typography
 -------------------------------------------------------------- */
 body {
-	color: #343434;
-	font: normal 15px/1.5 'Bitter' serif;
+	color: #777;
+	font: normal 15px/1.5 'Helvetica' sans-serif;
+	width: 600px;
+	margin: 0 auto;
+	background: #E4E8EC;
+	padding-top: 120px;
+}
+
+body::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 200px;
+	z-index: -1;
+	background: #359567;
+}
+
+article {
+	background: white;
+	border-radius: 3px;
+	padding: 40px 35px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18);
+	margin: 30px 0;
 }
 
 h1 {
@@ -151,7 +177,10 @@ h1 {
 h1 a { border: 0; }
 
 h2 {
-	font: 700 32px/1.4 'Bitter', sans-serif;
+	font: 700 25px/1.4 'Roboto Condensed' sans-serif;
+	color: #444;
+	/*text-transform: uppercase;*/
+	/*text-align: center;;*/
 	margin-bottom: 15px;
 }
 
@@ -178,11 +207,18 @@ a {
 
 a:hover { color: #139DFF; border-color: #139DFF; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }
 
-img { max-width: 100%; border: 1px solid #eee; padding: 8px; border-radius: 1px; box-sizing: border-box; }
+img { margin: 20px -35px; }
+/*img { max-width: 100%; border: 1px solid #eee; padding: 8px; border-radius: 1px; box-sizing: border-box; }*/
 
 aside ul a:hover, aside ol a:hover { color: #000; }
 
-footer { font-size: 12px; }
+footer { font-size: 12px; text-align: center; }
+
+footer img {
+	margin:0;
+	margin-left: -16px;
+	opacity: .1;
+}
 
 
 /* Fonts (Icon)
