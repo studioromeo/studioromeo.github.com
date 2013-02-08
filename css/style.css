@@ -213,6 +213,8 @@ h1 {
 
 h1 a { border: 0; }
 
+a:hover h1 { color: #359567; }
+
 h2, h3 {
 	font: 15px/1.3 sans-serif;
 	color: #555;
