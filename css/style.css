@@ -1,5 +1,5 @@
 /**
- * Version:     1
+ * Version:     2
  * Author:      Robert Rhoades
  * Author URL:  http://studioromeo.co.uk
 */
@@ -8,43 +8,14 @@
 
 /* Reset
 -------------------------------------------------------------- */
-* {border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
-* { -webkit-font-smoothing: antialiased; }
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
 
 /* General Layout
 -------------------------------------------------------------- */
-
-aside {
-	width: 175px;
-	margin-right: 75px;
-	margin-top: 10px;
-	text-align: right;
-	position: absolute;
-}
-
-aside p {
-	font-size: 1.1em;
-}
-
-aside ul {
-	list-style: none;
-	font-size: 1.2em;
-}
-
-aside ol {
-	margin-top: 120px;
-}
-
-aside li {
-	display: inline-block;
-	margin-left: 10px;
-}
-
-aside ul a, aside ol li a {
-	text-decoration: none;
-	border: 0;
-	color: #aaa;
-}
 
 header ul {
 	float: right;
@@ -63,12 +34,6 @@ header a {
 
 header a:hover {
 	color: #fff;
-}
-
-
-article {
-	/*margin-bottom: 50px;*/
-	/*border-bottom: 1px dashed #DDD;*/
 }
 
 footer {
@@ -104,30 +69,6 @@ footer {
     height: 100%;
 }
 
-/*#logo {
-	background: #3FA9F5 url('/img/logo.png') no-repeat;
-	background-size: 60px;
-	display: inline-block;
-	width: 60px;
-	height: 55px;
-	outline: 1px solid #fff;
-	-webkit-animation: super-rainbow 40s infinite;
-}
-
-#logo a {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	height: 100%;
-	display: block;
-	border:0;
-	background: #139DFF url('/img/logo.png') no-repeat;
-	background-size: 60px;
-	opacity: 0;
-	-webkit-transition: opacity .2s ease;
-}
-#logo a:hover { opacity: 1; }*/
-
 .right { float: right; }
 .left { float: left; }
 
@@ -153,6 +94,8 @@ body {
 	width: 600px;
 	margin: 0 auto;
 	background: #E4E8EC;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 }
 
 footer a {
@@ -222,11 +165,6 @@ h2, h3 {
 	margin-bottom: 10px;
 }
 
-/*h3 {
-	font: 700 22px/1.3 'Arvo', sans-serif;
-	margin-bottom: 10px;
-}*/
-
 p, ol, ul { margin: 20px 0; }
 
 em { font-style: italic; }
@@ -247,11 +185,6 @@ section a {
 	padding: 2px 4px;
 	font-size: .8em;
 	font-weight: bold;
-
-
-	/*border-bottom: 1px solid #3fa9f5; */
-
-	/*-webkit-animation: super-rainbow2 40s infinite;*/
 }
 
 header img {
@@ -271,7 +204,8 @@ footer img {
 	margin:0;
 	margin-left: -16px;
 	opacity: .1;
-	width: auto;
+	position: absolute;
+	left: 50%;
 }
 
 time {
@@ -316,35 +250,22 @@ time {
 .icon-google-circles:before { content: '\f310'; } /* '' */
 .icon-lastfm:before { content: '\f318'; } /* '' */
 
-/* Animation
--------------------------------------------------------------- */
-@-webkit-keyframes super-rainbow {
-  0%   { background-color: #3FA9F5; } /* blue */
-  25%  { background-color: #93278F; } /* purple */
-  50%  { background-color: #ED1E79; } /* pink */
-  75%  { background-color: #BDCCD4; } /* grey */
-  100% { background-color: #3FA9F5; } /* blue */
-}
 
-@-webkit-keyframes super-rainbow2 {
-  0%   { border-color: #3FA9F5; } /* blue */
-  25%  { border-color: #93278F; } /* purple */
-  50%  { border-color: #ED1E79; } /* pink */
-  75%  { border-color: #BDCCD4; } /* grey */
-  100% { border-color: #3FA9F5; } /* blue */
-}
 
-@-webkit-keyframes super-rainbow2-hover {
-	0% { border-color: #139DFF; }
-	100% { border-color: #139DFF; }
-}
 
-@-webkit-keyframes scroll-bounce {
-	0% { -webkit-transform: translatey(1500px); opacity: 0; }
-	60% { -webkit-transform: translatey(-35px); opacity: 1; }
-	80% { -webkit-transform: translatey(15px); }
-	100% { -webkit-transform: translatey(0); }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries
 -------------------------------------------------------------- */
