@@ -221,7 +221,7 @@ section a {
 	/*-webkit-animation: super-rainbow2 40s infinite;*/
 }
 
-section a:hover { -webkit-box-shadow: 2px 2px 0 #71A78D; border-color: #139DFF; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }
+section a:hover { color: #406F58; -webkit-box-shadow: 2px 2px 0 #71A78D; border-color: #139DFF; -webkit-animation-name: super-rainbow2, super-rainbow2-hover; }
 
 img { margin: 20px -50px; width: 600px; }
 /*img { max-width: 100%; border: 1px solid #eee; padding: 8px; border-radius: 1px; box-sizing: border-box; }*/
