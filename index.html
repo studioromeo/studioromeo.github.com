@@ -1,42 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
+---
+layout: base
+---
 
-	<meta name="author" content="{{ site.author.name }}">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% for page in paginator.posts %}
+<article>
+	<a href="{{ page.url }}" title="{{ page.title }}"><h1>{{ page.title }}</h1></a>
 
-	<!--[if lt IE 9]>
-	<script src="/js/html5shiv.js"></script>
-	<![endif]-->
+	<section>
+	{{page.content}}
 
-	<link href='http://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,700' rel='stylesheet'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
-	<link href='/css/style.css' rel='stylesheet'>
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
-</head>
-<body>
+{% highlight javascript %}
+// include admin functions
+if(IS_ADMIN) {
+	function admin_asset($path) {
+		return asset('anchor/views/assets/' . $path);
+	}
 
-	<article>
-		<h2>New interface uploader for Jigoshop</h2>
-		<p>What did she say? It's your mom, she's tracked you down. Quick, let's cover the time machine. Wait a minute, what are you doing, Doc? C'mon, c'mon. My god, it's my mother. Put your pants back on. I think it's terrible. Girls chasing boys. When I was your age I never chased a boy, or called a boy, or sat in a parked car with a boy.</p>
+	function admin_url($path) {
+		return Uri::make('admin/' . $path);
+	}
+}
+{% endhighlight %}
+	</section>
 
-		<img src="http://placekitten.com/600/300" />
-
-		<p>Well, this is a radiation suit. You'll find out in thirty years. Uh no, not hard at all. So anyway, George, now Lorraine, she really likes you. She told me to tell you that she wants you to ask her to the Enchantment Under The Sea Dance. Hi, it's really a pleasure to meet you. Oh.</p>
-	</article>
-
-	<article>
-		<h2>Another Article</h2>
-		<p>I swiped it from the old lady's liquor cabinet. Quiet down, I'm sure the car is fine. Uh listen, do you know where Riverside Drive is? What a nightmare. Your not gonna be picking a fight, Dad, dad dad daddy-o. You're coming to a rescue, right? Okay, let's go over the plan again. 8:55, where are you gonna be.</p>
-	</article>
-
-	<footer>
-		<img src="http://localhost:4000/img/cat.png" />
-	</footer>
-
-
-
-</body>
-</html>
+	<time>{{ page.date | date: "%A, %d %B %Y" }}</time>
+</article>
+{% endfor %}

@@ -11,12 +11,12 @@
 	<script src="/js/html5shiv.js"></script>
 	<![endif]-->
 
-	<link href='http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400,700' rel='stylesheet'>
-	<link href='/css/style.min.css?v={{ site.time | date: "%Y%m%d"}}' rel='stylesheet'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<link href='/css/style.css' rel='stylesheet'>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
-	<aside>
+	<!-- <aside>
 		<div id="logo">
 			<a href="/" title="{{ site.author.name }}">{{ site.author.name }}</a>
 		</div>
@@ -35,13 +35,13 @@
 			<li><a href="{{page.url}}">{{page.title}}</a></li>
 			{% endfor %}
 		</ol> -->
-	</aside>
-	<section{% if page.animate or paginator.page == 1 %} class="animate"{% endif %}>
+	<!-- </aside> -->
+	<!-- <section{% if page.animate or paginator.page == 1 %} class="animate"{% endif %}> -->
 		{{content}}
 
-		{% if paginator.total_pages > 1 %}
+
 		<footer>
-			<nav class="clearfix">
+			<!--<nav class="clearfix">
 				{% if paginator.next_page %}
 				<a href="/page{{paginator.next_page}}" class="left">earlier articles</a>
 				{% endif %}
@@ -51,10 +51,13 @@
 				{% if paginator.previous_page == 1 %}
 				<a href="/" class="right">later articles</a>
 				{% endif %}
-			</nav>
+			</nav> -->
+
+				<a class="test123" href="#">Older</a>
+				<img src="http://localhost:4000/img/cat.png" />
+				<a class="test123" style="float:left" href="#">Newer</a>
 		</footer>
-		{% endif %}
-	</section>
+	<!-- </section> -->
 
 	<script>
 			var _gaq=[['_setAccount','{{ site.googleanalytics }}'],['_trackPageview']];
