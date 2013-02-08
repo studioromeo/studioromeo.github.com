@@ -17,57 +17,39 @@
 </head>
 <body>
 	<header>
-		<a href="#" id="logo"><img src="http://localhost:4000/img/logo.png" /></a>
-	</header>
-	
-	<!-- <aside>
-		<div id="logo">
-			<a href="/" title="{{ site.author.name }}">{{ site.author.name }}</a>
-		</div>
-		<p>Hey, I'm <a href="/me.html" title="Hey There!">Robert</a><br/>I build stuff for the web</p>
+		<a href="/" title="{{ site.author.name }}" id="logo"><img src="http://localhost:4000/img/logo.png" alt="{{ site.author.name }}" /></a>
 		<ul>
 			<li><a href="{{ site.author.lastfm }}" class="icon-lastfm" id="lastfm"></a></li>
 			<li><a href="{{ site.author.twitter }}" class="icon-twitter-bird" id="twitter"></a></li>
 			<li><a href="{{ site.author.github }}" class="icon-github" id="github"></a></li>
 			<li><a href="{{ site.author.google }}?rel=author" rel="author" class="icon-google-circles" id="google"></a></li>
 		</ul>
+	</header>
+	
+	{{content}}
 
-		<!-- I'll uncomment you when you're older
-		<ol>
-			<li>Latest Posts</li>
-			{% for page in site.posts limit:10 %}
-			<li><a href="{{page.url}}">{{page.title}}</a></li>
-			{% endfor %}
-		</ol> -->
-	<!-- </aside> -->
-	<!-- <section{% if page.animate or paginator.page == 1 %} class="animate"{% endif %}> -->
-		{{content}}
-
-
-		<footer>
-			<!--<nav class="clearfix">
-				{% if paginator.next_page %}
-				<a href="/page{{paginator.next_page}}" class="left">earlier articles</a>
-				{% endif %}
-				{% if paginator.previous_page and paginator.previous_page > 1 %}
-				<a href="/page{{paginator.next_page}}" class="right">later articles</a>
-				{% endif %}
+	<footer>
+		<nav>
+			{% if paginator.previous_page %}
 				{% if paginator.previous_page == 1 %}
-				<a href="/" class="right">later articles</a>
+					<a href="/"  class="left">Newer</a>
+				{% else %}
+					<a href="/page{{paginator.previous_page}}" class="left">Newer</a>
 				{% endif %}
-			</nav> -->
+			{% endif %}
+			{% if paginator.next_page %}
+				<a href="/page{{paginator.next_page}}" class="right">Older</a>
+			{% endif %}
 
-				<a class="test123 right" href="#">Older</a>
-				<img src="http://localhost:4000/img/cat.png" />
-				<a class="test123 left" href="#">Newer</a>
-		</footer>
-	<!-- </section> -->
+			<img src="http://localhost:4000/img/cat.png" />
+		</nav>
+	</footer>
 
 	<script>
-			var _gaq=[['_setAccount','{{ site.googleanalytics }}'],['_trackPageview']];
-			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			g.async=1;g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-			s.parentNode.insertBefore(g,s)}(document,'script'));
+		var _gaq=[['_setAccount','{{ site.googleanalytics }}'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.async=1;g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
 	</script>
 </body>
 </html>
