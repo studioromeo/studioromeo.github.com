@@ -1,7 +1,12 @@
+/**
+ * Version:     2
+ * Author:      Robert Rhoades
+ * Author URL:  http://studioromeo.co.uk
+*/
 @charset "UTF-8";*{margin:0;padding:0;border:0}@-webkit-keyframes scroll-bounce{0%{-webkit-transform:translatey(0)}25%{-webkit-transform:translatey(-5px)}
 50%{-webkit-transform:translatey(0)}75%{-webkit-transform:translatey(-2px)}100%{-webkit-transform:translatey(0)}}.highlight{margin:20px -50px;margin-bottom:20px;padding:20px 50px;font-size:13px;font-family:monospace}
 .right{float:right}.left{float:left}::-moz-selection{background:#eee;color:#444;text-shadow:none}::selection{background:#eee;color:#444;text-shadow:none}
-body{margin:0 auto;width:600px;background:#e4e8ec;color:#999;font:normal 15px/1.5 'Helvetica' sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{margin:0 auto;width:600px;background:#e4e8ec;color:#999;font:normal 15px/1.5 'Helvetica',sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 body::after{position:absolute;top:0;bottom:0;left:0;z-index:-1;width:100%;height:200px;background:#359567;content:''}
 footer{margin:20px 0;height:32px;font-size:12px}footer a{padding:5px 25px;border:1px solid #dbe0e6;border-radius:5px;color:#c3ccd5;text-shadow:0 0 1px #f9fafb}
 footer a:hover{margin-top:-3px;border-bottom:3px solid #1b583b;background:#359567;color:white;text-shadow:none}footer img{position:absolute;left:50%;margin-left:-16px;opacity:.1}
