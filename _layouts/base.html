@@ -17,7 +17,7 @@
 </head>
 <body>
 	<header>
-		<a href="/" title="{{ site.author.name }}" id="logo"><img src="http://localhost:4000/img/logo.png" alt="{{ site.author.name }}" /></a>
+		<a href="/" title="{{ site.author.name }}" id="logo" class="left"><img src="http://localhost:4000/img/logo.png" alt="{{ site.author.name }}" /></a>
 		<ul>
 			<li><a href="{{ site.author.lastfm }}" class="icon-lastfm" id="lastfm"></a></li>
 			<li><a href="{{ site.author.twitter }}" class="icon-twitter-bird" id="twitter"></a></li>
@@ -25,7 +25,7 @@
 			<li><a href="{{ site.author.google }}?rel=author" rel="author" class="icon-google-circles" id="google"></a></li>
 		</ul>
 	</header>
-	
+
 	{{content}}
 
 	<footer>
@@ -41,7 +41,7 @@
 				<a href="/page{{paginator.next_page}}" class="right">Older</a>
 			{% endif %}
 
-			<img src="http://localhost:4000/img/cat.png" />
+			<a href="http://pages.github.com" title="Powered by Github"><img src="http://localhost:4000/img/cat.png" /></a>
 		</nav>
 	</footer>
 

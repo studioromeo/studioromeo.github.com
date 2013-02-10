@@ -11,8 +11,7 @@ I'd like to send out a special thanks to [David Darnes], for helping me not only
 ###So who am I?
 I'm Rob, a developer from Great Britain. I started coding in 2007 while at school with ASP.NET, a lot of people dislike .net and personally I don't blame them. But looking back there was a lot of good stuff in the .net framework if you knew what you were doing from the outset... I clearly didn't!
 
-So one thing lead to another and I made the switch to PHP. Moving over was a breath of fresh air from the often complicated world of xml config files and code behind files. Initially I started using Kohana after being recommended by
-<br/>[Richard Standbrook], but I also dabbled in WordPress after discovering its ability to get a basic site up in minutes.
+So one thing lead to another and I made the switch to PHP. Moving over was a breath of fresh air from the often complicated world of xml config files and code behind files. Initially I started using Kohana after being recommended by [Richard Standbrook], but I also dabbled in WordPress after discovering its ability to get a basic site up in minutes.
 
 It wasn't until working on the famed Jigoshop plugin that I discovered all the new things that WordPress could do such as custom post types, routing to name just a few. I also had good fun learning about working on a distributed product to boot!
 
@@ -31,7 +30,6 @@ Like many in my world I decided I should start writing some of my *eureka* momen
 * [Github] - for providing a platform for me to use and just generally being awesome!
 
 It's going to be a fun ride and I hope you enjoy reading my posts as much as I enjoyed creating them :)
-
 
 [David Darnes]:   http://twitter.com/daviddarnes
 [Richard Standbrook]: http://twitter.com/richstandbrook
