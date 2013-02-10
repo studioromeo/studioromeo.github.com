@@ -1,6 +1,6 @@
 lsi: false
 pygments: true
-paginate: 1
+paginate: 5
 permalink: /:title/
 googleanalytics: UA-22599205-2
 author:
