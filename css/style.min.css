@@ -8,8 +8,8 @@
 .right{float:right}.left{float:left}::-moz-selection{background:#eee;color:#444;text-shadow:none}::selection{background:#eee;color:#444;text-shadow:none}
 body{margin:0 auto;width:600px;background:#e4e8ec;color:#999;font:normal 15px/1.5 'Helvetica',sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 body::after{position:absolute;top:0;bottom:0;left:0;z-index:-1;width:100%;height:200px;background:#359567;content:''}
-footer{margin:20px 0;height:32px;font-size:12px}footer a{padding:5px 25px;border:1px solid #dbe0e6;border-radius:5px;color:#c3ccd5;text-shadow:0 0 1px #f9fafb}
-footer a:hover{margin-top:-3px;border-bottom:3px solid #1b583b;background:#359567;color:white;text-shadow:none}footer img{position:absolute;left:50%;margin-left:-16px;opacity:.1}
+footer{margin:20px 0;height:32px;font-size:12px}footer nav a{padding:5px 25px;border:1px solid #dbe0e6;border-radius:5px;color:#c3ccd5;text-shadow:0 0 1px #f9fafb}
+footer nav a:hover{margin-top:-3px;border-bottom:3px solid #1b583b;background:#359567;color:white;text-shadow:none}footer img{position:absolute;left:50%;margin-left:-16px;opacity:.1}
 header{margin:50px 0 50px 50px;height:32px}header ul{float:right;margin-top:5px}header li{display:inline-block;margin:0 5px}header a{display:inline-block;color:#276648;font-size:16px}
 header a:hover{color:#fff;-webkit-animation:scroll-bounce .5s}#logo img{width:35px}article{margin:30px 0;padding:40px 50px;border-radius:3px;background:white;box-shadow:0 1px 3px rgba(0,0,0,.15)}
 h1{margin-bottom:15px;color:#444;font:700 25px/1.4 'Roboto Condensed',sans-serif}a:hover h1{color:#359567}h2,h3{margin-bottom:10px;color:#555;font:15px/1.3 sans-serif;font-weight:bold}
