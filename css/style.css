@@ -2,11 +2,11 @@
  * Version:     2
  * Author:      Robert Rhoades
  * Author URL:  http://studioromeo.co.uk
-*/
+ */
 
 @charset "UTF-8";
 
-/* Reset
+/* Reset + Animations
 -------------------------------------------------------------- */
 * {
 	margin:0;
@@ -14,7 +14,7 @@
 	border:0;
 }
 
-@-webkit-keyframes scroll-bounce {
+@-webkit-keyframes bounce {
 	0% { -webkit-transform: translatey(0); }
 	25% { -webkit-transform: translatey(-5px); }
 	50% { -webkit-transform: translatey(0); }
@@ -24,14 +24,6 @@
 
 /* General Layout
 -------------------------------------------------------------- */
-.highlight {
-	margin: 20px -50px;
-	margin-bottom: 20px;
-	padding: 20px 50px;
-	font-size: 13px;
-	font-family: monospace;
-}
-
 .right { float: right; }
 .left { float: left; }
 
@@ -98,6 +90,7 @@ header {
 header ul {
 	float: right;
 	margin-top: 5px;
+	margin-right: 10px;
 }
 
 header li {
@@ -113,18 +106,18 @@ header a {
 
 header a:hover {
 	color: #fff;
-	-webkit-animation: scroll-bounce .5s;
+	-webkit-animation: bounce .5s;
 }
 
 #logo img {
-	width: 35px;
+	width: 50%;
 }
 
 article {
 	margin: 30px 0;
 	padding: 40px 50px;
 	border-radius: 3px;
-	background: white;
+	background: #FFF;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
 }
 
@@ -149,12 +142,10 @@ p, ol, ul {
 	margin: 20px 0;
 }
 
-a {
+a, h1 {
 	text-decoration: none;
 	font-weight: bold;
 	-webkit-transition: 0.1s ease all;
-	-moz-transition: 0.1s ease all;
-	transition: 0.1s ease all;
 }
 
 section a {
@@ -166,7 +157,7 @@ section a {
 }
 
 section a:hover {
-	-webkit-box-shadow: 2px 2px 0 #71A78D;
+	box-shadow: 2px 2px 0 #71A78D; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
 	color: #406F58;
 }
 
@@ -175,8 +166,13 @@ section img {
 	width: 600px;
 }
 
+.highlight {
+	margin: 20px -50px;
+	padding: 20px 50px;
+	font-family: monospace;
+}
+
 time {
-	float: right;
 	color: #ccc;
 	text-align: right;
 	font-size: 12px;
@@ -185,32 +181,15 @@ time {
 /* Fonts (Icon)
 -------------------------------------------------------------- */
 @font-face {
-  font-weight: normal;
-  font-style: normal;
   font-family: 'fontello';
-  src: url("../font/fontello.eot");
-  src: url("../font/fontello.eot?#iefix") format('embedded-opentype'), url("../font/fontello.woff") format('woff'), url("../font/fontello.ttf") format('truetype'), url("../font/fontello.svg#fontello") format('svg');
+  src: url('../font/fontello.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
+
+.icon {
   display: inline-block;
-  margin-right: 0.2em;
-  width: 1em;
-  text-align: center;
-
-  font-weight: normal;
-  font-style: normal;
-
-  font-family: 'fontello';
-  line-height: 1em;
-
-  speak: none;
+  padding: 3px;
+  font: 14px 'fontello';
 }
-
-.icon-twitter-bird:before { content: 't'; }
-.icon-github:before { content: 'g'; }
-.icon-google-circles:before { content: 'p'; }
-.icon-dribble:before { content: 'd'; }
 
 
 
