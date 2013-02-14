@@ -16,9 +16,9 @@ h1{margin-bottom:15px;color:#444;font:700 25px/1.4 'Roboto Condensed',sans-serif
 p,ol,ul{margin:20px 0}a{text-decoration:none;font-weight:bold;-webkit-transition:.1s ease all;-moz-transition:.1s ease all;transition:.1s ease all}section a{padding:2px 4px;background:#9eddbf;color:#fff;font-weight:bold;font-size:.8em}
 section a:hover{-webkit-box-shadow:2px 2px 0 #71a78d;color:#406f58}section img{margin:20px -50px;width:600px}time{float:right;color:#ccc;text-align:right;font-size:12px}
 @font-face{font-weight:normal;font-style:normal;font-family:'fontello';src:url("../font/fontello.eot");src:url("../font/fontello.eot?#iefix") format('embedded-opentype'),url("../font/fontello.woff") format('woff'),url("../font/fontello.ttf") format('truetype'),url("../font/fontello.svg#fontello") format('svg')}
-[class^="icon-"]:before,[class*=" icon-"]:before{display:inline-block;margin-right:.2em;width:1em;text-align:center;text-decoration:inherit;font-weight:normal;font-style:normal;font-family:'fontello';line-height:1em;opacity:.7;speak:none}
-.icon-twitter-bird:before{content:'\f303'}.icon-github:before{content:'\f307'}.icon-google-circles:before{content:'\f310'}
-.icon-lastfm:before{content:'\f318'}.highlight .hll{background-color:#ffc}.highlight{background:#f8f8f8}.highlight .c{color:#8f5902;font-style:italic}
+[class^="icon-"]:before,[class*=" icon-"]:before{display:inline-block;margin-right:.2em;width:1em;text-align:center;font-weight:normal;font-style:normal;font-family:'fontello';line-height:1em;speak:none}
+.icon-twitter-bird:before{content:'t'}.icon-github:before{content:'g'}.icon-google-circles:before{content:'p'}
+.icon-dribble:before{content:'d'}.highlight .hll{background-color:#ffc}.highlight{background:#f8f8f8}.highlight .c{color:#8f5902;font-style:italic}
 .highlight .err{border:1px solid #ef2929;color:#a40000}.highlight .g{color:#000}.highlight .k{color:#204a87;font-weight:bold}.highlight .l{color:#000}
 .highlight .n{color:#000}.highlight .o{color:#ce5c00;font-weight:bold}.highlight .x{color:#000}.highlight .p{color:#000;font-weight:bold}.highlight .cm{color:#8f5902;font-style:italic}
 .highlight .cp{color:#8f5902;font-style:italic}.highlight .c1{color:#8f5902;font-style:italic}.highlight .cs{color:#8f5902;font-style:italic}.highlight .gd{color:#a40000}

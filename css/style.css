@@ -197,24 +197,20 @@ time {
   margin-right: 0.2em;
   width: 1em;
   text-align: center;
-  text-decoration: inherit;
-/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-/* fix buttons height */
+
   font-weight: normal;
   font-style: normal;
-/* font-size: 120%; */
+
   font-family: 'fontello';
   line-height: 1em;
-/* you can be more comfortable with increased icons size */
-  opacity: 0.7;
-/* Uncomment for 3D effect */
+
   speak: none;
 }
 
-.icon-twitter-bird:before { content: '\f303'; } /* '' */
-.icon-github:before { content: '\f307'; } /* '' */
-.icon-google-circles:before { content: '\f310'; } /* '' */
-.icon-lastfm:before { content: '\f318'; } /* '' */
+.icon-twitter-bird:before { content: 't'; }
+.icon-github:before { content: 'g'; }
+.icon-google-circles:before { content: 'p'; }
+.icon-dribble:before { content: 'd'; }
 
 
 
