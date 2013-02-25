@@ -33,7 +33,7 @@
 
 body {
 	margin: 0 auto;
-	width: 600px;
+	max-width: 600px;
 	background: #E4E8EC;
 	color: #999;
 	font: normal 15px/1.5 'Helvetica', sans-serif;
