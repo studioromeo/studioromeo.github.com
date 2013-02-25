@@ -106,7 +106,7 @@ header a {
 
 header a:hover {
 	color: #fff;
-	-webkit-animation: bounce .5s;
+	-webkit-animation: bounce .5s ease-out;
 }
 
 #logo img {
