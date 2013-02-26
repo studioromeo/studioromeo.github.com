@@ -30,27 +30,10 @@
 
 	{{content}}
 
-	<footer>
-		<nav>
-			{% if paginator.previous_page %}
-				{% if paginator.previous_page == 1 %}
-					<a href="/"  class="left">Newer</a>
-				{% else %}
-					<a href="/page{{paginator.previous_page}}" class="left">Newer</a>
-				{% endif %}
-			{% endif %}
-			{% if paginator.next_page %}
-				<a href="/page{{paginator.next_page}}" class="right">Older</a>
-			{% endif %}
-		</nav>
-		<a href="http://pages.github.com" title="Powered by Github"><img src="http://localhost:4000/img/github.png" /></a>
-
-	</footer>
-
 	<script>
 		var _gaq=[['_setAccount','{{ site.googleanalytics }}'],['_trackPageview']];
 		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-		g.async=1;g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		g.async=1;g.src='//www.google-analytics.com/ga.js';
 		s.parentNode.insertBefore(g,s)}(document,'script'));
 	</script>
 </body>

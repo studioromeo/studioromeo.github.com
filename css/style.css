@@ -33,9 +33,9 @@
 
 body {
 	margin: 0 auto;
-	width: 600px;
+	max-width: 600px;
 	background: #E4E8EC;
-	color: #999;
+	color: #8A99A8;
 	font: normal 15px/1.5 'Helvetica', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -79,7 +79,7 @@ footer img {
 	position: absolute;
 	left: 50%;
 	margin-left: -16px;
-	opacity: .1;
+	width: 32px;
 }
 
 header {
@@ -121,13 +121,17 @@ article {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
 }
 
+aside {
+	margin: 0 10px;
+}
+
 h1 {
 	margin-bottom: 15px;
 	color: #444;
 	font: 700 25px/1.4 'Roboto Condensed', sans-serif;
 }
 
-a:hover h1 {
+a, a:hover h1 {
 	color: #359567;
 }
 
@@ -172,10 +176,12 @@ section img {
 	font-family: monospace;
 }
 
-time {
-	color: #ccc;
-	text-align: right;
+small, small a {
+	color: #C3CCD5;
 	font-size: 12px;
+}
+small a:hover {
+	color: #359567;
 }
 
 /* Fonts (Icon)

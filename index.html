@@ -10,6 +10,23 @@ layout: base
 		{{page.content}}
 	</section>
 
-	<time class="right">{{ page.date | date: "%A, %d %B %Y" }}</time>
+	<small class="right"><a href="{{ page.url }}" title="Comment">Comment</a> | <time>{{ page.date | date: "%A, %d %B %Y" }}</time></small>
 </article>
 {% endfor %}
+
+<footer>
+	<nav>
+		{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+				<a href="/"  class="left">Newer</a>
+			{% else %}
+				<a href="/page{{paginator.previous_page}}" class="left">Newer</a>
+			{% endif %}
+		{% endif %}
+		{% if paginator.next_page %}
+			<a href="/page{{paginator.next_page}}" class="right">Older</a>
+		{% endif %}
+	</nav>
+	<a href="http://pages.github.com" title="Powered by Github"><img src="/img/github.png" /></a>
+
+</footer>
