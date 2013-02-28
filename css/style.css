@@ -173,8 +173,9 @@ section img {
 
 .highlight {
 	margin: 20px -50px;
-	padding: 20px 50px;
-	font-family: monospace;
+	padding: 20px 40px;
+	font: 13px monospace;
+	overflow: scroll;
 }
 
 small, small a, small .icon {
