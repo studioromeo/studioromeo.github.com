@@ -132,7 +132,7 @@ h1 {
 	font: 700 25px/1.4 'Roboto Condensed', sans-serif;
 }
 
-a:hover, a:hover h1 {
+a, a:hover, a:hover h1 {
 	color: #359567;
 }
 
