@@ -75,11 +75,12 @@ footer nav a:hover {
 	text-shadow: none;
 }
 
-footer img {
+footer .icon {
+	font-size: 32px;
+	color: #D5DBE2;
 	position: absolute;
 	left: 50%;
 	margin-left: -16px;
-	width: 32px;
 }
 
 header {
@@ -176,7 +177,7 @@ section img {
 	font-family: monospace;
 }
 
-small, small a {
+small, small a, small .icon {
 	color: #C3CCD5;
 	font-size: 12px;
 }
@@ -195,6 +196,12 @@ small a:hover {
   display: inline-block;
   padding: 3px;
   font: 14px 'fontello';
+}
+
+small .icon {
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px solid #F0F2F5;
 }
 
 
