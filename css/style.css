@@ -132,7 +132,7 @@ h1 {
 	font: 700 25px/1.4 'Roboto Condensed', sans-serif;
 }
 
-a, a:hover h1 {
+a:hover, a:hover h1 {
 	color: #359567;
 }
 
@@ -178,12 +178,9 @@ section img {
 	overflow: scroll;
 }
 
-small, small a, small .icon {
+small, small a {
 	color: #C3CCD5;
 	font-size: 12px;
-}
-small a:hover {
-	color: #359567;
 }
 
 /* Fonts (Icon)
