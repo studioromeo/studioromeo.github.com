@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
@@ -11,56 +11,30 @@
 	<script src="/js/html5shiv.js"></script>
 	<![endif]-->
 
-	<link href='http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400,700' rel='stylesheet'>
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
 	<link href='/css/style.min.css?v={{ site.time | date: "%Y%m%d"}}' rel='stylesheet'>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
-	<aside>
-		<div id="logo">
-			<a href="/" title="{{ site.author.name }}">{{ site.author.name }}</a>
-		</div>
-		<p>Hey, I'm <a href="/me.html" title="Hey There!">Robert</a><br/>I build stuff for the web</p>
+	<header>
+		<a href="/" title="{{ site.author.name }}" id="logo" class="left">
+			<img src="/img/logo.png" alt="{{ site.author.name }}" width="35" height="32" />
+		</a>
 		<ul>
-			<li><a href="{{ site.author.lastfm }}" class="icon-lastfm" id="lastfm"></a></li>
-			<li><a href="{{ site.author.twitter }}" class="icon-twitter-bird" id="twitter"></a></li>
-			<li><a href="{{ site.author.github }}" class="icon-github" id="github"></a></li>
-			<li><a href="{{ site.author.google }}?rel=author" rel="author" class="icon-google-circles" id="google"></a></li>
+			<li><a href="{{ site.author.dribbble }}" class="icon">d</a></li>
+			<li><a href="{{ site.author.twitter }}" class="icon ">t</a></li>
+			<li><a href="{{ site.author.github }}" class="icon">g</a></li>
+			<li><a href="{{ site.author.google }}?rel=author" rel="author" class="icon">p</a></li>
 		</ul>
+	</header>
 
-		<!-- I'll uncomment you when you're older
-		<ol>
-			<li>Latest Posts</li>
-			{% for page in site.posts limit:10 %}
-			<li><a href="{{page.url}}">{{page.title}}</a></li>
-			{% endfor %}
-		</ol> -->
-	</aside>
-	<section{% if page.animate or paginator.page == 1 %} class="animate"{% endif %}>
-		{{content}}
-
-		{% if paginator.total_pages > 1 %}
-		<footer>
-			<nav class="clearfix">
-				{% if paginator.next_page %}
-				<a href="/page{{paginator.next_page}}" class="left">earlier articles</a>
-				{% endif %}
-				{% if paginator.previous_page and paginator.previous_page > 1 %}
-				<a href="/page{{paginator.next_page}}" class="right">later articles</a>
-				{% endif %}
-				{% if paginator.previous_page == 1 %}
-				<a href="/" class="right">later articles</a>
-				{% endif %}
-			</nav>
-		</footer>
-		{% endif %}
-	</section>
+	{{content}}
 
 	<script>
-			var _gaq=[['_setAccount','{{ site.googleanalytics }}'],['_trackPageview']];
-			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-			g.async=1;g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-			s.parentNode.insertBefore(g,s)}(document,'script'));
+		var _gaq=[['_setAccount','{{ site.googleanalytics }}'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.async=1;g.src='//www.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
 	</script>
 </body>
 </html>
