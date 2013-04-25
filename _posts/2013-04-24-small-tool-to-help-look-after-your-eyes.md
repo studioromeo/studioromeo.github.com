@@ -37,7 +37,7 @@ This opens up the users crontab from where we can add our cron job. `*/60` basic
 
 {% highlight bash %}
 
-*/60 * * * * sh /rest/test.sh
+*/60 * * * * sh /rest/app.sh
 
 {% endhighlight %}
 
