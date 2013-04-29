@@ -75,6 +75,11 @@ footer nav a:hover {
 	text-shadow: none;
 }
 
+footer nav a:active {
+	margin-top: -1px;
+	border: 1px solid #dbe0e6;
+}
+
 footer .icon {
 	font-size: 32px;
 	color: #D5DBE2;
