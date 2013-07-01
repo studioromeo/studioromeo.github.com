@@ -203,7 +203,11 @@ small .icon {
 	border-right: 1px solid #F0F2F5;
 }
 
-
+@media (max-width: 600px) {
+	article {
+		border-radius: 0;
+	}
+}
 
 
 
