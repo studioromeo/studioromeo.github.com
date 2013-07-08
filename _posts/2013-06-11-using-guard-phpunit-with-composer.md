@@ -3,6 +3,8 @@ layout: post
 title: Using guard-phpunit with composer
 ---
 
+While reading through a book on unit testing with PHP I ran into a few issues using guard with phpunit. This article guides me (and maybe you) through the process of installing & configuring guard with PHPUnit.
+
 First of we need to install phpunit globally using composer. To do this create a new hidden directory called .composer/packages in your home folder
 
 {% highlight bash %}
@@ -42,7 +44,9 @@ gem install guard-phpunit
 
 Now unless things have changed when you run guard you'll recieve this error
 
+{% highlight text %}
 Call to undefined method PHPUnit_Framework_TestResult::allCompletlyImplemented()
+{% endhighlight %}
 
 It's due to a small typo in the method name, so to change it find guard-phpunits source files in my case it was located here
 
@@ -50,7 +54,6 @@ It's due to a small typo in the method name, so to change it find guard-phpunits
 /Library/Ruby/Gems/1.8/gems/guard-phpunit-0.1.4/lib/guard/phpunit/formatters/PHPUnit-Progress/PHPUnit/Extensions/Progress/ResultPrinter.php
 {% endhighlight %}
 
-In here find lines 250 and 256 and replace `allCompletlyImplemented()` with `allCompletelyImplemented()` Save and then run guard again
+In here find lines 250 and 256 and replace `allCompletlyImplemented()` with `allCompletelyImplemented()` Save and then run guard again.
 
-
-NB: https://github.com/Maher4Ever/guard-phpunit/issues/10
+I hope this helps anyone else in the same situation. All credit goes to this [issue on Github](https://github.com/Maher4Ever/guard-phpunit/issues/10)
