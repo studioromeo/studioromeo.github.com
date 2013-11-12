@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Anchor CMS in Laravel (Part 1)
 ---
 
 <iframe name='quickcast' src='http://quick.as/embed/gdb8u79y' scrolling='no' frameborder='0' width='100%' allowfullscreen></iframe><script>!function(){function n(){var n=document.getElementsByName('quickcast')
