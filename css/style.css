@@ -35,7 +35,7 @@ body {
 	margin: 0 auto;
 	max-width: 600px;
 	background: #E4E8EC;
-	color: #8A99A8;
+	color: #6C7F93;
 	font: normal 15px/1.5 'Helvetica', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -182,6 +182,10 @@ section img {
 small, small a {
 	color: #C3CCD5;
 	font-size: 12px;
+}
+
+iframe {
+	height: 320px;
 }
 
 /* Fonts (Icon)
