@@ -167,9 +167,10 @@ section a:hover {
 	color: #406F58;
 }
 
-section img {
+section img, section iframe {
 	margin: 20px -50px;
 	width: 600px;
+	height:400px;
 }
 
 .highlight {

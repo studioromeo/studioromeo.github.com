@@ -10,3 +10,5 @@ author:
   google: https://plus.google.com/u/0/101733486307310199404
   dribbble: http://dribbble.com/studioromeo
   github: http://github.com/studioromeo
+redcarpet:
+  extensions: ['strikethrough']
