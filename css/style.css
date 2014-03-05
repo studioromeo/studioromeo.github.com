@@ -173,6 +173,10 @@ section img, section iframe {
 	height:400px;
 }
 
+section img {
+	height: auto;
+}
+
 .highlight {
 	margin: 20px -50px;
 	padding: 20px 40px;
