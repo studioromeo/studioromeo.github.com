@@ -10,7 +10,10 @@ layout: base
 		{{page.content}}
 	</section>
 
-	<small class="right"><a href="{{ page.url }}" class="icon" title="Comment">c</a><time>{{ page.date | date: "%A, %d %B %Y" }}</time></small>
+	<small class="right">
+		<a href="{{ page.url }}" title="Comment"><svg class="icon icon-bubbles" viewBox="0 0 36 32"><use xlink:href="#icon-bubbles"></use></svg></a>
+		<time>{{ page.date | date: "%A, %d %B %Y" }}</time>
+	</small>
 </article>
 {% endfor %}
 
@@ -27,6 +30,5 @@ layout: base
 			<a href="/page{{paginator.next_page}}" class="right">Older</a>
 		{% endif %}
 	</nav>
-	<a href="http://pages.github.com" title="Powered by Github" class="icon">o</a>
 
 </footer>

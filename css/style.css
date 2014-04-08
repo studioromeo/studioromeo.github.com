@@ -1,5 +1,5 @@
 /**
- * Version:     2
+ * Version:     2.1
  * Author:      Robert Rhoades
  * Author URL:  http://studioromeo.co.uk
  */
@@ -61,9 +61,9 @@ footer {
 
 footer nav a {
 	padding: 5px 25px;
-	border: 1px solid #DBE0E6;
+	border: 1px solid #C9D0D9;
 	border-radius: 5px;
-	color: #C3CCD5;
+	color: #ABB6C4;
 	text-shadow: 0px 0px 1px #F9FAFB;
 }
 
@@ -78,14 +78,6 @@ footer nav a:hover {
 footer nav a:active {
 	margin-top: -1px;
 	border: 1px solid #dbe0e6;
-}
-
-footer .icon {
-	font-size: 32px;
-	color: #D5DBE2;
-	position: absolute;
-	left: 50%;
-	margin-left: -16px;
 }
 
 header {
@@ -106,12 +98,11 @@ header li {
 
 header a {
 	display: inline-block;
-	color: #276648;
-	font-size: 16px;
+	fill: #276648;
 }
 
 header a:hover {
-	color: #fff;
+	fill: #fff;
 	-webkit-animation: bounce .5s ease-out;
 }
 
@@ -186,7 +177,7 @@ section img {
 
 small, small a {
 	color: #C3CCD5;
-	font-size: 12px;
+	fill: #C3CCD5;
 }
 
 iframe {
@@ -195,21 +186,18 @@ iframe {
 
 /* Fonts (Icon)
 -------------------------------------------------------------- */
-@font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-.icon {
-  display: inline-block;
+header .icon {
   padding: 3px;
-  font: 14px 'fontello';
+  width: 15px;
+  height: 100%;
 }
 
 small .icon {
 	padding-right: 10px;
 	margin-right: 10px;
 	border-right: 1px solid #F0F2F5;
+	width: 15px;
+	height: 100%;
 }
 
 @media (max-width: 600px) {
@@ -217,19 +205,6 @@ small .icon {
 		border-radius: 0;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Syntax Pygments (Theme: Tango)
 -------------------------------------------------------------- */
