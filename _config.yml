@@ -12,3 +12,5 @@ author:
   github: http://github.com/studioromeo
 redcarpet:
   extensions: ['strikethrough']
+gems:
+  - jekyll-sitemap
