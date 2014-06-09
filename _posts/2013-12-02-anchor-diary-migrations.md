@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<iframe id="test" width="100%" src="//www.youtube.com/embed/nwSwPYKPgEY?rel=0&showinfo=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+<a href="//www.youtube.com/embed/nwSwPYKPgEY" class="video" style="padding: 0; display:block; height: 365px;">Play Screencast</a>
 
 Hi Guys, hope you're well!<br/>I've just been cracking on with coding ~~laravel~~ anchor in laravel.
 

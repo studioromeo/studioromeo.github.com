@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<iframe name='quickcast' src='http://quick.as/embed/gdb8u79y' scrolling='no' frameborder='0' width='100%' allowfullscreen></iframe>
+<a href="//quick.as/embed/gdb8u79y" class="video" style="padding: 0; display:block; height: 365px;">Play Screencast</a>
 
 ### This took me an age to prepare, probably the hardest 3 minutes of my life but here it goes. The transcript is below incase anyone wants to read through.
 Hi Guys, I'm Rob.

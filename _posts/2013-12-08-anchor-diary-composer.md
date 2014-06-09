@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<iframe width="100%" src="//www.youtube.com/embed/dMudLAYp7WY?rel=0" frameborder="0" allowfullscreen></iframe>
+<a href="//www.youtube.com/embed/dMudLAYp7WY" class="video" style="padding: 0; display:block; height: 365px;">Play</a>
 
 So I just wanted to run through how I envisage anchor working with Laravel.
 
