@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<a href="//www.youtube.com/embed/nwSwPYKPgEY" class="video" style="padding: 0; display:block; height: 365px;">Play Screencast</a>
+<a href="//www.youtube.com/embed/nwSwPYKPgEY" class="video">Play</a>
 
 Hi Guys, hope you're well!<br/>I've just been cracking on with coding ~~laravel~~ anchor in laravel.
 

@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<a href="//quick.as/embed/gdb8u79y" class="video" style="padding: 0; display:block; height: 365px;">Play Screencast</a>
+<a href="//quick.as/embed/gdb8u79y" class="video">Play</a>
 
 ### This took me an age to prepare, probably the hardest 3 minutes of my life but here it goes. The transcript is below incase anyone wants to read through.
 Hi Guys, I'm Rob.

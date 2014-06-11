@@ -182,6 +182,19 @@ small, small a {
 
 iframe {
 	height: 320px;
+	margin: 0 -50px;
+}
+
+.video {
+    padding: 0;
+    display:block;
+    text-align: center;
+    line-height: 360px;
+    font-size: 36px;
+}
+
+.video:hover {
+    box-shadow: none;
 }
 
 /* Fonts (Icon)

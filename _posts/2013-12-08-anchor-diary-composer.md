@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<a href="//www.youtube.com/embed/dMudLAYp7WY" class="video" style="padding: 0; display:block; height: 365px;">Play</a>
+<a href="//www.youtube.com/embed/dMudLAYp7WY" class="video">Play</a>
 
 So I just wanted to run through how I envisage anchor working with Laravel.
 
