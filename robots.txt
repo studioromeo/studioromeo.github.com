@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /diff
+
+Allow: /
+
+Sitemap: http://studioromeo.co.uk/sitemap.xml
