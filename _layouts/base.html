@@ -7,10 +7,6 @@
 	<meta name="author" content="{{ site.author.name }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!--[if lt IE 9]>
-	<script src="/js/html5shiv.js"></script>
-	<![endif]-->
-
 	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
 	<link href='/css/style.min.css?v={{ site.time | date: "%Y%m%d"}}' rel='stylesheet'>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -71,6 +67,24 @@
 	</header>
 
 	{{content}}
+
+	<script>
+	    var videos = document.getElementsByClassName('video');
+
+	    for (var i = 0; i < videos.length; i++) {
+	        videos[i].onclick = function () {
+	            var iframe = document.createElement("iframe");
+	            iframe.setAttribute("src", this.href + '?autoplay=1');
+	            iframe.setAttribute('frameborder', 0);
+	            iframe.setAttribute('allowfullscreen', true);
+	            iframe.setAttribute('width', '100%');
+	            this.parentNode.insertBefore(iframe);
+	            this.remove();
+
+	            return false;
+	        }
+	    };
+	</script>
 
 	<script>
 		var _gaq=[['_setAccount','{{ site.googleanalytics }}'],['_trackPageview']];
