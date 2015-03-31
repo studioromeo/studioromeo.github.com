@@ -1,16 +1,21 @@
-lsi: false
-pygments: true
-paginate: 5
+gems:
+    - jekyll-sitemap
+
+exclude:
+    - vendor
+
+highlighter: rouge
 markdown: redcarpet
+redcarpet:
+    extensions:
+        - strikethrough
+
+paginate: 5
 permalink: /:title/
 googleanalytics: UA-22599205-2
 author:
-  name: Robert Rhoades
-  twitter: http://twitter.com/studioromeo
-  google: https://plus.google.com/u/0/101733486307310199404
-  dribbble: http://dribbble.com/studioromeo
-  github: http://github.com/studioromeo
-redcarpet:
-  extensions: ['strikethrough']
-gems:
-  - jekyll-sitemap
+    name: Robert Rhoades
+    twitter: http://twitter.com/studioromeo
+    google: https://plus.google.com/u/0/101733486307310199404
+    dribbble: http://dribbble.com/studioromeo
+    github: http://github.com/studioromeo
