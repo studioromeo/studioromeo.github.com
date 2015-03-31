@@ -17,6 +17,7 @@ It wasn't until working on the famed Jigoshop plugin that I discovered all the n
 
 ###What's occurring
 Like many in my world I decided I should start writing some of my *eureka* moments down so:
+
 1. I now have a reference to check incase I've forgotten how to do something.
 2. Hopefully I can save someone else who's in the same boat some bother.
 3. Finally, so I can share some my ideas with the rest of the world.

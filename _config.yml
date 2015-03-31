@@ -4,7 +4,7 @@ gems:
 exclude:
     - vendor
 
-highlighter: rouge
+highlighter: pygments
 markdown: redcarpet
 redcarpet:
     extensions:
