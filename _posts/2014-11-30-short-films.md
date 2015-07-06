@@ -12,7 +12,6 @@ but they are all ace. I hope you enjoy!
 <iframe src="//player.vimeo.com/video/94502406?color=359567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <iframe src="//player.vimeo.com/video/72205725?color=359567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <iframe src="//player.vimeo.com/video/12259794?color=359567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<iframe src="//player.vimeo.com/video/80255970?color=359567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <iframe src="//player.vimeo.com/video/97102654?color=359567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <iframe src="//player.vimeo.com/video/42411918?color=359567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <iframe src="//player.vimeo.com/video/12892083?color=359567" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
