@@ -4,6 +4,9 @@ gems:
 exclude:
     - vendor
 
+sass:
+    style: :compressed
+
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
@@ -16,6 +19,5 @@ googleanalytics: UA-22599205-2
 author:
     name: Robert Rhoades
     twitter: http://twitter.com/studioromeo
-    google: https://plus.google.com/u/0/101733486307310199404
     dribbble: http://dribbble.com/studioromeo
     github: http://github.com/studioromeo
