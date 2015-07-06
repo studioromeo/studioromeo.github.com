@@ -1,10 +1,8 @@
-/**
- * Version:     2.1
- * Author:      Robert Rhoades
- * Author URL:  http://studioromeo.co.uk
- */
-
-@charset "UTF-8";
+---
+ # Version:     2.1
+ # Author:      Robert Rhoades
+ # Author URL:  http://studioromeo.co.uk
+---
 
 /* Reset + Animations
 -------------------------------------------------------------- */
@@ -81,14 +79,13 @@ footer nav a:active {
 }
 
 header {
-	margin: 50px 0 50px 50px;
+	margin: 50px;
 	height: 32px;
 }
 
 header ul {
 	float: right;
 	margin-top: 5px;
-	margin-right: 10px;
 }
 
 header li {
@@ -180,17 +177,13 @@ small, small a {
 	fill: #C3CCD5;
 }
 
-iframe {
-	height: 320px;
-	margin: 0 -50px;
-}
-
 .video {
     padding: 0;
     display:block;
     text-align: center;
     line-height: 360px;
     font-size: 36px;
+    margin: 0 -50px;
 }
 
 .video:hover {
