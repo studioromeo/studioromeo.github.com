@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<a href="//www.youtube.com/embed/edRbZJ7NXTM" class="video">Play</a>
+{% include video.html src="//www.youtube.com/embed/edRbZJ7NXTM" %}
 
 ### This took me an age to prepare, probably the hardest 3 minutes of my life but here it goes. The transcript is below incase anyone wants to read through.
 Hi Guys, I'm Rob.

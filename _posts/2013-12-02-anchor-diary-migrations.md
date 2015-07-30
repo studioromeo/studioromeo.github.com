@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<a href="//www.youtube.com/embed/nwSwPYKPgEY" class="video">Play</a>
+{% include video.html src="//www.youtube.com/embed/nwSwPYKPgEY" %}
 
 Hi Guys, hope you're well!<br/>I've just been cracking on with coding ~~laravel~~ anchor in laravel.
 
