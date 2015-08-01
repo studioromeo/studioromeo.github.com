@@ -2,7 +2,7 @@
 layout: post
 ---
 
-<a href="//www.youtube.com/embed/dMudLAYp7WY" class="video">Play</a>
+{% include video.html src="//www.youtube.com/embed/dMudLAYp7WY" %}
 
 So I just wanted to run through how I envisage anchor working with Laravel.
 

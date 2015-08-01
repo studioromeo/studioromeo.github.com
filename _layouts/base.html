@@ -37,8 +37,9 @@
                 var iframe = document.createElement("iframe");
                 iframe.setAttribute("src", this.href + '?autoplay=1');
                 iframe.setAttribute('frameborder', 0);
-                iframe.setAttribute('allowfullscreen', true);
-                iframe.setAttribute('width', '100%');
+                iframe.setAttribute('class', 'video-iframe');
+                iframe.setAttribute('width', this.offsetWidth);
+                iframe.setAttribute('height', this.offsetHeight);
                 this.parentNode.insertBefore(iframe, this);
                 this.remove();
 
