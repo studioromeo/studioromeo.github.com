@@ -2,7 +2,11 @@ gems:
     - jekyll-sitemap
 
 exclude:
-    - vendor
+    - Gemfile
+    - Gemfile.lock
+    - Rakefile
+    - readme.md
+    - LICENCE
 
 sass:
     style: :compressed
