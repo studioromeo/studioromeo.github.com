@@ -142,7 +142,7 @@ a, h1 {
 	-webkit-transition: 0.1s ease all;
 }
 
-section a {
+div a {
 	padding: 2px 4px;
 	background: #9EDDBF;
 	color: #fff;
@@ -150,12 +150,12 @@ section a {
 	font-size: .8em;
 }
 
-section a:hover {
+div a:hover {
 	box-shadow: 2px 2px 0 #71A78D; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
 	color: #406F58;
 }
 
-section img {
+div img {
 	margin: 20px -50px;
 	width: 600px;
 	height: auto;
