@@ -158,6 +158,7 @@ div a:hover {
 div img {
 	margin: 20px -50px;
 	width: 600px;
+	width: calc(100% + 100px);
 	height: auto;
 }
 
