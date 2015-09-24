@@ -12,8 +12,8 @@ We sent out a [doodle](http://doodle.com/) poll asking staff to vote on what API
 
 - [NASA](https://data.nasa.gov/developer)
 - [ONS](https://www.ons.gov.uk/ons/apiservice/web/apiservice/home)
-- [Facial Recognition](https://www.mashape.com/lambda/face-recognition#!documentation)
-- [Weather Forecasts](https://www.mashape.com/george-vustrey/ultimate-weather-forecasts)
+- [Facial Recognition](https://market.mashape.com/lambda/face-recognition#!documentation)
+- [Weather Forecasts](https://market.mashape.com/george-vustrey/ultimate-weather-forecasts)
 - [Ordnance Survey](https://www.ordnancesurvey.co.uk/opendatadownload/products.html)
 
 The poll was a close one with facial recognition beating the NASA api's by just a single vote.
