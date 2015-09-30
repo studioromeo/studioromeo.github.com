@@ -164,7 +164,7 @@ div a:hover {
 	color: #406F58;
 }
 
-div img {
+div img:not(.emoji) {
 	margin: 20px -50px;
 	width: 600px;
 	width: calc(100% + 100px);
