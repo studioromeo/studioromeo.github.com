@@ -40,7 +40,7 @@ It wasn't all smooth sailing though, we definitely made a few boo boos on the ni
 
 Our biggest issue was finding out about 20 minutes before the night was due to start that the facial recognition API we had chosen wasn't actually free.
 
-![Facepalm Meme](http://i0.kym-cdn.com/photos/images/original/000/615/743/427.png)
+![Facepalm Meme](/img/2015/doh.jpg)
 
 This meant we had to scramble to find a new API which was free and offered similar features. Note to self always thoroughly test the API!
 
