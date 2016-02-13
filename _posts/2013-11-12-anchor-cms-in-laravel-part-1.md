@@ -7,7 +7,7 @@ layout: post
 ### This took me an age to prepare, probably the hardest 3 minutes of my life but here it goes. The transcript is below incase anyone wants to read through.
 Hi Guys, I'm Rob.
 
-I'm a PHP Developer working at BoxUK, Cardiff.
+I'm a PHP Developer working at Box UK, Cardiff.
 
 I've been working in PHP for the best part of 3 years and I'm a fond fan of the [Laravel](http://laravel.com)</a> framework, and also a proud early subscriber of [Laracasts](http://laracasts.com)
 
