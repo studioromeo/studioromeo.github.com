@@ -2,12 +2,14 @@
 layout: base
 ---
 
-<article>
+<article class="c-article">
     <h1 title="{{ page.title }}">{{ page.title }}</h1>
     <div>
         {{content}}
     </div>
-    <small class="right">Posted on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time></small>
+    <footer class="c-article__footer c-meta">
+        Posted on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
+    </footer>
 </article>
 
 <aside id="disqus_thread"></aside>

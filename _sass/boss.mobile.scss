@@ -1,0 +1,18 @@
+@media only screen
+and (max-device-width : 600px)
+and (orientation : portrait) {
+
+    img:not(.emoji),
+    .o-media,
+    .highlight {
+        width: calc(100% + #{$article-gutter-mobile * 2}) !important;
+        margin-left: #{-$article-gutter-mobile} !important;
+        margin-right: #{-$article-gutter-mobile} !important;
+    }
+
+    .c-article {
+        border-radius: 0;
+        padding-left: $article-gutter-mobile !important;
+        padding-right: $article-gutter-mobile !important;
+    }
+}

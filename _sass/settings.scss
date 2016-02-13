@@ -1,0 +1,20 @@
+// Fonts
+$font-size: 15px;
+$line-height: 1.5;
+$font-family: Helvetica, sans-serif;
+
+// Colours
+$colour-bg: #E4E8EC;
+$colour-text: #6C7F93;
+$colour-text-alt: #444;
+$colour-sub-text: #C3CCD5;
+$colour-selection: #444;
+$colour-embossed: #276648;
+$colour-highlight: #359567;
+$colour-highlight-alt: #9EDDBF;
+$colour-syntax-bg: #f8f8f8;
+
+// Spacing
+$spacing: $font-size * $line-height;
+$article-gutter: 50px;
+$article-gutter-mobile: $article-gutter / 2;

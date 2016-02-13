@@ -18,7 +18,7 @@ kramdown:
     input: GFM
     syntax_highlighter: rouge
 
-paginate: 5
+paginate: 3
 permalink: /:title/
 googleanalytics: UA-22599205-2
 author:

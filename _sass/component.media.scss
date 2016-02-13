@@ -1,0 +1,17 @@
+.c-media {
+    background: $colour-highlight-alt;
+
+    &__play {
+        fill: $colour-highlight;
+
+        &--thumbnail {
+            fill: #fff !important;
+            -webkit-filter: drop-shadow(1px 1px 1px rgba(100, 100, 100, .7));
+            filter: drop-shadow(1px 1px 1px rgba(100, 100, 100, .7));
+        }
+    }
+
+    &:hover .c-media__play {
+        fill: $colour-embossed;
+    }
+}

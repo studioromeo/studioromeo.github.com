@@ -1,0 +1,18 @@
+.c-nav-item {
+    display: block;
+    margin: 0 5px;
+
+    &__icon {
+        fill: $colour-embossed;
+        width: 18px;
+    }
+
+    &:hover,
+    &:focus {
+        -webkit-animation: bounce .5s ease-out;
+
+        .c-nav-item__icon { // any way of getting & to work with this?
+            fill: #fff;
+        }
+    }
+}

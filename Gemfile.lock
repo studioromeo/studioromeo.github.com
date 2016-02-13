@@ -124,6 +124,9 @@ GEM
     sawyer (0.6.0)
       addressable (~> 2.3.5)
       faraday (~> 0.8, < 0.10)
+    scss_lint (0.44.0)
+      rake (~> 10.0)
+      sass (~> 3.4.15)
     terminal-table (1.5.2)
     thread_safe (0.3.5)
     typhoeus (0.8.0)
@@ -139,6 +142,7 @@ DEPENDENCIES
   github-pages
   html-proofer
   rake
+  scss_lint
 
 BUNDLED WITH
    1.11.2

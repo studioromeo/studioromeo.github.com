@@ -8,29 +8,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#359567">
 
-    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
-    <link href='/css/main.css?v={{ site.time | date: "%Y%m%d"}}' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet'>
+    <link href='/css/main.css?v={{ site.time | date: "%s"}}' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
     {% include icons.svg %}
 
-    <header>
+    <header class="c-header">
         <nav>
-            <a href="/" title="{{ site.author.name }}" id="logo" class="left">
+            <a class="c-header__logo" href="/" title="{{ site.author.name }}">
                 {% include logo.svg %}
             </a>
-            <ul>
-                <li>
-                    <a href="{{ site.author.twitter }}">
-                        <svg class="icon icon-twitter" viewBox="0 0 32 32">
+            <ul class="c-header__items o-hor-nav">
+                <li class="o-hor-nav__item">
+                    <a class="c-nav-item" href="{{ site.author.twitter }}">
+                        <svg class="c-nav-item__icon" viewBox="0 0 32 32">
                             <use xlink:href="#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li>
-                    <a href="{{ site.author.github }}">
-                        <svg class="icon icon-github" viewBox="0 0 32 32">
+                <li class="o-hor-nav__item">
+                    <a class="c-nav-item" href="{{ site.author.github }}">
+                        <svg class="c-nav-item__icon" viewBox="0 0 32 32">
                             <use xlink:href="#icon-github"></use>
                         </svg>
                     </a>
@@ -42,14 +42,14 @@
     {{content}}
 
     <script>
-        var videos = document.getElementsByClassName('video');
+        var videos = document.getElementsByClassName('o-media');
 
         for (var i = 0; i < videos.length; i++) {
             videos[i].onclick = function () {
                 var iframe = document.createElement("iframe");
                 iframe.setAttribute("src", this.href + '?autoplay=1');
                 iframe.setAttribute('frameborder', 0);
-                iframe.setAttribute('class', 'video-iframe');
+                iframe.setAttribute('class', 'o-media o-media--playing');
                 iframe.setAttribute('width', this.offsetWidth);
                 iframe.setAttribute('height', this.offsetHeight);
                 this.parentNode.insertBefore(iframe, this);
