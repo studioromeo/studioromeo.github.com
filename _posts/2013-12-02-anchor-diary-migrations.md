@@ -4,7 +4,7 @@ layout: post
 
 {% include video.html src="//www.youtube.com/embed/nwSwPYKPgEY" %}
 
-Hi Guys, hope you're well!<br/>I've just been cracking on with coding ~~laravel~~ anchor in laravel.
+Hi Guys, hope you're well!<br/>I've just been cracking on with coding <del>laravel</del> anchor in laravel.
 
 I must confess I got a little bit ahead of myself. I've been meaning to do a screencast on each section of my progress
 but unfortunately I kind of forgot to do that and pushed ahead anyway! <br/>But no matter, I'm going to double back and
@@ -17,7 +17,7 @@ Basically what a migration is; is it's a way of defining your database schema ov
 So you know how you write an app and in a couple of months time the database might change (the schema might change).
 For example this title might become a longer title so it may need to become a text field.
 
-So the idea of migrations is you can programatically upgrade or downgrade the database depending on what you want
+So the idea of migrations is you can programmatically upgrade or downgrade the database depending on what you want
 to do at the time.
 
 This function is called `up` it stands for upgrade (another way of thinking about this is this section here is moving
@@ -33,11 +33,11 @@ basically drops the post table.
 
 So if I run over to terminal now, so if I type in php artisan migrate lets see what happens.
 
-So it said migration has been completed sucessfully and its then done a load of migrations in green text with a
+So it said migration has been completed successfully and its then done a load of migrations in green text with a
 load of white text to say what it has migrated. So for example we have got `2013_11_06_create_post_table`, now that
 refers to this file here, and we have all the other files too.
 
-So lets take a look at our database, ok it looks like we havent got anything in it but if I refresh now we see theres a
+So lets take a look at our database, ok it looks like we haven't got anything in it but if I refresh now we see theres a
 load of tables. So if we briefly take a look at that post table, now does that look a little bit familiar?
 
 OK so we've got our ID, title, slug, description, html, css, javascript, timestamps, author, category, status, comments.
@@ -54,12 +54,12 @@ table basically keeps track of where we are (where the database is in relation t
 these it'll list all the filenames and whether its done it or not.
 
 And thats basically it for migrations, If you'd like learn more I recommend heading over to [laracasts].
-There is a migrations lesson - [migrations decoded], Jeffrey Way offers a fantastic explination of migrations,
-much better than I've put accross this has just been a quick overview, definitely recommend checking that one out.
+There is a migrations lesson - [migrations decoded], Jeffrey Way offers a fantastic explanation of migrations,
+much better than I've put across this has just been a quick overview, definitely recommend checking that one out.
 
 Ok for now guys this is me.
 
-I hope you have a gooden but for now see you later!
+I hope you have a good'en but for now see you later!
 
 [laracasts]: http://laracasts.com
 [migrations decoded]: http://laracasts.com/lessons/migrations-decoded

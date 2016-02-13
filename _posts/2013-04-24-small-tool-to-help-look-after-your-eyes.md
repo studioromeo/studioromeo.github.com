@@ -11,7 +11,7 @@ After some searching I found a great [little terminal app](http://hints.macworld
 
 First I created a bash script **/rest/app.sh** which will handle dimming the screen and restoring it.
 
-{% highlight bash %}
+```bash
 #!/bin/sh
 
 # Get the original brightness
@@ -25,21 +25,19 @@ sleep 300
 
 # Back to work!
 `/rest/brightness ${BRIGHTNESS:60:8}`
-{% endhighlight %}
+```
 
 Now we need to run the script every hour, we can do this by creating a cron job. Open terminal and type
 
-{% highlight bash %}
+```bash
 crontab -e
-{% endhighlight %}
+```
 
 This opens up the users crontab from where we can add our cron job. `*/60` basically means every 60th minute. So it should run on the hour every hour.
 
-{% highlight bash %}
-
+```
 */60 * * * * sh /rest/app.sh
-
-{% endhighlight %}
+```
 
 Voila! The screen should dim on the hour and then return to normal brightness 5 minutes later.
 
