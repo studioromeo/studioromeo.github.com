@@ -23,7 +23,7 @@ Sometimes the history can be so in-depth and convoluted that a simple changing o
 
 So I started thinking last week "there must a way I can help my friends! What can I do different to make a difference no matter how small" - cheesy right? I hate cheese (including the dairy version) but that's genuinely what I said :\
 
-Today I was working with Sian who hasn't been on the project for a while. I decided to try and impart some knowledge in each ticket by summarising the long and sometimes confusing history into a "sup dawg, this is what's going down"™ comment. It was inspired by the same comments QA send back to us when something is not right, it contains the following structure:
+Today I was working with Sian who hasn't been on the project for a while. I decided to try and impart some knowledge in each ticket by summarizing the long and sometimes confusing history into a "sup dawg, this is what's going down"™ comment. It was inspired by the same comments QA send back to us when something is not right, it contains the following structure:
 
 1. Quick brief summary of whats wrong
 2. Steps to reproduce

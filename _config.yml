@@ -1,5 +1,6 @@
 gems:
     - jekyll-sitemap
+    - jekyll-paginate
     - jemoji
 
 exclude:
@@ -13,11 +14,9 @@ exclude:
 sass:
     style: :compressed
 
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-    extensions:
-        - strikethrough
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 paginate: 5
 permalink: /:title/

@@ -9,11 +9,11 @@ Hi Guys, I'm Rob.
 
 I'm a PHP Developer working at BoxUK, Cardiff.
 
-I've been working in PHP for the best part of 3 years and I'm a fond fan of the <a href="http://laravel.com/">Laravel</a> framework, and also a proud early subscriber of <a href="http://laracasts.com">Laracasts</a>.
+I've been working in PHP for the best part of 3 years and I'm a fond fan of the [Laravel](http://laravel.com)</a> framework, and also a proud early subscriber of [Laracasts](http://laracasts.com)
 
 So why am I here?
 
-I'm hoping to do a series of screencasts to document my progress building <a href="http://anchorcms.com">Anchor CMS</a> in Laravel.
+I'm hoping to do a series of screencasts to document my progress building [Anchor CMS](http://anchorcms.com)</a> in Laravel.
 
 Now Laravel is a framework for web artisans. It's super flexible and just great fun to work in (at least that's my opinion).
 

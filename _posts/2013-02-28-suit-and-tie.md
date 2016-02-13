@@ -15,7 +15,7 @@ The biggest by far was it made me feel like it was a little immature. I'm 22.333
 
 It wasn't just a matter of maturity though, I also wanted to start adding imagery into my posts which my old design didn't seem to show off in a way that I preferred. On some sites a 1px border works well, but on mine it looked too bland, almost boilerplate.
 
-##Fry
+## Fry
 
 So in January I pushed my [first commit] to a new branch on github. I like to name my branches after characters on the Futurama series. This is probably not the most descriptive name for a branch but it gave me a giggle.
 
@@ -23,7 +23,7 @@ So in January I pushed my [first commit] to a new branch on github. I like to na
 
 It started out with Fry, which was a dark brown & green theme, this was definitely going in the right direction but the colours were just a bit too intense for me. The site had lost it's simplicity and was now relying on heavy box shadows & border radii.
 
-##Farnsworth
+## Farnsworth
 
 I took inspiration from stripe's site (I love these guys) and combined it with a variant on the green from Fry to create my new design
 
