@@ -1,15 +1,17 @@
 .footer-nav {
     display: flex;
-    font-size: .8em;
+    font-size: .75em;
     font-weight: normal;
     justify-content: space-between;
     margin: 20px 0;
 
     &__item {
         border: 1px solid $colour-sub-text;
-        border-radius: 3px;
-        color: $colour-text;
-        padding: 2px 25px;
+        border-radius: 5px;
+        color: $colour-sub-text;
+        font-weight: bold;
+        padding: 5px 25px;
+        text-shadow: 0 0 1px $colour-bg;
         transition: all .1s ease;
 
         &--older {
@@ -22,6 +24,7 @@
             border-bottom: 3px solid $colour-embossed;
             color: #fff;
             margin-top: -3px;
+            text-shadow: none;
         }
     }
 }
