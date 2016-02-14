@@ -1,8 +1,7 @@
 /* Syntax Pygments (Theme: Tango)
 -------------------------------------------------------------- */
 .highlight {
-	margin-left: #{-$article-gutter};
-	margin-right: #{-$article-gutter};
+	@extend %o-media;
 	padding: 20px 40px;
 	font: 13px monospace;
 	overflow: scroll;

@@ -2,10 +2,8 @@
 // scss-lint:disable ImportantRule
 @media only screen
 and (max-width : 600px) {
-
-    img:not(.emoji),
     .o-media,
-    .highlight {
+    %o-media {
         margin-left: #{-$article-gutter-mobile} !important;
         margin-right: #{-$article-gutter-mobile} !important;
         width: calc(100% + #{$article-gutter-mobile * 2}) !important;
