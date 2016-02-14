@@ -5,13 +5,16 @@
         fill: $colour-highlight;
 
         &--thumbnail {
-            fill: #fff !important;
-            -webkit-filter: drop-shadow(1px 1px 1px rgba(100, 100, 100, .7));
+            fill: rgba(255,255,255, .7);
             filter: drop-shadow(1px 1px 1px rgba(100, 100, 100, .7));
         }
     }
 
     &:hover .c-media__play {
         fill: $colour-embossed;
+
+        &--thumbnail {
+            fill: #fff;
+        }
     }
 }

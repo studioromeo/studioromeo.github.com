@@ -1,9 +1,9 @@
 a {
-	text-decoration: none;
-	color: $colour-text-alt;
+    color: $colour-text-alt;
+    text-decoration: none;
 
-	&:hover,
-	&:focus {
-		color: $colour-highlight;
-	}
+    &:hover,
+    &:focus {
+        color: $colour-highlight;
+    }
 }

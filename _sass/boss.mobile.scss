@@ -1,13 +1,14 @@
+// This is our maximum level of specificity so !important is ok here
+// scss-lint:disable ImportantRule
 @media only screen
-and (max-device-width : 600px)
-and (orientation : portrait) {
+and (max-width : 600px) {
 
     img:not(.emoji),
     .o-media,
     .highlight {
-        width: calc(100% + #{$article-gutter-mobile * 2}) !important;
         margin-left: #{-$article-gutter-mobile} !important;
         margin-right: #{-$article-gutter-mobile} !important;
+        width: calc(100% + #{$article-gutter-mobile * 2}) !important;
     }
 
     .c-article {

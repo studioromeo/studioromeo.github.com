@@ -1,23 +1,23 @@
 .footer-nav {
-    margin: 20px 0;
+    display: flex;
     font-size: .8em;
     font-weight: normal;
-    display: flex;
     justify-content: space-between;
+    margin: 20px 0;
 
     &__item {
-        padding: 2px 25px;
+        border: 1px solid $colour-sub-text;
         border-radius: 3px;
         color: $colour-text;
-        border: 1px solid $colour-sub-text;
-        -webkit-transition: all .1s ease;
+        padding: 2px 25px;
+        transition: all .1s ease;
 
         &:hover,
         &:focus {
-            margin-top: -3px;
-            border-bottom: 3px solid $colour-embossed;
             background: $colour-highlight;
-            color: white;
+            border-bottom: 3px solid $colour-embossed;
+            color: #fff;
+            margin-top: -3px;
         }
     }
 }

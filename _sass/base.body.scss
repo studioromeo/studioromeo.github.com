@@ -1,24 +1,21 @@
 body {
-    max-width: 600px;
-    margin: 0 auto;
-
     background: $colour-bg;
-
     color: $colour-text;
     font: normal #{$font-size} / #{$line-height} $font-family;
-
-    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    max-width: 600px;
+    text-rendering: optimizeLegibility;
 
     &::before {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        width: 100%;
-        height: 200px;
         background: $colour-highlight;
         content: '';
+        height: 200px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
     }
 }
 

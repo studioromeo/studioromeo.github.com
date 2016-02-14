@@ -4,17 +4,17 @@
 
     &__item:not(:last-child) {
         border-right: 1px solid $colour-bg;
+        margin-right: 10px;
         padding-right: 10px;
-    	margin-right: 10px;
 
         svg {
             fill: $colour-sub-text;
             width: 15px;
         }
 
-            &:hover svg,
-            &:focus svg {
-                fill: $colour-text;
-            }
+        &:hover svg,
+        &:focus svg {
+            fill: $colour-text;
+        }
     }
 }

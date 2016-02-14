@@ -1,9 +1,9 @@
 .c-article {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
     margin: 30px 0;
     padding: 40px $article-gutter 20px;
-    border-radius: 3px;
-    background: #FFF;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
 
     &__footer {
         margin-top: 20px;
@@ -13,20 +13,20 @@
     a:not(.u-link-default) {
         background: $colour-highlight-alt;
         color: #fff;
-        padding: 2px 4px;
-        font-weight: bold;
         font-size: .8em;
+        font-weight: bold;
+        padding: 2px 4px;
 
         &:hover,
         &:focus {
-            color: $colour-highlight;
             box-shadow: 2px 2px 0 $colour-highlight;
+            color: $colour-highlight;
         }
     }
 
     img:not(.emoji) {
-        width: calc(100% + #{$article-gutter * 2});
         margin-left: #{-$article-gutter};
         margin-right: #{-$article-gutter};
+        width: calc(100% + #{$article-gutter * 2});
     }
 }

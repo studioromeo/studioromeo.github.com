@@ -5,11 +5,11 @@ exclude:
     - _sass/component.syntax.scss
 
 linters:
-  PropertySortOrder:
-    order: smacss
-  Indentation:
-    width: 4;
-  TrailingWhitespace:
-    enabled: false
-  ColorVariable:
-    enabled: false
+    Indentation:
+        width: 4;
+    TrailingWhitespace:
+        enabled: false
+    ColorVariable:
+        enabled: false
+    SelectorFormat:
+        convention: strict_BEM

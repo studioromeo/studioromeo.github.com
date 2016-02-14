@@ -1,13 +1,13 @@
 .c-header {
-    margin: 50px;
     height: 32px;
+    margin: 50px;
 
     &__logo {
         float: left;
 
         &:hover,
         &:focus {
-            -webkit-animation: bounce .5s ease-out
+            animation: bounce .5s ease-out;
         }
     }
 

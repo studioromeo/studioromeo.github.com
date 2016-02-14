@@ -9,7 +9,7 @@
 
     &:hover,
     &:focus {
-        -webkit-animation: bounce .5s ease-out;
+        animation: bounce .5s ease-out;
 
         .c-nav-item__icon { // any way of getting & to work with this?
             fill: #fff;
