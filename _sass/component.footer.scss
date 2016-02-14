@@ -12,6 +12,10 @@
         padding: 2px 25px;
         transition: all .1s ease;
 
+        &--older {
+            margin-left: auto;
+        }
+
         &:hover,
         &:focus {
             background: $colour-highlight;
