@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A day in the QA Maze
 ---
 

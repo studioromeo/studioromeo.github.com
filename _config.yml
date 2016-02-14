@@ -18,6 +18,14 @@ kramdown:
     input: GFM
     syntax_highlighter: rouge
 
+defaults:
+    -
+        scope:
+            path: "" # all files
+            type: "posts"
+        values:
+            layout: "article"
+
 paginate: 3
 permalink: /:title/
 googleanalytics: UA-22599205-2

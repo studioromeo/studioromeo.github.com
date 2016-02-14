@@ -1,7 +1,3 @@
----
-layout: post
----
-
 ## So finally, after many years of world class procrastination I finally have my first site
 
 And what a beauty she is! From start to finish this site has taken me about 2 days to complete _(and many more tinkering)_. To say I'm pleased is an understatement, not only because it has taken me so long to get this far but also because I did it under my own steam.

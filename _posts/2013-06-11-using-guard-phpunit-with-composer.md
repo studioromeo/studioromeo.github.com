@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Using guard-phpunit with composer
 ---
 
