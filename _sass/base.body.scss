@@ -4,7 +4,7 @@ body {
     font: normal #{$font-size} / #{$line-height} $font-family;
     -webkit-font-smoothing: antialiased;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: $container-width;
     text-rendering: optimizeLegibility;
 
     &::before {

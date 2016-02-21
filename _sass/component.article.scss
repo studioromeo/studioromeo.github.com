@@ -26,4 +26,12 @@
     img:not(.emoji) {
         @extend %o-media;
     }
+
+    @media screen and (max-width : $container-width) {
+        & {
+            border-radius: 0;
+            padding-left: $article-gutter-mobile;
+            padding-right: $article-gutter-mobile;
+        }
+    }
 }

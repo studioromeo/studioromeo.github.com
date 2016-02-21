@@ -14,7 +14,8 @@ $colour-highlight: #359567;
 $colour-highlight-alt: #9eddbf;
 $colour-syntax-bg: #f8f8f8;
 
-// Spacing
+// Widths & Spacing
+$container-width: 600px;
 $spacing: $font-size * $line-height;
 $article-gutter: 50px;
 $article-gutter-mobile: $article-gutter / 2;
