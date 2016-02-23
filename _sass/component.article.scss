@@ -12,6 +12,7 @@
     a:not(.u-link-default) {
         background: $colour-highlight-alt;
         color: #fff;
+        display: inline-block;
         font-size: .8em;
         font-weight: bold;
         padding: 2px 4px;
