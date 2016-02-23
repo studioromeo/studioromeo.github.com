@@ -28,10 +28,8 @@
     }
 
     @media screen and (max-width : $container-width) {
-        & {
-            border-radius: 0;
-            padding-left: $article-gutter-mobile;
-            padding-right: $article-gutter-mobile;
-        }
+        border-radius: 0;
+        padding-left: $article-gutter-mobile;
+        padding-right: $article-gutter-mobile;
     }
 }

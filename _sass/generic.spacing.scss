@@ -3,9 +3,9 @@ h1, h2, h3, h4, h5, h6,
 ul, ol, dl,
 blockquote, p,
 figure, pre {
-    margin-bottom: $spacing;
+    margin-bottom: $paragraph-spacing;
 }
 
 ul, ol {
-    margin-left: $spacing;
+    margin-left: $paragraph-spacing;
 }
