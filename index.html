@@ -1,33 +1,35 @@
 ---
-layout: base
+layout: default
 ---
 
 {% for page in paginator.posts %}
-<article>
-    <a href="{{ page.url }}" title="{{ page.title }}"><h1>{{ page.title }}</h1></a>
-
+<article class="c-article">
+    <h1>
+        <a class="u-link-default" href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+    </h1>
     <div>
         {{page.content}}
     </div>
-
-    <small class="right">
-        <a href="{{ page.url }}" title="Comment"><svg class="icon icon-bubbles" viewBox="0 0 36 32"><use xlink:href="#icon-bubbles"></use></svg></a>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A, %d %B %Y" }}</time>
-    </small>
+    <footer class="c-article__footer c-meta">
+        <a class="c-meta__item u-link-default" href="{{ page.url }}" title="Comment">
+            <svg viewBox="0 0 36 32"><use xlink:href="#icon-bubbles"></use></svg>
+        </a>
+        <time class="c-meta__item" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A, %d %B %Y" }}</time>
+    </footer>
 </article>
 {% endfor %}
 
 <footer>
-    <nav>
+    <nav class="footer-nav">
         {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-                <a href="/"  class="left">Newer</a>
+                <a href="/" class="footer-nav__item">Newer</a>
             {% else %}
-                <a href="/page{{paginator.previous_page}}" class="left">Newer</a>
+                <a href="/page{{paginator.previous_page}}" class="footer-nav__item">Newer</a>
             {% endif %}
         {% endif %}
         {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" class="right">Older</a>
+            <a href="/page{{paginator.next_page}}" class="footer-nav__item footer-nav__item--older">Older</a>
         {% endif %}
     </nav>
 </footer>

@@ -1,7 +1,3 @@
----
-layout: post
----
-
 {% include video.html src="//www.youtube.com/embed/dMudLAYp7WY" %}
 
 So I just wanted to run through how I envisage anchor working with Laravel.

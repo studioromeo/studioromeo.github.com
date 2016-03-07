@@ -1,0 +1,26 @@
+body {
+    background: $colour-bg;
+    color: $colour-text;
+    font: normal #{$font-size} / #{$line-height} $font-family;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    max-width: $container-width;
+    text-rendering: optimizeLegibility;
+
+    &::before {
+        background: $colour-highlight;
+        content: '';
+        height: 200px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+::selection {
+    background: $colour-bg;
+    color: $colour-selection;
+    text-shadow: none;
+}

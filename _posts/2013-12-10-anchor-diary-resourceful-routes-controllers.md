@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Anchor Diary Resourceful Routes & Controllers
 ---
 

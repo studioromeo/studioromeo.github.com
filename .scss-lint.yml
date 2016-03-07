@@ -1,0 +1,15 @@
+scss_files: _sass/**/*.scss
+
+exclude:
+    - _sass/tool.debug.scss
+    - _sass/component.syntax.scss
+
+linters:
+    Indentation:
+        width: 4;
+    TrailingWhitespace:
+        enabled: false
+    ColorVariable:
+        enabled: false
+    SelectorFormat:
+        convention: strict_BEM

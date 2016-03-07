@@ -1,5 +1,4 @@
 ---
-layout: post
 title: A small tool to help look after your eyes
 ---
 

@@ -1,0 +1,32 @@
+.c-media {
+    background: $colour-highlight-alt;
+    padding-bottom: 62.5%;
+    position: relative;
+
+    &__play {
+        fill: $colour-highlight;
+        height: 50px;
+        left: 50%;
+        margin: -25px;
+        position: absolute;
+        top: 50%;
+        width: 50px;
+
+        &--thumbnail {
+            fill: rgba(255, 255, 255, .7);
+            filter: drop-shadow(1px 1px 1px rgba(100, 100, 100, .7));
+        }
+    }
+
+    &:hover .c-media__play {
+        fill: $colour-embossed;
+
+        &--thumbnail {
+            fill: #fff;
+        }
+    }
+
+    &--playing {
+        padding: 0;
+    }
+}
