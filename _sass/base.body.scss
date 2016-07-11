@@ -1,14 +1,13 @@
 body {
-    background: $colour-bg;
-    color: $colour-text;
+    background: $colour-grey;
+    color: $colour-space-grey;
     font: normal #{$font-size} / #{$line-height} $font-family;
-    -webkit-font-smoothing: antialiased;
     margin: 0 auto;
     max-width: $container-width;
     text-rendering: optimizeLegibility;
 
     &::before {
-        background: $colour-highlight;
+        background: $colour-green;
         content: '';
         height: 200px;
         left: 0;
@@ -20,7 +19,7 @@ body {
 }
 
 ::selection {
-    background: $colour-bg;
-    color: $colour-selection;
+    background: $colour-grey;
+    color: $colour-space-grey-dark;
     text-shadow: none;
 }

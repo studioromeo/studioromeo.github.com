@@ -1,10 +1,10 @@
 .c-media {
-    background: $colour-highlight-alt;
+    background: $colour-green-light;
     padding-bottom: 62.5%;
     position: relative;
 
     &__play {
-        fill: $colour-highlight;
+        fill: $colour-green;
         height: 50px;
         left: 50%;
         margin: -25px;
@@ -19,7 +19,7 @@
     }
 
     &:hover .c-media__play {
-        fill: $colour-embossed;
+        fill: $colour-green-dark;
 
         &--thumbnail {
             fill: #fff;

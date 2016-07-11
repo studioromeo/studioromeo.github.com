@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- http://kihlstrom.com/2015/shrink-to-fit-no-fixes-zoom-problem-in-ios-9/ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="author" content="{{ site.author.name }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#359567">
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
 
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet'>
     <link href='/css/main.css?v={{ site.time | date: "%s"}}' rel='stylesheet'>

@@ -1,9 +1,9 @@
 a {
-    color: $colour-text-alt;
+    color: $colour-space-grey-dark;
     text-decoration: none;
 
     &:hover,
     &:focus {
-        color: $colour-highlight;
+        color: $colour-space-grey-light;
     }
 }
