@@ -10,7 +10,7 @@
     }
 
     a:not(.u-link-default) {
-        background: $colour-highlight-alt;
+        background: $colour-green-light;
         color: #fff;
         display: inline-block;
         font-size: .8em;
@@ -19,8 +19,8 @@
 
         &:hover,
         &:focus {
-            box-shadow: 2px 2px 0 $colour-highlight;
-            color: $colour-highlight;
+            box-shadow: 2px 2px 0 $colour-green;
+            color: $colour-green;
         }
     }
 

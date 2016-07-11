@@ -6,12 +6,12 @@
     margin: 20px 0;
 
     &__item {
-        border: 1px solid $colour-sub-text;
+        border: 1px solid $colour-space-grey-light;
         border-radius: 5px;
-        color: $colour-sub-text;
+        color: $colour-space-grey-light;
         font-weight: bold;
         padding: 5px 25px;
-        text-shadow: 0 0 1px $colour-bg;
+        text-shadow: 0 0 1px $colour-grey;
         transition: all .1s ease;
 
         &--older {
@@ -20,8 +20,8 @@
 
         &:hover,
         &:focus {
-            background: $colour-highlight;
-            border-bottom: 3px solid $colour-embossed;
+            background: $colour-green;
+            border-bottom: 3px solid $colour-green-dark;
             color: #fff;
             margin-top: -3px;
             text-shadow: none;

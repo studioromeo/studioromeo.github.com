@@ -1,20 +1,15 @@
 .c-meta {
-    color: $colour-sub-text;
+    color: $colour-space-grey-light;
     font-size: .8em;
 
     &__item:not(:last-child) {
-        border-right: 1px solid $colour-bg;
+        border-right: 1px solid $colour-grey;
         margin-right: 10px;
         padding-right: 10px;
 
         svg {
-            fill: $colour-sub-text;
+            fill: currentColor;
             width: 15px;
-        }
-
-        &:hover svg,
-        &:focus svg {
-            fill: $colour-text;
         }
     }
 }
