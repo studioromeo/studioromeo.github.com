@@ -50,6 +50,7 @@
                 var iframe = document.createElement("iframe");
                 iframe.setAttribute("src", this.href + '?autoplay=1');
                 iframe.setAttribute('frameborder', 0);
+                iframe.setAttribute('allowfullscreen', 'allowfullscreen');
                 iframe.setAttribute('class', 'o-media c-media--playing');
                 iframe.setAttribute('width', this.offsetWidth);
                 iframe.setAttribute('height', this.offsetHeight);
