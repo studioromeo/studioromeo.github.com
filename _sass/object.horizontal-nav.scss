@@ -1,7 +1,9 @@
 .o-hor-nav {
+    display: flex;
     list-style: none;
+    margin: 0;
 
     &__item {
-        display: inline-block;
+        margin: 0;
     }
 }

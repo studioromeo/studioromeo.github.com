@@ -1,8 +1,10 @@
 .c-nav-item {
     display: block;
     margin: 0 5px;
+    padding: 5px;
 
     &__icon {
+        display: block;
         fill: $colour-green-dark;
         width: 18px;
     }

@@ -1,18 +1,21 @@
 .c-header {
-    height: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
     margin: 50px;
 
+    @media screen and (max-width : $container-width) {
+        margin: 30px;
+    }
+
     &__logo {
-        float: left;
+        svg {
+            display: block;
+        }
 
         &:hover,
         &:focus {
             animation: bounce .5s ease-out;
         }
-    }
-
-    &__items {
-        float: right;
-        margin-top: 5px;
     }
 }
