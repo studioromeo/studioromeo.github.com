@@ -5,29 +5,29 @@
 # Author:      Robert Rhoades
 # Author URL:  http://studioromeo.co.uk
 ---
-// @import "tool.debug";
+// @import 'tool.debug';
 
-@import "settings";
+@import 'settings';
 
-@import "tool.animation";
+@import 'tool.animation';
 
-@import "generic.reset";
-@import "generic.box-model";
-@import "generic.spacing";
+@import 'generic.reset';
+@import 'generic.box-model';
+@import 'generic.spacing';
 
-@import "base.body";
-@import "base.heading";
-@import "base.link";
-@import "base.quotation";
-@import "base.code";
+@import 'base.body';
+@import 'base.heading';
+@import 'base.link';
+@import 'base.quotation';
+@import 'base.code';
 
-@import "object.horizontal-nav";
-@import "object.media";
+@import 'object.horizontal-nav';
+@import 'object.media';
 
-@import "component.header";
-@import "component.nav-item";
-@import "component.article";
-@import "component.meta";
-@import "component.media";
-@import "component.footer";
-@import "component.syntax";
+@import 'component.header';
+@import 'component.nav-item';
+@import 'component.article';
+@import 'component.meta';
+@import 'component.media';
+@import 'component.footer';
+@import 'component.syntax';
