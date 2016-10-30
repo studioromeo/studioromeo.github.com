@@ -1,30 +1,28 @@
 .footer-nav {
     display: flex;
-    font-size: .75em;
-    font-weight: normal;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px 0;
+}
 
-    &__item {
-        border: 1px solid $colour-space-grey-light;
-        border-radius: 5px;
-        color: $colour-space-grey-light;
-        font-weight: bold;
-        padding: 5px 25px;
-        text-shadow: 0 0 1px $colour-grey;
-        transition: all .1s ease;
+.footer-nav__item {
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
 
-        &--older {
-            margin-left: auto;
-        }
+    &::before {
+        color: $colour-space-grey;
+        content: attr(title);
+        position: absolute;
+        transition: transform 150ms ease-in-out, opacity 150ms ease-in-out;
+    }
 
-        &:hover,
-        &:focus {
-            background: $colour-green;
-            border-bottom: 3px solid $colour-green-dark;
-            color: #fff;
-            margin-top: -3px;
-            text-shadow: none;
+    &:hover,
+    &:focus {
+        color: $colour-cream;
+
+        &::before {
+            opacity: 0;
+            transform: scale(.9);
         }
     }
 }

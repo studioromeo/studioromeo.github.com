@@ -20,13 +20,17 @@ layout: default
     <nav class="footer-nav">
         {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-                <a href="/" class="footer-nav__item">Newer</a>
+                <a href="/" class="footer-nav__item" title="Newest">Newest</a>
             {% else %}
-                <a href="/page{{paginator.previous_page}}" class="footer-nav__item">Newer</a>
+                <a href="/page{{paginator.previous_page}}" class="footer-nav__item" title="Newer">Newer</a>
             {% endif %}
         {% endif %}
         {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}" class="footer-nav__item footer-nav__item--older">Older</a>
+            {% if paginator.next_page == paginator.total_pages %}
+                <a href="/page{{paginator.next_page}}" class="footer-nav__item footer-nav__item--older" title="Oldest">Oldest</a>
+            {% else %}
+                <a href="/page{{paginator.next_page}}" class="footer-nav__item footer-nav__item--older" title="Older">Older</a>
+            {% endif %}
         {% endif %}
     </nav>
 </footer>
