@@ -11,9 +11,6 @@ layout: default
         {{page.content}}
     </div>
     <footer class="c-article__footer c-meta">
-        <a class="c-meta__item u-link-default" href="{{ page.url }}" title="Comment">
-            <svg viewBox="0 0 36 32"><use xlink:href="#icon-bubbles"></use></svg>
-        </a>
         <time class="c-meta__item" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A, %d %B %Y" }}</time>
     </footer>
 </article>
