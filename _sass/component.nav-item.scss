@@ -2,19 +2,17 @@
     display: block;
     margin: 0 5px;
     padding: 5px;
+    color: $colour-green-dark;
 
     &__icon {
         display: block;
-        fill: $colour-green-dark;
+        fill: currentColor;
         width: 18px;
     }
 
     &:hover,
     &:focus {
         animation: bounce .5s ease-out;
-
-        .c-nav-item__icon { // any way of getting & to work with this?
-            fill: #fff;
-        }
+        color: #fff;
     }
 }
