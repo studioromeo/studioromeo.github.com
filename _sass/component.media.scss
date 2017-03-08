@@ -1,16 +1,19 @@
 .c-media {
-    background: $colour-green-light;
+    background-color: $colour-green-light;
     background-size: cover;
-    padding-bottom: 62.5%;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // We need this to ensure the media container is always a certain 
+    // aspect ratio size without this the div collapses to it's content.
+    &:before {
+        content: "";
+        padding-bottom: 62.5%;
+    }
 
     &__play {
         fill: $colour-green;
-        height: 50px;
-        left: 50%;
-        margin: -25px;
-        position: absolute;
-        top: 50%;
         width: 50px;
 
         &--thumbnail {
