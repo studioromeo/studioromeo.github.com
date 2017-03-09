@@ -33,7 +33,7 @@ And so Farnsworth was born? created? morphed? ... anyway this design was picked 
 
 The new design also uses disqus now, disqus' code could be smaller so I slimmed it using my limited javascript skill.
 
-{% highlight html %}
+```html
 <aside id="disqus_thread"></aside>
 <script>
 	(function(d,t) {
@@ -41,7 +41,7 @@ The new design also uses disqus now, disqus' code could be smaller so I slimmed 
 	c.async=1;c.src='http://[[YOURSITEID]].disqus.com/embed.js';
 	s.parentNode.insertBefore(c,s)})(document,'script');
 </script>
-{% endhighlight %}
+```
 
 All in all I'm happy with this, and with some new plans on the horizon there should be some awesome looking posts coming out in the coming months.
 
