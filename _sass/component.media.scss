@@ -1,14 +1,14 @@
 .c-media {
+    align-items: center;
     background-color: $colour-green-light;
     background-size: cover;
     display: flex;
-    align-items: center;
     justify-content: center;
 
-    // We need this to ensure the media container is always a certain 
+    // We need this to ensure the media container is always a certain
     // aspect ratio size without this the div collapses to it's content.
-    &:before {
-        content: "";
+    &::before {
+        content: '';
         padding-bottom: 62.5%;
     }
 
