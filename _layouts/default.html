@@ -52,23 +52,18 @@
     {{content}}
 
     <script>
-        var videos = document.getElementsByClassName('o-media');
-
-        for (var i = 0; i < videos.length; i++) {
-            videos[i].onclick = function () {
-                var iframe = document.createElement("iframe");
-                iframe.setAttribute("src", this.href + '?autoplay=1');
-                iframe.setAttribute('frameborder', 0);
-                iframe.setAttribute('allowfullscreen', 'allowfullscreen');
-                iframe.setAttribute('class', 'o-media c-media--playing');
-                iframe.setAttribute('width', this.offsetWidth);
-                iframe.setAttribute('height', this.offsetHeight);
-                this.parentNode.insertBefore(iframe, this);
-                this.remove();
-
-                return false;
+        document.body.addEventListener("click", function(e) {
+            if (event.target.classList.contains("o-media")) {
+                e.preventDefault();
+                let f = document.createElement("iframe");
+                f.src = e.target.href + '?autoplay=1';
+                f.classList.add('o-media', 'c-media--playing');
+                f.width = e.target.offsetWidth;
+                f.height = e.target.offsetHeight;
+                e.target.parentNode.insertBefore(f, e.target);
+                e.target.remove();
             }
-        };
+        });
     </script>
 
     <script>
