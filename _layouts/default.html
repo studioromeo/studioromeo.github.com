@@ -12,7 +12,14 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
 
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet'>
-    <link href='/css/main.css?v={{ site.time | date: "%s"}}' rel='stylesheet'>
+
+    <style>
+        {% capture include_to_scssify %}
+            {% include main.scss %}
+            {% endcapture %}
+        {{ include_to_scssify | scssify }}
+    </style>
+
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
