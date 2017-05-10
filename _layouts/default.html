@@ -12,7 +12,14 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
 
     <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet'>
-    <link href='/css/main.css?v={{ site.time | date: "%s"}}' rel='stylesheet'>
+
+    <style>
+        {% capture include_to_scssify %}
+            {% include main.scss %}
+            {% endcapture %}
+        {{ include_to_scssify | scssify }}
+    </style>
+
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
@@ -24,7 +31,7 @@
             <ul class="o-hor-nav">
                 <li class="o-hor-nav__item">
                     <a class="c-nav-item" href="{{ site.author.twitter }}">
-                        <svg class="c-nav-item__icon" viewBox="0 0 32 32" aria-labelledby="title">
+                        <svg class="c-nav-item__icon" viewBox="0 0 32 32">
                             <title>Twitter</title>
                             <use xlink:href="/img/icons.svg#icon-twitter"></use>
                         </svg>
@@ -32,7 +39,7 @@
                 </li>
                 <li class="o-hor-nav__item">
                     <a class="c-nav-item" href="{{ site.author.github }}">
-                        <svg class="c-nav-item__icon" viewBox="0 0 32 32" aria-labelledby="title">
+                        <svg class="c-nav-item__icon" viewBox="0 0 32 32">
                             <title>Github</title>
                             <use xlink:href="/img/icons.svg#icon-github"></use>
                         </svg>
@@ -45,23 +52,18 @@
     {{content}}
 
     <script>
-        var videos = document.getElementsByClassName('o-media');
-
-        for (var i = 0; i < videos.length; i++) {
-            videos[i].onclick = function () {
-                var iframe = document.createElement("iframe");
-                iframe.setAttribute("src", this.href + '?autoplay=1');
-                iframe.setAttribute('frameborder', 0);
-                iframe.setAttribute('allowfullscreen', 'allowfullscreen');
-                iframe.setAttribute('class', 'o-media c-media--playing');
-                iframe.setAttribute('width', this.offsetWidth);
-                iframe.setAttribute('height', this.offsetHeight);
-                this.parentNode.insertBefore(iframe, this);
-                this.remove();
-
-                return false;
+        document.body.addEventListener("click", function(e) {
+            if (event.target.classList.contains("o-media")) {
+                e.preventDefault();
+                let f = document.createElement("iframe");
+                f.src = e.target.href + '?autoplay=1';
+                f.classList.add('o-media', 'c-media--playing');
+                f.width = e.target.offsetWidth;
+                f.height = e.target.offsetHeight;
+                e.target.parentNode.insertBefore(f, e.target);
+                e.target.remove();
             }
-        };
+        });
     </script>
 
     <script>
