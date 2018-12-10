@@ -1,4 +1,4 @@
-{% include video.html src="//www.youtube.com/embed/edRbZJ7NXTM" %}
+{% include video.html src="https://www.youtube.com/embed/edRbZJ7NXTM" %}
 
 This took me an age to prepare, probably the hardest 3 minutes of my life but here it goes. The transcript is below incase anyone wants to read through.
 
@@ -6,11 +6,11 @@ Hi Guys, I'm Rob.
 
 I'm a PHP Developer working at Box UK, Cardiff.
 
-I've been working in PHP for the best part of 3 years and I'm a fond fan of the [Laravel](http://laravel.com)</a> framework, and also a proud early subscriber of [Laracasts](http://laracasts.com)
+I've been working in PHP for the best part of 3 years and I'm a fond fan of the [Laravel](https://laravel.com)</a> framework, and also a proud early subscriber of [Laracasts](https://laracasts.com)
 
 So why am I here?
 
-I'm hoping to do a series of screencasts to document my progress building [Anchor CMS](http://anchorcms.com)</a> in Laravel.
+I'm hoping to do a series of screencasts to document my progress building [Anchor CMS](https://anchorcms.com)</a> in Laravel.
 
 Now Laravel is a framework for web artisans. It's super flexible and just great fun to work in (at least that's my opinion).
 

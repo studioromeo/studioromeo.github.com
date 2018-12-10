@@ -6,7 +6,7 @@ task :default do
 
     HTMLProofer.check_directory("./_site", {
         :disable_external => true, # unfortunately too unreliable
-        :enforce_https => false, # todo make true and fix errors
+        :enforce_https => true,
         :check_html => true,
         :check_favicon => true
     }).run

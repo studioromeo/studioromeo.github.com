@@ -3,4 +3,4 @@ Disallow: /diff
 
 Allow: /
 
-Sitemap: http://studioromeo.co.uk/sitemap.xml
+Sitemap: https://studioromeo.co.uk/sitemap.xml

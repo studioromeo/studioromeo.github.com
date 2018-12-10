@@ -4,9 +4,9 @@ title: A small tool to help look after your eyes
 
 Both my parents have to wear glasses and a number of my friends do too and while it's recommended that we all take a 5 minute break for every hour we work at a computer very few of us really do.
 
-There are a bunch of mac apps out there that do the job, one that comes to mind is [Time Out](http://www.dejal.com/timeout/). While it does the job it did get a little annoying after a month or so. Instead I decided to use my screens brightness to dictate when I should take a break.
+There are a bunch of mac apps out there that do the job, one that comes to mind is [Time Out](https://www.dejal.com/timeout/). While it does the job it did get a little annoying after a month or so. Instead I decided to use my screens brightness to dictate when I should take a break.
 
-After some searching I found a great [little terminal app](http://hints.macworld.com/article.php?story=20090901021817717) which wraps OSX's brightness settings into something I can work with.
+After some searching I found a great [little terminal app](https://hints.macworld.com/article.php?story=20090901021817717) which wraps OSX's brightness settings into something I can work with.
 
 First I created a bash script **/rest/app.sh** which will handle dimming the screen and restoring it.
 

@@ -1,4 +1,4 @@
-{% include video.html src="//www.youtube.com/embed/nwSwPYKPgEY" %}
+{% include video.html src="https://www.youtube.com/embed/nwSwPYKPgEY" %}
 
 Hi Guys, hope you're well!<br/>I've just been cracking on with coding <del>laravel</del> anchor in laravel.
 
@@ -57,5 +57,5 @@ Ok for now guys this is me.
 
 I hope you have a good'en but for now see you later!
 
-[laracasts]: http://laracasts.com
-[migrations decoded]: http://laracasts.com/lessons/migrations-decoded
+[laracasts]: https://laracasts.com
+[migrations decoded]: https://laracasts.com/lessons/migrations-decoded

@@ -1,11 +1,11 @@
 A few of my work chums wanted to put on a hacknight but initially it didn't sound too exciting because there wasn't any end goal to it. You just played around for a few hours and the went home when you eventually got tired & hungry.
 
-This year I've been an attendee at the [simpleweb hacknights](//simpleweb.co.uk/brands/simpleweb-challenge) and they've been great fun. There's live music, complimentary food (which is delicious) and even prizes to be won at the end of the night!
+This year I've been an attendee at the [simpleweb hacknights](https://simpleweb.co.uk/brands/simpleweb-challenge) and they've been great fun. There's live music, complimentary food (which is delicious) and even prizes to be won at the end of the night!
 
 Inspired I wanted to try and make our hacknights as fun as theirs. So I hatched a plan and sat down with a few senior members of staff to discuss.
 
 ## The format
-We sent out a [doodle](http://doodle.com/) poll asking staff to vote on what API tickled their fancy the most. Staff had a choice of these 5 API's:
+We sent out a [doodle](https://doodle.com/) poll asking staff to vote on what API tickled their fancy the most. Staff had a choice of these 5 API's:
 
 - [NASA](https://data.nasa.gov/)
 - [ONS](https://www.ons.gov.uk/ons/apiservice/web/apiservice/home)
@@ -56,7 +56,7 @@ Hacknight Dream Team, (cocky names aside) had an interesting idea to plot a user
 
 Unfortunately they didn't manage to make a working prototype however they showed us an example of the API they were working on.
 
-They used [Sails.js](//sailsjs.org) which is a node.js mvc framework alongside with [MongoDB](//mongodb.org) a JSON Datastore to track the users happiness over time.
+They used [Sails.js](https://sailsjs.org) which is a node.js mvc framework alongside with [MongoDB](https://mongodb.org) a JSON Datastore to track the users happiness over time.
 
 ### Face-a-rater
 This team's plan was to ask users to make their best taylor face. For the uninitiated this is the taylor face.
@@ -65,7 +65,7 @@ This team's plan was to ask users to make their best taylor face. For the uninit
 
 They would then be scored on their likeness with 100% being freakishly identical. A leaderboard would see how your facial impression stacked up with the other users.
 
-Their app used the [Ionic hybrid application framework](//ionicframework.com) which lets you create rich mobile applications using web tech.
+Their app used the [Ionic hybrid application framework](https://ionicframework.com) which lets you create rich mobile applications using web tech.
 
 Unfortunately they didn't manage to make a working prototype but they did manage to create a PSD mockup in time for the demo.
 

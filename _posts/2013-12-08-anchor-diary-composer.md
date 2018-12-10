@@ -1,4 +1,4 @@
-{% include video.html src="//www.youtube.com/embed/dMudLAYp7WY" %}
+{% include video.html src="https://www.youtube.com/embed/dMudLAYp7WY" %}
 
 So I just wanted to run through how I envisage anchor working with Laravel.
 
@@ -65,7 +65,7 @@ and i'm loading in my css file.
 Right, so that should mean if I head over to sequel pro we've got all our database tables there.
 Er ok so if we go to terminal and we type in `php artisan serve --port=8080`.
 
-Right so Laravel development server started. So if we type into our browser http://localhost:8080/admin/posts.
+Right so Laravel development server started. So if we type into our browser https://localhost:8080/admin/posts.
 And here we go, here's our anchor install so we can create a new post and call that hello world and its created
 fine it shows up in the database. So yea this is a living breathing anchor install.
 
