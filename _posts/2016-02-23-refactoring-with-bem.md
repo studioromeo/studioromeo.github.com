@@ -11,10 +11,10 @@ I wrote my css the old fashioned way, starting with the header and working my wa
 2. High specificity caused clashes and made it easy to add bugs
 3. Duplicated code for similar objects and redundancies
 
-I had been meaning to tidy it up for ages but I just didn't know what to do. I was aware of [OOCSS](http://thesassway.com/intermediate/using-object-oriented-css-with-sass) & [SMACSS](https://smacss.com) but didn't understand them. Lately I've been getting into [BEM](http://getbem.com/) because it is a simpler concept
+I had been meaning to tidy it up for ages but I just didn't know what to do. I was aware of [OOCSS](https://thesassway.com/intermediate/using-object-oriented-css-with-sass) & [SMACSS](https://smacss.com) but didn't understand them. Lately I've been getting into [BEM](https://getbem.com/) because it is a simpler concept
 to grasp.
 
-After doing a bit at work and also reading [about namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) I finally felt confident to try and refactor this :hankey:
+After doing a bit at work and also reading [about namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) I finally felt confident to try and refactor this :hankey:
 
 I ended up with this [structure](https://github.com/studioromeo/studioromeo.github.com/tree/d2a28c0577fd0cac191ba1f9851f2b93f0134498/_sass) which I'm not fully convinced by but it's a vast improvement on what it replaces. It's still BEM but with namespaces to add a bit more information.
 

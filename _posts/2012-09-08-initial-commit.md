@@ -28,13 +28,13 @@ Like many in my world I decided I should start writing some of my *eureka* momen
 
 It's going to be a fun ride and I hope you enjoy reading my posts as much as I enjoyed creating them :)
 
-[David Darnes]:   http://twitter.com/daviddarnes
-[Richard Standbrook]: http://twitter.com/richstandbrook
-[Peter Rhoades]:    http://twitter.com/createdbypete
-[Matt Kersley]:    http://twitter.com/kersley
-[Laura Kalbag]:   http://twitter.com/laurakalbag
-[Jack Franklin]:    http://twitter.com/Jack_Franklin
-[Rachel Shillcock]:  http://twitter.com/missrachilli
-[Chris Coyier]:   http://twitter.com/chriscoyier
-[Github]:  http://github.com
-[CSS-Tricks]: http://css-tricks.com
+[David Darnes]:   https://twitter.com/daviddarnes
+[Richard Standbrook]: https://twitter.com/richstandbrook
+[Peter Rhoades]:    https://twitter.com/createdbypete
+[Matt Kersley]:    https://twitter.com/kersley
+[Laura Kalbag]:   https://twitter.com/laurakalbag
+[Jack Franklin]:    https://twitter.com/Jack_Franklin
+[Rachel Shillcock]:  https://twitter.com/missrachilli
+[Chris Coyier]:   https://twitter.com/chriscoyier
+[Github]:  https://github.com
+[CSS-Tricks]: https://css-tricks.com

@@ -1,8 +1,8 @@
-This is my second talk of the year and first duet with [Christelle](http://twitter.com/littlecrome) (I'm not sure if thats the right terminology but lets run with it). At [Box](http://boxuk.com) whenever someone goes to a conference they can do a short talk to summarise the event for those who couldn't attend.
+This is my second talk of the year and first duet with [Christelle](https://twitter.com/littlecrome) (I'm not sure if thats the right terminology but lets run with it). At [Box](https://boxuk.com) whenever someone goes to a conference they can do a short talk to summarise the event for those who couldn't attend.
 
 Responsive day out is a front-end focused conference sharing tips and tricks on workflow, techniques and experiences on dealing with a responsive web. The nice thing about this conference was it contained both devs and designers!
 
-{% include video.html src="//www.youtube.com/embed/fU_OlZdwUcI" %}
+{% include video.html src="https://www.youtube.com/embed/fU_OlZdwUcI" %}
 
 We both found this one tough for the following reasons:
 
@@ -12,4 +12,4 @@ We both found this one tough for the following reasons:
 
 The talk was well received with most saying it was the best that they had experienced of this type! :smile:
 
-The conference was a blast and I really enjoyed producing this talk with [Christelle](http://twitter.com/littlecrome). Hopefully we can do it again someday!
+The conference was a blast and I really enjoyed producing this talk with [Christelle](https://twitter.com/littlecrome). Hopefully we can do it again someday!

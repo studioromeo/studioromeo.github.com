@@ -38,7 +38,7 @@ The new design also uses disqus now, disqus' code could be smaller so I slimmed 
 <script>
 	(function(d,t) {
 	var c=d.createElement(t);s=d.getElementsByTagName(t)[0];
-	c.async=1;c.src='http://[[YOURSITEID]].disqus.com/embed.js';
+	c.async=1;c.src='https://[[YOURSITEID]].disqus.com/embed.js';
 	s.parentNode.insertBefore(c,s)})(document,'script');
 </script>
 ```
