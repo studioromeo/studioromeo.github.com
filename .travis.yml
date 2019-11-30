@@ -1,10 +1,15 @@
 language: ruby
-sudo: false
 rvm:
     - 2.5.3
 env:
     global:
         - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+        - secure: "kLOyfGjsnN0xRRe+Q2bDa16NSJ3FNkOkeKINBKxLpCiCfsiExZGRN2bVjAeMv1GjlVNW6RiL7J+e7wcjYJRiiqER02TIqlO3QUCeoPjldURQSVaDzhrG0jtuoEoXmhUaM+nMUKhed8EzrNMEKoTPPbZa9CwgcQ4sj130oEIwPdk="
 branches:
     only:
         - master
+before_install:
+    - nvm install lts/*
+    - npm install -g @lhci/cli@0.3.x # install LHCI
+after_success:
+    - lhci autorun --upload.target=temporary-public-storage --collect.staticDistDir=./_site
