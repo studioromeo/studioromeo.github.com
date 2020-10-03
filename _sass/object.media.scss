@@ -4,9 +4,7 @@
 // - img:not(.emoji) in component.article.scss
 .o-media,
 %o-media {
-    display: block;
     margin: #{$article-gutter / 2} #{-$article-gutter};
-    width: calc(100% + #{$article-gutter * 2});
 
     @media screen and (max-width : $container-width) {
         margin: #{$article-gutter-mobile / 2} #{-$article-gutter-mobile};

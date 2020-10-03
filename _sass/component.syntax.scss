@@ -1,10 +1,14 @@
 // Syntax Pygments (Theme: Tango)
-.highlight {
+.highlighter-rouge {
 	@extend %o-media;
-	padding: 20px 40px;
-	font: 13px monospace;
+	padding: 20px 50px;
+	font: .8rem monospace;
 	overflow: scroll;
 	background: $colour-cream;
+
+	@media screen and (max-width : $container-width) {
+		padding: 20px 25px;
+	}
 }
 
 .hll { background-color: #ffffcc; }
