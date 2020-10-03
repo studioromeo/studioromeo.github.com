@@ -7,6 +7,7 @@
     <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="author" content="{{ site.author.name }}">
+    <meta name="description" content="Developer &amp; tea maker">
     <meta name="theme-color" content="#359567">
 
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
@@ -52,7 +53,9 @@
         </nav>
     </header>
 
-    {{content}}
+    <main>
+        {{content}}
+    </main>
 
     <script>
         document.body.addEventListener("click", function(e) {
