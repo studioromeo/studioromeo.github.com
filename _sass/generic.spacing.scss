@@ -1,10 +1,14 @@
-* + * {
-    margin-top: $paragraph-spacing;
+main {
+    margin-bottom: #{$line-height}em;
+}
+
+main * + * {
+    margin-top: #{$line-height}em;
 }
 
 ul,
 ol {
-    margin-left: $paragraph-spacing;
+    margin-left: #{$line-height}em;
 }
 
 li * {
@@ -12,5 +16,5 @@ li * {
 }
 
 li + li {
-    margin-top: .5em;
+    margin-top: #{$line-height / 3}em;
 }
