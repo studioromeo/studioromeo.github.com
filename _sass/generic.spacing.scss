@@ -7,6 +7,10 @@ ol {
     margin-left: $paragraph-spacing;
 }
 
+li * {
+    margin-top: 0;
+}
+
 li + li {
     margin-top: .5em;
 }
