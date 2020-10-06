@@ -8,7 +8,7 @@ With 2013 (now in full swing) I wanted to repaint my little corner of the intern
 
 I liked my old colour scheme, it was a good footing and was leaps & bounds ahead of the blank page previous to it. But as with all initial versions there were a few problems.
 
-![master]
+![master]{:loading="lazy"}
 
 The biggest by far was it made me feel like it was a little immature. I'm 22.333333.. years old now and I wanted something that reflected my age, both as a person and as an artisan.
 
@@ -18,7 +18,7 @@ It wasn't just a matter of maturity though, I also wanted to start adding imager
 
 So in January I pushed my [first commit] to a new branch on github. I like to name my branches after characters on the Futurama series. This is probably not the most descriptive name for a branch but it gave me a giggle.
 
-![fry]
+![fry]{:loading="lazy"}
 
 It started out with Fry, which was a dark brown & green theme, this was definitely going in the right direction but the colours were just a bit too intense for me. The site had lost it's simplicity and was now relying on heavy box shadows & border radii.
 
