@@ -2,6 +2,7 @@ plugins:
     - jekyll-sitemap
     - jekyll-paginate
     - jemoji
+    - jekyll-webp
 
 exclude:
     - vendor
@@ -10,6 +11,36 @@ exclude:
     - Rakefile
     - readme.md
     - LICENCE
+
+webp:
+  enabled: true
+
+  # The quality of the webp conversion 0 to 100 (where 100 is least lossy)
+  quality: 75
+
+  # List of directories containing images to optimize, nested directories will only be checked if `nested` is true
+  # By default the generator will search for a folder called `/img` under the site root and process all jpg, png and tiff image files found there.
+  img_dir: ["/img/2012", "/img/2013", "/img/2015", "/img/2016"]
+
+  # Whether to search in nested directories or not
+  nested: false
+
+  # add ".gif" to the format list to generate webp for animated gifs as well
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  # File extensions for animated gif files
+  gifs: [".gif"]
+
+  # Set to true to always regenerate existing webp files
+  regenerate: false
+
+  # Local path to the WebP utilities to use (relative or absolute)
+  # Omit or leave as nil to use the utilities shipped with the gem, override only to use your local install
+  webp_path: nil
+
+  # List of files or directories to exclude
+  # e.g. custom or hand generated webp conversion files
+  exclude: []
 
 sass:
     style: :compressed

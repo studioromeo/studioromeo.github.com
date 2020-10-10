@@ -4,7 +4,7 @@ Meet my old password, it was a 12 character monstrosity full of numbers, punctua
 
 For the uninitiated the pattern lock screen can only be unlocked when the user joins the dots up in a certain order. It's a very simple yet surprisingly secure way of locking your smartphone, unlike numbers or passwords there is no personal connection so it can't be guessed!
 
-![An Androids Lockscreen](/img/2012/androidpattern.jpg)
+{% include image.html file="/img/2012/androidpattern" alt="An Androids Lockscreen" %}
 
 I decided to apply this concept to my keyboard using the keys as 'dots' where I could draw a pattern on. Starting from *q* I travel 3 *columns* along to *e* and then 3 rows down to *z*. So from there you can draw any pattern you like (eg a square would be q > w > s > a).
 
