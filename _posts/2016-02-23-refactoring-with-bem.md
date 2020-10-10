@@ -31,7 +31,7 @@ Finally theres trumps which is the most explicit layer. Use of `!important` here
 This format is nice to work in because I know what impact my changes will have. A useful tool I borrowed from csswizardry was his debug stylesheet which outlines different components on the page
 which is handy.
 
-![Site with coloured outlines for different classes](/img/2016/debugging.png){:loading="lazy"}
+{% include image.html file="/img/2016/debugging" alt="Site with coloured outlines for different classes" %}
 
 As an added bonus naming my files like this makes it really easy to find what I'm looking for. I guess the only downside to this technique is knowing what to call things!
 
