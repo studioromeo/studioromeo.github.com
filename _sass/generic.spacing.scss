@@ -1,9 +1,9 @@
 main {
     margin-bottom: #{$line-height}em;
-}
 
-main * + * {
-    margin-top: #{$line-height}em;
+    * + * {
+        margin-top: #{$line-height}em;
+    }
 }
 
 ul,
