@@ -1,5 +1,5 @@
 // Fonts
-$font-size: 16px;
+$font-size: 1rem;
 $line-height: 1.5;
 $font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
@@ -16,6 +16,6 @@ $colour-green-dark: darken($colour-green, 10%);
 $colour-green-light: lighten($colour-green, 45%);
 
 // Widths & Spacing
-$container-width: 600px;
+$container-width: 37.5rem;
 $article-gutter: 50px;
 $article-gutter-mobile: $article-gutter / 2;
