@@ -5,9 +5,9 @@
 
 .footer-nav__item {
     font-weight: bold;
+    margin: 0;
     position: relative;
     text-transform: uppercase;
-    margin: 0;
 
     &::before {
         color: $colour-space-grey;
