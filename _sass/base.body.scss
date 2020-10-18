@@ -6,6 +6,9 @@ body {
     max-width: $container-width;
     text-rendering: optimizeLegibility;
 
+    word-wrap: break-word;
+    hyphens: auto;
+
     &::before {
         background: $colour-green;
         content: '';
