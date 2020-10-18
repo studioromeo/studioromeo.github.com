@@ -1,12 +1,12 @@
 .c-nav-item {
     color: $colour-green-dark;
     display: block;
-    padding: 5px;
+    padding: .5rem;
 
     &__icon {
         display: block;
         fill: currentColor;
-        width: 18px;
+        width: 1.2rem;
     }
 
     &:hover,

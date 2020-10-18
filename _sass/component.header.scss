@@ -1,16 +1,18 @@
 .c-header {
-    align-items: center;
     display: flex;
-    justify-content: space-between;
-    margin: 50px;
+    flex-flow: row wrap;
+    place-content: center space-between;
+    gap: 0.625rem;
+    margin: 3.125rem;
 
     @media screen and (max-width : $container-width) {
-        margin: 30px;
+        margin: 1.875rem;
     }
 
     &__logo {
         svg {
             display: block;
+            width: 2.1875rem;
         }
 
         &:hover,

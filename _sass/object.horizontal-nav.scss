@@ -1,5 +1,6 @@
 .o-hor-nav {
     display: flex;
+    flex-flow: row wrap;
     grid-gap: .5rem;
     list-style: none;
     margin: 0;
