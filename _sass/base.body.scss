@@ -1,10 +1,13 @@
 body {
-    background: $colour-grey;
-    color: $colour-space-grey;
     font: normal #{$font-size} / #{$line-height} $font-family;
     margin: 0 auto;
-    max-width: $container-width;
     text-rendering: optimizeLegibility;
+
+    @media screen {
+        color: $colour-space-grey;
+        background: $colour-grey;
+        max-width: $container-width;
+    }
 
     word-wrap: break-word;
     hyphens: auto;

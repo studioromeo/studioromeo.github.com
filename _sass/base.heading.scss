@@ -8,10 +8,13 @@ h5 {
 }
 
 h1 {
-    color: $colour-space-grey-dark;
     font-size: 1.75em;
     margin-bottom: 1em;
-    text-align: center;
+    color: $colour-space-grey-dark;
+
+    @media screen {
+        text-align: center;
+    }
 }
 
 h2 {

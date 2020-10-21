@@ -2,17 +2,19 @@
 layout: default
 ---
 
-{% for page in paginator.posts %}
-<article class="c-article">
-    <h1>
-        <a class="u-link-default" href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
-    </h1>
-    {{page.content}}
-    <footer class="c-article__footer c-meta">
-        <time class="c-meta__item" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A, %d %B %Y" }}</time>
-    </footer>
-</article>
-{% endfor %}
+<main>
+    {% for page in paginator.posts %}
+    <article class="c-article">
+        <h1>
+            <a class="u-link-default" href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+        </h1>
+        {{page.content}}
+        <footer class="c-article__footer c-meta">
+            <time class="c-meta__item" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A, %d %B %Y" }}</time>
+        </footer>
+    </article>
+    {% endfor %}
+</main>
 
 <footer>
     <nav class="footer-nav">

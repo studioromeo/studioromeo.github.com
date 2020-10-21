@@ -1,9 +1,11 @@
-a {
-    color: $colour-space-grey-dark;
-    text-decoration: none;
+@media screen {
+    a {
+        color: $colour-space-grey-dark;
+        text-decoration: none;
 
-    &:hover,
-    &:focus {
-        color: $colour-space-grey-light;
+        &:hover,
+        &:focus {
+            color: $colour-space-grey-light;
+        }
     }
 }

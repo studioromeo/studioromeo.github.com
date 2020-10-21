@@ -1,24 +1,27 @@
 .c-article {
     background: #fff;
-    border-radius: 1px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
     padding: 3rem $article-gutter 1.5rem;
 
-    &__footer {
-        text-align: right;
-    }
+    @media screen {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+        border-radius: 1px;
 
-    a:not(.u-link-default) {
-        background: $colour-green-light;
-        color: $colour-green-dark;
-        font-size: .8em;
-        font-weight: bold;
-        padding: 2px 4px;
+        a:not(.u-link-default) {
+            background: $colour-green-light;
+            color: $colour-green-dark;
+            font-size: .8em;
+            font-weight: bold;
+            padding: 2px 4px;
 
-        &:hover,
-        &:focus {
-            box-shadow: 2px 2px 0 $colour-green;
-            color: $colour-green;
+            &:hover,
+            &:focus {
+                box-shadow: 2px 2px 0 $colour-green;
+                color: $colour-green;
+            }
+        }
+
+        &__footer {
+            text-align: right;
         }
     }
 

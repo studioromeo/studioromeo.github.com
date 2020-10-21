@@ -1,0 +1,6 @@
+@media print {
+    body > *:not(main),
+    .u-print-hide {
+        display: none;
+    }
+}
