@@ -1,9 +1,9 @@
 .c-header {
     display: flex;
     flex-flow: row wrap;
-    place-content: center space-between;
-    gap: 0.625rem;
+    grid-gap: .625rem;
     margin: 3.125rem;
+    place-content: center space-between;
 
     @media screen and (max-width : $container-width) {
         margin: 1.875rem;
@@ -11,8 +11,8 @@
 
     &__logo {
         svg {
-            fill: #fff;
             display: block;
+            fill: #fff;
             width: 2.1875rem;
         }
 
