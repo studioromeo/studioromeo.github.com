@@ -1,6 +1,6 @@
 body {
-    background: $colour-grey;
-    color: $colour-space-grey;
+    background: var(--background);
+    color: var(--text-color);
     font: normal #{$font-size} / #{$line-height} $font-family;
     hyphens: auto;
     margin: 0 auto;
@@ -9,7 +9,7 @@ body {
     word-wrap: break-word;
 
     &::before {
-        background: $colour-green;
+        background: var(--accent);
         content: '';
         height: 12.5rem;
         left: 0;

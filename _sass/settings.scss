@@ -7,6 +7,13 @@ $font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 $colour-grey: #e4e8ec;
 $colour-cream: #f8f8f8;
 
+:root {
+    --background: #e4e8ec;
+    --article-bg: #f8f8f8;
+    --accent: #359567;
+    --text-color: #3b444f;
+}
+
 $colour-space-grey: #3b444f;
 $colour-space-grey-dark: darken($colour-space-grey, 20%);
 $colour-space-grey-light: lighten($colour-space-grey, 20%);
@@ -14,6 +21,16 @@ $colour-space-grey-light: lighten($colour-space-grey, 20%);
 $colour-green: #359567;
 $colour-green-dark: darken($colour-green, 10%);
 $colour-green-light: lighten($colour-green, 45%);
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --article-bg: hsl(210, 17%, 20%);
+        --background: hsl(210, 17%, 15%);
+        --accent: #2b273f;
+        --accent-light: #{lighten(#2b273f, 15%)};
+        --text-color: #8a9eb8;
+    }
+}
 
 // Widths & Spacing
 $container-width: 37.5rem;

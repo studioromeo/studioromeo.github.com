@@ -1,5 +1,5 @@
 .c-article {
-    background: $colour-cream;
+    background: var(--article-bg);
     border-radius: 1px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
     padding: 3rem $article-gutter 1.5rem;
@@ -9,8 +9,8 @@
     }
 
     a:not(.u-link-default) {
-        background: $colour-green-light;
-        color: $colour-green-dark;
+        background: var(--accent-light);
+        color: var(--accent);
         font-size: .8em;
         font-weight: bold;
         padding: 2px 4px;

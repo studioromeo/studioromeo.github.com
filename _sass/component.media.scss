@@ -1,6 +1,6 @@
 .c-media {
     align-items: center;
-    background-color: $colour-green-light;
+    background-color: var(--accent-light);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     }
 
     &__play {
-        fill: $colour-green;
+        fill: var(--accent);
         width: 3.125rem;
 
         &--thumbnail {
