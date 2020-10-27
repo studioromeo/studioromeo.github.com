@@ -9,6 +9,8 @@
     <meta name="theme-color" content="#359567">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" media="print" onload="this.media='all'" />
 
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
 
@@ -19,7 +21,6 @@
         {{ include_to_scssify | scssify }}
     </style>
 
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
     </noscript>
