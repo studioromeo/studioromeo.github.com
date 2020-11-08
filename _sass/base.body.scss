@@ -1,6 +1,6 @@
 body {
-    background: $colour-grey;
-    color: $colour-space-grey;
+    background: $colour-background;
+    color: $colour-text;
     font: normal #{$font-size} / #{$line-height} $font-family;
     hyphens: auto;
     margin: 0 auto;
@@ -9,7 +9,7 @@ body {
     word-wrap: break-word;
 
     &::before {
-        background: $colour-green;
+        background: $colour-primary;
         content: '';
         height: 12.5rem;
         left: 0;
@@ -21,7 +21,7 @@ body {
 }
 
 ::selection {
-    background: $colour-grey;
-    color: $colour-space-grey-dark;
+    background: $colour-background;
+    color: $colour-text-dark;
     text-shadow: none;
 }

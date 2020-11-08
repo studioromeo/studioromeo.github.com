@@ -1,6 +1,6 @@
 .c-media {
     align-items: center;
-    background-color: $colour-green-light;
+    background-color: $colour-primary-light;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@
     }
 
     &__play {
-        fill: $colour-green;
+        fill: $colour-primary;
         width: 3.125rem;
 
         &--thumbnail {
@@ -23,10 +23,10 @@
     }
 
     &:hover .c-media__play {
-        fill: $colour-green-dark;
+        fill: $colour-primary-dark;
 
         &--thumbnail {
-            fill: $colour-cream;
+            fill: $colour-secondary;
         }
     }
 

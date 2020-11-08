@@ -1,9 +1,24 @@
-// Fonts
+// ---------------------------------------------------
+// Text
+// ---------------------------------------------------
+
 $font-size: 100%;
 $line-height: 1.5;
 $font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
+// ---------------------------------------------------
+// Spacing
+// ---------------------------------------------------
+
+$container-width: 37.5rem;
+$article-gutter: 3.125rem;
+$article-gutter-mobile: $article-gutter / 2;
+
+// ---------------------------------------------------
 // Colours
+// ---------------------------------------------------
+
+// - Local -
 $colour-grey: #e4e8ec;
 $colour-cream: #f8f8f8;
 
@@ -15,7 +30,15 @@ $colour-green: #359567;
 $colour-green-dark: darken($colour-green, 10%);
 $colour-green-light: lighten($colour-green, 45%);
 
-// Widths & Spacing
-$container-width: 37.5rem;
-$article-gutter: 3.125rem;
-$article-gutter-mobile: $article-gutter / 2;
+// - Global -
+$colour-primary: $colour-green;
+$colour-primary-light: $colour-green-light;
+$colour-primary-dark: $colour-green-dark;
+
+$colour-secondary: $colour-cream;
+
+$colour-text: $colour-space-grey;
+$colour-text-light: $colour-space-grey-light;
+$colour-text-dark: $colour-space-grey-dark;
+
+$colour-background: $colour-grey;

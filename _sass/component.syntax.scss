@@ -4,7 +4,7 @@ div.highlighter-rouge {
 	padding: 1.5rem $article-gutter;
 	font: .8rem monospace;
 	overflow: scroll;
-	background: $colour-cream;
+	// background: $colour-secondary;
 
 	@media screen and (max-width : $container-width) {
 		padding: 1.5rem $article-gutter-mobile;

@@ -1,5 +1,5 @@
 .c-article {
-    background: $colour-cream;
+    background: $colour-secondary;
     border-radius: 1px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
     padding: 3rem $article-gutter 1.5rem;
@@ -8,17 +8,17 @@
         text-align: right;
     }
 
-    a:not(.u-link-default) {
-        background: $colour-green-light;
-        color: $colour-green-dark;
+    a:not([class]) {
+        background: $colour-primary-light;
+        color: $colour-primary-dark;
         font-size: .8em;
         font-weight: bold;
         padding: 2px 4px;
 
         &:hover,
         &:focus {
-            box-shadow: 2px 2px 0 $colour-green;
-            color: $colour-green;
+            box-shadow: 2px 2px 0 $colour-primary;
+            color: $colour-primary;
         }
     }
 

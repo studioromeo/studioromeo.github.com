@@ -10,7 +10,7 @@
     text-transform: uppercase;
 
     &::before {
-        color: $colour-space-grey;
+        color: $colour-text;
         content: attr(title);
         position: absolute;
         transition: transform 150ms ease-in-out, opacity 150ms ease-in-out;
@@ -18,7 +18,7 @@
 
     &:hover,
     &:focus {
-        color: $colour-cream;
+        color: $colour-secondary;
 
         &::before {
             opacity: 0;

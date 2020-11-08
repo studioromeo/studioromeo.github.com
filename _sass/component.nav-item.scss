@@ -1,5 +1,5 @@
 .c-nav-item {
-    color: $colour-green-dark;
+    color: $colour-primary-dark;
     display: block;
     padding: .5rem;
 
@@ -12,6 +12,6 @@
     &:hover,
     &:focus {
         animation: bounce .5s ease-out;
-        color: $colour-cream;
+        color: $colour-secondary;
     }
 }

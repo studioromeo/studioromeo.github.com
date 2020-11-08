@@ -1,9 +1,9 @@
 a {
-    color: $colour-space-grey-dark;
+    color: inherit;
     text-decoration: none;
 
     &:hover,
     &:focus {
-        color: $colour-space-grey-light;
+        color: $colour-text-light;
     }
 }
