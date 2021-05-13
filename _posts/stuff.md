@@ -34,9 +34,9 @@ It shouldn't be specific either. Something simple like "You'll be working with o
 
 Theres a lot of bits and bobs in a software project, code repositories, issue boards, various environments, passwords, user accounts, CI tooling, slack rooms, you get the idea. A common thing that happens when someone joins a new team is they quickly discover they've not been given everything they need and so everyone on the team ends up doing the access dance.
 
-This is just annoying but it's wasteful. We're not only losing time with the newbie but also everyone else whos involved in giving them access which could at best be one team member, but at worse multiple.
+This isn't just annoying, it's also wasteful. We're not only losing time with the newbie but also everyone else whos involved in giving them access which could at best be one team member, but at worst several departments.
 
-Creating a newbie checklist is a really nice way to avoid all this. Feel free to use my template as a starter. It works like so. The team sits down and works out all the things that need access in the project. For each item they make someone the owner of giving that thing and thats it. You can also group items by role if you fancy keeping access a bit more fine grained. And thats your checklist complete!
+Creating a newbie checklist is a really nice way to avoid all this. It works like so. The team sits down and works out all the things that need access in the project. For each item they make someone the owner of giving that thing and thats it. You can also group items by role if you fancy keeping access a bit more fine grained. And thats your checklist complete! Feel free to use [my template]() as a starter!
 
 2-3 weeks before your new starter joins you can whip out a copy of this checklist and rattle through the items, catching up with people whos items haven't been checked. The idea is to make sure that all the boxes are checked before the newbie starts so they can hit the ground running from day one.
 
@@ -46,9 +46,9 @@ Don't worry if you find you've missed adding things to the checklist and end up 
 
 Next up is to start planning out the week. It's important to get this right, too compressed and it'll be exhausting for everyone involved, to spaced out and it might start to feel slow.
 
-I start out by listing all the topics I want to cover. Starting from a high level overview and then walking them through their first ticket giving guidance on each step of the process just in time. I find this is the best way to learn rather than brain dumping in a presentation which people forget as soon as it's over. Here's an example of a syllabus I put together for my most recent onboarding.
+I start out by listing all the topics I want to cover. Starting from a high level overview and then walking them through their first ticket giving guidance on each step of the process just in time. I find this is the best way to learn rather than brain dumping in a presentation which people forget as soon as it's over. Here's an example of a syllabus I put together for my most recent onboarding to give you an idea.
 
-[ Insert example ]
+[ Insert example ]()
 
 After I've got a basic syllabus together I lay it all out on a spreadsheet. This is super handy because I can at a glance see how their week is looking. If it's a big block of colour I've over done it, if it's a wall of white then it's too little and I need to add more. I can also see what type of info is being exchanged via the use of colour coding. Eg Purple = People, Orange = Technical, Blue = Management, Green = Other so we can ensure a healthy mix of topics.
 
@@ -59,7 +59,7 @@ When they start we can shuffle the spreadsheet around based on how they're doing
 
 As a manager I've found this tool invaluable as it's helped keep me organised but also able to react to the situation as it develops.
 
-I've provided some templates for a [syllabus] and the [calendar spreadsheet] for you to use.
+I've provided some templates for a [syllabus]() and the [calendar spreadsheet]() for you to use.
 
 ----
 during an induction is not a great time to be doing this kind of planning as you're having to keep in touch with the newbie, but also contiue to do the day job. So to have somewhere where this is that be easily edited
