@@ -2,11 +2,11 @@ body {
     background: $colour-grey;
     color: $colour-space-grey;
     font: normal #{$font-size} / #{$line-height} $font-family;
-    hyphens: auto;
+    // hyphens: auto;
     margin: 0 auto;
     max-width: $container-width;
     text-rendering: optimizeLegibility;
-    word-wrap: break-word;
+    // word-wrap: break-word;
 
     &::before {
         background: $colour-green;
@@ -24,4 +24,9 @@ body {
     background: $colour-grey;
     color: $colour-space-grey-dark;
     text-shadow: none;
+}
+
+::marker {
+    color: $colour-green
+
 }

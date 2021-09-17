@@ -3,19 +3,23 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Roboto Condensed', $font-family;
+    // font-family: 'Roboto Condensed', $font-family;
+    font-family: sans-serif;
     text-transform: uppercase;
 }
 
 h1 {
     color: $colour-space-grey-dark;
     font-size: 1.75em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     text-align: center;
 }
 
 h2 {
     font-size: 1.5em;
+    // margin-top: 3em;
+    border-bottom: 1px solid #ddd;
+    text-transform: unset;
 }
 
 h3 {
