@@ -104,6 +104,18 @@ When they start out we can shuffle the spreadsheet around based on how they're d
 
 As a manager I've found this tool invaluable as it's helped keep me organised but also able to react to the situation as it develops.
 
+TODO:
+
+- Have clear & concise setup readme
+  - Pre-requisits
+  - Installation
+  - Common usage
+- Walk through the plan with the rest of the team
+  - Pick out thigs that you need others to do
+  - Ask for feedback (maybe missing something?)
+
+TODO:
+
 ## Summary
 
 So theres oodles to be getting on with before the new starter joins. I really like the newbie checklist because it not only helps new starters but we can use it on the rest of the team to make sure they have everything too!
