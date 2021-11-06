@@ -2,6 +2,7 @@ plugins:
     - jekyll-sitemap
     - jekyll-paginate
     - jemoji
+    - jekyll-feed
 
 exclude:
     - vendor
@@ -10,6 +11,9 @@ exclude:
     - Rakefile
     - readme.md
     - LICENCE
+
+feed:
+  tags: true
 
 sass:
     style: :compressed
