@@ -12,6 +12,8 @@
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" as="style">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" media="print" onload="this.media='all'" />
 
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for petefreitag.com" href="/feed.xml" />
+
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
 
     <style>
@@ -47,6 +49,14 @@
                         <svg class="c-nav-item__icon" width="32" viewBox="0 0 32 32">
                             <title>Github</title>
                             <use xlink:href="/img/icons.svg#icon-github"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="o-hor-nav__item">
+                    <a class="c-nav-item" href="/feed.xml">
+                        <svg class="c-nav-item__icon" width="32" viewBox="0 0 24 24">
+                            <title>Atom Feed</title>
+                            <use xlink:href="/img/icons.svg#icon-atom"></use>
                         </svg>
                     </a>
                 </li>
