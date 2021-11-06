@@ -3,9 +3,13 @@ layout: default
 ---
 
 <article class="c-article">
-    <h1 title="{{ page.title }}">{{ page.title }}</h1>
+    <header class="c-article__header">
+        {% if page.video %}
+            {% assign video-src = page.video %}
+            {% include video.html src=video-src %}
+        {% endif %}
+        <h1 title="{{ page.title }}">{{ page.title }}</h1>
+        {% include meta.html %}
+    </header>
     {{content}}
-    <footer class="c-article__footer c-meta">
-        Posted on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %B %Y" }}</time>
-    </footer>
 </article>

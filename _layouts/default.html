@@ -4,17 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <meta name="author" content="{{ site.author.name }}">
-    <meta name="description" content="Developer &amp; tea maker">
     <meta name="theme-color" content="#359567">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" as="style">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" media="print" onload="this.media='all'" />
-
     <link rel="alternate" type="application/atom+xml" title="Atom feed for studioromeo.co.uk" href="/feed.xml" />
-
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.author.name }} - Developer</title>
 
     <style>
         {% capture include_to_scssify %}
@@ -23,11 +15,9 @@
         {{ include_to_scssify | scssify }}
     </style>
 
-    <noscript>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-    </noscript>
-
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    {% seo %}
 </head>
 <body>
     <header>
@@ -37,16 +27,16 @@
             </a>
             <ul class="o-hor-nav">
                 <li class="o-hor-nav__item">
-                    <a class="c-nav-item" href="{{ site.author.twitter }}">
-                        <svg class="c-nav-item__icon" width="32" viewBox="0 0 32 32">
+                    <a class="c-nav-item" href="https://twitter.com/{{ site.twitter.username }}">
+                        <svg role="img" class="c-nav-item__icon" width="32" viewBox="0 0 32 32">
                             <title>Twitter</title>
                             <use xlink:href="/img/icons.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="o-hor-nav__item">
-                    <a class="c-nav-item" href="{{ site.author.github }}">
-                        <svg class="c-nav-item__icon" width="32" viewBox="0 0 32 32">
+                    <a class="c-nav-item" href="https://github.com/{{ site.github.username }}">
+                        <svg role="img" class="c-nav-item__icon" width="32" viewBox="0 0 32 32">
                             <title>Github</title>
                             <use xlink:href="/img/icons.svg#icon-github"></use>
                         </svg>
@@ -54,7 +44,7 @@
                 </li>
                 <li class="o-hor-nav__item">
                     <a class="c-nav-item" href="/feed.xml">
-                        <svg class="c-nav-item__icon" width="32" viewBox="0 0 24 24">
+                        <svg role="img" class="c-nav-item__icon" width="32" viewBox="0 0 24 24">
                             <title>Atom Feed</title>
                             <use xlink:href="/img/icons.svg#icon-atom"></use>
                         </svg>

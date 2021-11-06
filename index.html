@@ -4,13 +4,17 @@ layout: default
 
 {% for page in paginator.posts %}
 <article class="c-article">
-    <h1>
-        <a class="u-link-default" href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
-    </h1>
+    <header class="c-article__header">
+        {% if page.video %}
+            {% assign video-src = page.video %}
+            {% include video.html src=video-src %}
+        {% endif %}
+        <h1>
+            <a class="u-link-default" href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+        </h1>
+        {% include meta.html %}
+    </header>
     {{page.content}}
-    <footer class="c-article__footer c-meta">
-        <time class="c-meta__item" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%A, %d %B %Y" }}</time>
-    </footer>
 </article>
 {% endfor %}
 

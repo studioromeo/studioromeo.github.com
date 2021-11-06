@@ -1,14 +1,15 @@
 main {
-    margin-bottom: #{$line-height}em;
+    margin-bottom: #{$line-height}rem;
 
     * + * {
-        margin-top: #{$line-height}em;
+        margin-top: #{$line-height}rem;
     }
 }
 
 ul,
 ol {
-    margin-left: #{$line-height}em;
+    margin: #{$line-height}rem #{$line-height}rem;
+    margin-right: 0;
 }
 
 li * {
@@ -16,5 +17,5 @@ li * {
 }
 
 li + li {
-    margin-top: #{$line-height / 3}em;
+    margin-top: #{$line-height / 4}rem;
 }

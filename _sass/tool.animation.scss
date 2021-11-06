@@ -5,3 +5,9 @@
     75% { transform: translatey(-2px); }
     100% { transform: translatey(0); }
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth; // Smooooth operator 🎷
+    }
+}
