@@ -1,4 +1,6 @@
-{% include video.html src="https://www.youtube.com/embed/dMudLAYp7WY" %}
+---
+video: https://www.youtube.com/embed/dMudLAYp7WY
+---
 
 So I just wanted to run through how I envisage anchor working with Laravel.
 

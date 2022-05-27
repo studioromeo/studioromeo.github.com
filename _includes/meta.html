@@ -1,0 +1,15 @@
+<div class="c-meta">
+    <time class="c-meta__item" datetime="{{ page.date | date_to_xmlschema }}">
+        {% assign d = page.date | date: "%-d" %}
+        {{ page.date | date: "%b" }}
+        {% case d %}{% when "1" or "21" or "31" %}{{ d }}<sup>st</sup>{% when "2" or "22" %}{{ d }}<sup>nd</sup>{% when "3" or "23" %}{{ d }}<sup>rd</sup>{% else %}{{ d }}<sup>th</sup>{% endcase %},
+        {{ page.date | date: "%Y" }}
+    </time>
+    {% capture words %}
+    {{ content | number_of_words | minus: 180 }}
+    {% endcapture %}
+    {% unless words contains '-' %}
+    -
+    {{ words | plus: 150 | divided_by: 150 | append: ' min read' }}
+    {% endunless %}
+</div>

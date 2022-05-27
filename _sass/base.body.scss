@@ -1,12 +1,15 @@
-body {
+html {
     background: $colour-grey;
     color: $colour-space-grey;
     font: normal #{$font-size} / #{$line-height} $font-family;
     hyphens: auto;
-    margin: 0 auto;
-    max-width: $container-width;
     text-rendering: optimizeLegibility;
     word-wrap: break-word;
+}
+
+body {
+    margin: 0 auto;
+    max-width: $container-width;
 
     &::before {
         background: $colour-green;

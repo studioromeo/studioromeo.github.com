@@ -1,39 +1,50 @@
 plugins:
-    - jekyll-sitemap
-    - jekyll-paginate
-    - jemoji
-    - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
-    - vendor
-    - Gemfile
-    - Gemfile.lock
-    - Rakefile
-    - readme.md
-    - LICENCE
-
-feed:
-  tags: true
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - readme.md
+  - LICENCE
 
 sass:
-    style: :compressed
+  style: :compressed
 
 kramdown:
-    input: GFM
-    syntax_highlighter: rouge
+  input: GFM
+  syntax_highlighter: rouge
 
 defaults:
-    -
-        scope:
-            path: "" # all files
-            type: "posts"
-        values:
-            layout: "article"
+  - scope:
+      path: "" # all files
+      type: "posts"
+    values:
+      layout: "article"
 
-paginate: 3
+paginate: 1
 permalink: /:title/
-googleanalytics: UA-22599205-2
+
+title: Robert Rhoades
+tagline: Developer, Biker, Tea maker 🫖
+description: Developer, Biker, Tea maker 🫖
 author:
-    name: Robert Rhoades
-    twitter: https://twitter.com/studioromeo
-    github: https://github.com/studioromeo
+  name: Robert Rhoades
+  url: https://www.studioromeo.co.uk/
+twitter:
+  username: studioromeo
+  card: summary
+github:
+  username: studioromeo
+social:
+  name: Robert Rhoades
+  links:
+    - https://twitter.com/studioromeo
+    - https://github.com/studioromeo
+google_site_verification: nD7fUdxIoEKz2IMCkuAb1KQleDpEazAjn9c1PG-dyZ4
+

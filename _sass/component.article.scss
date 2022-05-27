@@ -1,8 +1,31 @@
 .c-article {
     background: $colour-cream;
-    border-radius: 1px;
+    border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
-    padding: 3rem $article-gutter 1.5rem;
+    overflow: hidden;
+    padding: 3rem $article-gutter;
+
+    > p:first-of-type {
+        font-size: 1.2rem;
+        line-height: 1.55;
+        margin-top: #{$line-height * 2}rem;
+    }
+
+    &__header {
+        .o-media {
+            margin-bottom: #{$line-height * 1.5}rem;
+            margin-top: -3rem;
+        }
+
+        &::after {
+            background-color: $colour-green-light;
+            content: ' ';
+            display: block;
+            height: 4px;
+            margin-top: #{$line-height}rem;
+            width: 15%;
+        }
+    }
 
     &__footer {
         text-align: right;

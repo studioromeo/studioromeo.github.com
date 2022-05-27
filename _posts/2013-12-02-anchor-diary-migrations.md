@@ -1,4 +1,6 @@
-{% include video.html src="https://www.youtube.com/embed/nwSwPYKPgEY" %}
+---
+video: https://www.youtube.com/embed/nwSwPYKPgEY
+---
 
 Hi Guys, hope you're well!<br/>I've just been cracking on with coding <del>laravel</del> anchor in laravel.
 
