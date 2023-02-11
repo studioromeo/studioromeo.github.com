@@ -2,13 +2,17 @@
 div.highlighter-rouge {
 	@extend %o-media;
 	padding: 1.5rem $article-gutter;
-	font: .8rem monospace;
+	font: 1.2rem monospace;
 	overflow: scroll;
 	background: $colour-cream;
 
 	@media screen and (max-width : $container-width) {
 		padding: 1.5rem $article-gutter-mobile;
 	}
+}
+
+code.highlighter-rouge {
+	color: #4e9a06;
 }
 
 .hll { background-color: #ffffcc; }
