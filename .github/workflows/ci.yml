@@ -18,7 +18,7 @@ jobs:
           path: vendor/bundle
           key: bundle-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: bundle
-      - run: bundle install --jobs 4 --retry 3 --deployment
+      - run: bundle install --jobs 4 --retry 3
       - run: bundle exec rake
       - uses: treosh/lighthouse-ci-action@v3
         with:
