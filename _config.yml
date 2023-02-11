@@ -30,7 +30,7 @@ defaults:
         values:
             layout: "article"
 
-paginate: 3
+paginate: 1
 permalink: /:title/
 googleanalytics: UA-22599205-2
 author:
