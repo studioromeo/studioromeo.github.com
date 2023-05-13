@@ -2,7 +2,6 @@ body {
     background: $colour-grey;
     color: $colour-space-grey;
     font: normal #{$font-size} / #{$line-height} $font-family;
-    hyphens: auto;
     margin: 0 auto;
     max-width: $container-width;
     text-rendering: optimizeLegibility;
