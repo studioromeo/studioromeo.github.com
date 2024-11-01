@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'github-pages'
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.9"
 
 group :test do
     gem 'html-proofer'
