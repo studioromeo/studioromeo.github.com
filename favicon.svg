@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="270">
+<style>
+   @media (prefers-color-scheme: dark) {.a { fill:hsl(0, 0, 95%) }}
+</style>
+   <linearGradient id="a" x1="2852.6" x2="2852.6" y1="84" y2="189.8" gradientTransform="rotate(180 1439.527 125.001)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1"/>
+   </linearGradient>
+   <linearGradient id="b" x1="217.2" x2="217.2" y1="84" y2="189.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1"/>
+   </linearGradient>
+   <path d="m270 259.75-53.3-82.8 53.3-83.4-53.3-83.3H0v249.5" fill="#359567" class="a" />
+   <path fill="url(#a)" d="M.3 83.4 0 84v82.6h53" opacity=".5" style="fill:url(#a)" transform="translate(0 10.25)"/>
+   <path fill="url(#b)" d="m217 166.6 53-83.2H164.3l52.7 83.2" opacity=".5" style="fill:url(#b)" transform="translate(0 10.25)"/>
+</svg>
