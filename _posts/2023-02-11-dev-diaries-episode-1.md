@@ -28,7 +28,7 @@ Another issue we have is despite having a lot of tests it's hard to be sure that
 
 We could just risk it and fix problems as we discover them but that sounds like a lot of stress too.
 
-A few years ago my friend [Tom](https://software.tomseldon.co.uk/blog/) (He's more focused on racing cars these days but I've linked to his technical writing blog which is still really good) created a section in the app for dev tooling to live which is super handy. A new tool was added which had one job…
+A few years ago my friend [Tom](https://www.tomseldon.co.uk) created a section in the app for dev tooling to live which is super handy. A new tool was added which had one job…
 
 ## The Task
 
@@ -55,12 +55,12 @@ _isNewTransformerEnabled () {
 Then in each repository (the layer above the transformer) we call this method to see if we should use the old or new transformer
 
 ```javascript
-findEvidenceScores (topicId) {
+find (topicId) {
   return this._rawTopicsRepository.findRawTopic(topicId).then(raw => {
     return this._isNewTransformerEnabled()
       .then(enabled => enabled ?
-        this._$window.newHotness.topicParser.parseEvidenceScores(raw) :
-        TopicParser.parseEvidenceScores(raw);
+        this._$window.newHotness.topicParser.parse(raw) :
+        TopicParser.parse(raw);
     );
   });
 }
@@ -83,7 +83,6 @@ addOverride (flagName, state) {
 ```
 
 Consumers of the feature flag service call `isEnabled()` which gets the status of the flag. If an override exists it ignores the original setting and instead resolves the override. We don't check for falsy because we might want to return false from the overrides.
-
 
 ```javascript
 isEnabled (flagName) {
@@ -140,8 +139,10 @@ Imagine this with promises too and its a bit of a mind ~~f*ck~~. So a ranty walk
 Instead we use promises as they were meant to be used and chain them. (Why didn't I do it this way to start with?!). Starting off we get the topics then with that we map over the resolved array to get more info about each topic like so:
 
 ```javascript
-this._topicRepository.findAll().then(topics => {
-  return this._$q.all(topics.map(topic => this._topicRepository.findById(topic.id)));
+this._topicRepository.findAll().then((topics) => {
+  return this._$q.all(
+    topics.map((topic) => this._topicRepository.findById(topic.id))
+  );
 });
 ```
 
@@ -190,10 +191,11 @@ Next up (I promise we're nearly done), we need to run the tests sequentially. No
 I wasn't sure how to do this but a quick stack overflow later I found my answer which was surprisingly simple!
 
 ```javascript
- jobs.reduce(
-  (promise, job) => promise.then(() => this._test(job.repository, job.topic, job.key)),
+jobs.reduce(
+  (promise, job) =>
+    promise.then(() => this._test(job.repository, job.topic, job.key)),
   this._$q.resolve()
-)
+);
 ```
 
 This uses the reduce function and starts off with a resolved promise, it then chains subsequent promises for each job so we only run the next job if the previous one resolved.
@@ -218,7 +220,7 @@ _test (repository, topic, key) {
       }
     });
 }
- ```
+```
 
 This is pretty similar to the mock code earlier. We disable the flag, test, enable then test again. To compare the two results we use `JSON.stringify()` which I got from [Samantha's Blog](https://www.samanthaming.com/tidbits/33-how-to-compare-2-objects/) which advised this would do the job albeit with performance and ordering issues but both of these weren't a concern for this, we just wanted to know that they were the same output.
 
