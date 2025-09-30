@@ -3,8 +3,8 @@
 
 version: 2
 updates:
-  # Configuration for npm
-  - package-ecosystem: "bundler"
-    directory: "/"
-    schedule:
-      interval: "daily"
+    # Configuration for npm
+    - package-ecosystem: "npm"
+      directory: "/"
+      schedule:
+          interval: "monthly"

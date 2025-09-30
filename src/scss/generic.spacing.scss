@@ -1,0 +1,20 @@
+main {
+    margin-bottom: #{$line-height}em;
+
+    * + * {
+        margin-top: 1.2em;
+    }
+}
+
+ul,
+ol {
+    margin-left: #{$line-height}em;
+}
+
+li * {
+    margin-top: 0;
+}
+
+li + li {
+    margin-top: #{$line-height / 3}em;
+}

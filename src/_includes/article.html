@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article class="c-article">
+    <h1 title="{{ title }}">{{ title }}</h1>
+    {{content}}
+    <footer class="c-article__footer c-meta">
+        Posted on
+        <time datetime="{{ page.date | date_to_xmlschema }}"
+            >{{ page.date | date: "%d %B %Y" }}</time
+        >
+    </footer>
+</article>

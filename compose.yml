@@ -1,7 +1,26 @@
+version: "3.8"
+
 services:
-  jekyll:
-    build: .
-    volumes:
-      - .:/usr/src/app
-    ports:
-      - "4000:4000"
+    eleventy:
+        # Use the Dockerfile in the current directory
+        build: .
+        container_name: 11ty
+
+        # Map container port 8080 to host port 8080
+        ports:
+            - "8080:8080"
+
+        # Volumes are critical for development live-reloading:
+        volumes:
+            # 1. Mount the entire project directory into the container.
+            #    This is what allows 11ty inside the container to see changes
+            #    you make to files in your local /src folder.
+            - .:/app
+
+            # 2. Exclude node_modules from the host mount. This ensures the
+            #    dependencies built for the Linux environment inside the container
+            #    aren't overridden by any platform-specific host node_modules.
+            - /app/node_modules
+
+        # Keep the container running for continuous development
+        restart: unless-stopped
