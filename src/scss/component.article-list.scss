@@ -1,0 +1,22 @@
+.c-article-list {
+    display: flex;
+    gap: 36px;
+    align-items: baseline;
+
+    .c-article-list__anchor {
+        flex: 1;
+    }
+
+    .c-article-list__date {
+        flex: 0 0 auto;
+        font-size: 0.8em;
+        margin: 0;
+        color: $colour-space-grey-light;
+    }
+
+    @media (max-width: 600px) {
+        .c-article-list__date {
+            display: none;
+        }
+    }
+}

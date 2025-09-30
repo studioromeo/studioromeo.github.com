@@ -1,5 +1,2 @@
-_site/
-tmp
-.DS_Store
-.sass-cache
-vendor
+node_modules
+_site
