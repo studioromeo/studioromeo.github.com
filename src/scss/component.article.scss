@@ -29,6 +29,8 @@
         background: $colour-grey;
 
         * {
+            max-width: 100%;
+            height: auto;
             margin: 0;
         }
     }
