@@ -44,6 +44,10 @@
         <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=1" />
 
         <link rel="stylesheet" href="/assets/css/main.css" />
+        <title>
+            {%- if title -%}{{ title }} | {{ site.title }} {%- else -%} {{
+            site.title }} | {{ site.description}}{%- endif -%}
+        </title>
     </head>
     <body>
         <header>
