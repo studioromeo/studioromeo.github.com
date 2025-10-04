@@ -2,6 +2,8 @@ I love short animated cartoons, it's astonishing to see how much detail the anim
 can cram into a 5 minute sequence. My favourite type includes a bit of warm
 cheeky humour with bright colours that make the film appear vibrant and fun.
 
+---
+
 Here is a selection of favourites on vimeo, each one I like for differing reasons
 but they are all ace. I hope you enjoy!
 

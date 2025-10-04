@@ -1,3 +1,7 @@
+---
+summary: Part 1 of building AnchorCMS in Laravel. I really like AnchorCMS, its super clean and simple and I like the extensibility of Laravel. Can we combine the two?
+---
+
 {% include 'video.html' src:"https://www.youtube.com/embed/edRbZJ7NXTM" %}
 
 This took me an age to prepare, probably the hardest 3 minutes of my life but here it goes. The transcript is below incase anyone wants to read through.

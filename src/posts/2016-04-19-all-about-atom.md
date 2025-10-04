@@ -1,3 +1,7 @@
+---
+summary: Atom is an exciting new editor built on web tech. In the talk I go through how atom works and some of the changes I've made to it to make it work for me
+---
+
 I did this talk way back in November last year but it's only now I've managed to see about putting it on the interwebs.
 
 Apologies the fan noise towards the end, I'm still using an old mac from the days when only rappers had gold macs.

@@ -4,8 +4,7 @@ export default {
     permalink: "{{ page.fileSlug }}/index.html",
 
     eleventyComputed: {
-        // The 'title' property is what you want to set
-        title: function (data) {
+        title: (data) => {
             // 1. Check if the title is already set in the Front Matter.
             if (data.title) {
                 return data.title;
@@ -23,8 +22,19 @@ export default {
                     .join(" ");
             }
 
-            // Fallback if no title and no fileSlug (shouldn't happen often)
-            return "Untitled Post";
+            return "";
+        },
+
+        summary: (data) => {
+            if (data.summary) {
+                return data.summary;
+            }
+
+            if (data.page.excerpt) {
+                return data.page.excerpt.substring(0, 160);
+            }
+
+            return data.site.description;
         },
     },
 };

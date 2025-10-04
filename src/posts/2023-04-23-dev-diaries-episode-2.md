@@ -1,12 +1,17 @@
 ---
 title: "Dev Diaries Episode 2: Lessons learned the hard way with dependencies"
+summary: "Learning the hard way that sometimes it's better to build your own than to struggle with existing tools"
 tags:
-  - Dev Diaries
-  - Angular
-  - Mobile App
+    - Dev Diaries
+    - Angular
+    - Mobile App
 ---
 
-We're working on adding OpenID Connect to the app. Luckily for us we only needed to create a client rather than the server, that was being handled by another team. Theres a saying in software, don't roll your own security. And for us that naturally lead us to looking for a dependency. We also noted that OpenID certifies packages for compliance to the spec, pretty handy! We found two for Angular that we thought would work. The first one we tried was a bit of a dud for our cordova setup so we flipped to the other. This worked well and we managed to get the flow to work.
+We're working on adding OpenID Connect to the app. Luckily for us we only needed to create a client rather than the server, that was being handled by another team. Theres a saying in software, don't roll your own security. And for us that naturally lead us to looking for a dependency.
+
+---
+
+We also noted that OpenID certifies packages for compliance to the spec, pretty handy! We found two for Angular that we thought would work. The first one we tried was a bit of a dud for our cordova setup so we flipped to the other. This worked well and we managed to get the flow to work.
 
 OpenID comes with tokens, these are used to talk to a protected API. They can expire and if they do we can exchange for a new one. It was this exchange task that was the beginning of our problems. Our issue was trying to make the exchange process work with a device that maybe offline for long periods of time. The plugin would simply keep trying every few seconds which caused our logger to fill up with lots of failed requests.
 
@@ -20,9 +25,9 @@ Theres a lot that some dependencies offer. They're often authored by multiple pe
 
 But be careful. It's worth taking the time to look at the dependencies available to you. Look at the common things like:
 
-- How many authors are there?
-- Whats the activity like on the repository? Is there a lot of recent action or has it been untouched for years? This might not be a bad thing if the dependency does what it needs to and has no bugs but it could also be a sign of a dead project.
-- Whats the license like? Can you even use this dependency? Is there a fee you need to pay?
+-   How many authors are there?
+-   Whats the activity like on the repository? Is there a lot of recent action or has it been untouched for years? This might not be a bad thing if the dependency does what it needs to and has no bugs but it could also be a sign of a dead project.
+-   Whats the license like? Can you even use this dependency? Is there a fee you need to pay?
 
 But there are also more nuanced things to look at, personal to you and your team / project.
 

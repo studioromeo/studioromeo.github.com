@@ -4,6 +4,8 @@ title: Using guard-phpunit with composer
 
 While reading through a book on unit testing with PHP I ran into a few issues using guard with phpunit. This article guides me (and maybe you) through the process of installing & configuring guard with PHPUnit.
 
+---
+
 First of we need to install phpunit globally using composer. To do this create a new hidden directory called .composer/packages in your home folder
 
 ```bash
@@ -20,7 +22,7 @@ Then inside that directory create a new composer.json file and fill it with your
 }
 ```
 
-Install phpunit by running composer install, this will install phpunit and all of its dependencies. After its completed we then need to edit our __$PATH__ variable so we need to edit our `~/.bash_profile` with the following
+Install phpunit by running composer install, this will install phpunit and all of its dependencies. After its completed we then need to edit our **$PATH** variable so we need to edit our `~/.bash_profile` with the following
 
 ```bash
 export PATH=$HOME/.composer/packages/vendor/bin:$PATH
