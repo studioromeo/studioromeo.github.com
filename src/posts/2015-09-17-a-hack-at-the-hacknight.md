@@ -1,3 +1,7 @@
+---
+summary: My personal experience running an internal hack night for my work mates and what we built on the night
+---
+
 A few of my work chums wanted to put on a hacknight but initially it didn't sound too exciting because there wasn't any end goal to it. You just played around for a few hours and the went home when you eventually got tired & hungry.
 
 This year I've been an attendee at the [simpleweb hacknights](https://simpleweb.co.uk/brands/simpleweb-challenge) and they've been great fun. There's live music, complimentary food (which is delicious) and even prizes to be won at the end of the night!

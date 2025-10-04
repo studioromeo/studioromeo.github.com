@@ -6,6 +6,8 @@ So I realise it's been a fair while since my last post here, but I have been bus
 
 With 2013 (now in full swing) I wanted to repaint my little corner of the internet. I probably did it out of habit, I tend to get the paint & brush out during this time of year.
 
+---
+
 I liked my old colour scheme, it was a good footing and was leaps & bounds ahead of the blank page previous to it. But as with all initial versions there were a few problems.
 
 ![Screenshot of my first design](/img/2013/master.jpg)

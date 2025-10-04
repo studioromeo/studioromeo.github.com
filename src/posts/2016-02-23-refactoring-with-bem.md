@@ -1,5 +1,6 @@
 ---
 title: Refactoring with BEM
+summary: 3 years ago I put the finishing touches to my first design. We'll go over what I've changed since and where I hope to go next
 ---
 
 It was around this time [3 years ago](/suit-and-tie) I was putting the finishing touches to this design.

@@ -1,3 +1,7 @@
+---
+summary: Part 3 of rebuilding AnchorCMS in Laravel. Today we look into composer and how we should set it up
+---
+
 {% include 'video.html', src:"https://www.youtube.com/embed/dMudLAYp7WY" %}
 
 So I just wanted to run through how I envisage anchor working with Laravel.

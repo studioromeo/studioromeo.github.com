@@ -1,5 +1,6 @@
 ---
 title: A day in the QA Maze
+summary: As a developer its easy to forget how your actions affect other roles. In this post I go over my experience shadowing a QA for the day
 ---
 
 This week is a week that every dev dreads in one way or another. In my opinion going live is never a stress free task no matter how silent it is. In fact I'm pretty tense just writing this article and there's absolutely nothing that could go wrong (I kid myself, it could totes go horribly wrong in ways I couldn't possibly imagine but onwards and upwards?).
@@ -16,7 +17,7 @@ It's this that I thought was trivial, after all the work is done right? All they
 
 For a dev it's easy to know the story behind a ticket, what everyone said, when, and how that relates to other tickets. After all in order to implement it we have to delve into the specifics and down and dirty with the criteria.
 
-A QA has none of this. They have to trawl through the history of the ticket  searching for the simple answer which is usually "What the fudge am I testing here?!"
+A QA has none of this. They have to trawl through the history of the ticket searching for the simple answer which is usually "What the fudge am I testing here?!"
 
 Sometimes the history can be so in-depth and convoluted that a simple changing of the default option on a select can take hours to QA. This sucks, it really really sucks and it makes me sad (even cry) that this is can be true.
 

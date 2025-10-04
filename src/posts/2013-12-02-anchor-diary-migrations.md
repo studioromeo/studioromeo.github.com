@@ -1,3 +1,7 @@
+---
+summary: Part 2 on our building AnchorCMS in Laravel series. We're looking at migrations today and how we can get our database ship shape!
+---
+
 {% include 'video.html' src:"https://www.youtube.com/embed/nwSwPYKPgEY" %}
 
 Hi Guys, hope you're well!<br/>I've just been cracking on with coding <del>laravel</del> anchor in laravel.

@@ -5,6 +5,11 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import site from "./src/_data/site.js";
 
 export default async function (eleventyConfig) {
+    eleventyConfig.setFrontMatterParsingOptions({
+        excerpt: true,
+        excerpt_separator: "---",
+    });
+
     eleventyConfig.addTemplateFormats("xml");
 
     eleventyConfig.addExtension("xml", {

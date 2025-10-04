@@ -1,12 +1,14 @@
 ---
 title: "Dev Diaries Episode 1: Writing a Tool to Help Test Migrating Lots of Code"
 tags:
-  - Dev Diaries
-  - Angular
-  - Mobile App
+    - Dev Diaries
+    - Angular
+    - Mobile App
 ---
 
 My day job involves working on a mobile app for a well known medical journal based in the UK. It provides healthcare professionals with the latest evidence-based clinical decision support information.
+
+---
 
 These days the tech stack is aging but its much too large to rewrite all in one go. So instead we are doing a phased migration, gradually re-writing the application bit by bit between releases. We are moving from AngularJS to Angular, which incase you don't know is a huge change as it involves a new framework and language!
 
@@ -108,11 +110,11 @@ Initially I struggled to write the code to make all this work, sometimes I get m
 2. For each topic get more data about the topic so I know its type. Different topic types need a different set of transformers
 3. We then need to get all the repositories related to the topic
 4. For each repository we need to do the following
-   1. Disable the `new_transformer` flag
-   2. Get the data from the repository
-   3. Enable the `new_transformer` flag
-   4. Get the data from the repository again (this time it'll be using the new transformers)
-   5. Check both to see if they are the same and if not show the difference
+    1. Disable the `new_transformer` flag
+    2. Get the data from the repository
+    3. Enable the `new_transformer` flag
+    4. Get the data from the repository again (this time it'll be using the new transformers)
+    5. Check both to see if they are the same and if not show the difference
 
 I started by getting the topics, then looping over those and getting information about the topics inside that loop, then getting the repositories inside that loop again and then running the tests twice in that loop.
 
@@ -134,15 +136,15 @@ for (const topic of topics) {
 }
 ```
 
-Imagine this with promises too and its a bit of a mind ~~f*ck~~. So a ranty walk later I switched approach.
+Imagine this with promises too and its a bit of a mind ~~f\*ck~~. So a ranty walk later I switched approach.
 
 Instead we use promises as they were meant to be used and chain them. (Why didn't I do it this way to start with?!). Starting off we get the topics then with that we map over the resolved array to get more info about each topic like so:
 
 ```javascript
 this._topicRepository.findAll().then((topics) => {
-  return this._$q.all(
-    topics.map((topic) => this._topicRepository.findById(topic.id))
-  );
+    return this._$q.all(
+        topics.map((topic) => this._topicRepository.findById(topic.id))
+    );
 });
 ```
 
@@ -192,9 +194,9 @@ I wasn't sure how to do this but a quick stack overflow later I found my answer 
 
 ```javascript
 jobs.reduce(
-  (promise, job) =>
-    promise.then(() => this._test(job.repository, job.topic, job.key)),
-  this._$q.resolve()
+    (promise, job) =>
+        promise.then(() => this._test(job.repository, job.topic, job.key)),
+    this._$q.resolve()
 );
 ```
 
