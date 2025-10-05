@@ -1,6 +1,6 @@
 ---
-title: "Dev Diaries Episode 2: Lessons learned the hard way with dependencies"
-summary: "Learning the hard way that sometimes it's better to build your own than to struggle with existing tools"
+title: Lessons Learned the Hard Way With Dependencies
+summary: Learning the hard way that sometimes it's better to build your own than to struggle with existing tools
 tags:
     - Dev Diaries
     - Angular

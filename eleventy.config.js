@@ -19,7 +19,9 @@ export default async function (eleventyConfig) {
     // Watch SASS files for changes
     eleventyConfig.addWatchTarget("./src/scss/");
 
-    // Copy images (relative to input directory 'src')
+    // Copy fonts
+    eleventyConfig.addPassthroughCopy("src/font");
+    // Copy images
     eleventyConfig.addPassthroughCopy("src/img/assets");
     eleventyConfig.addPassthroughCopy("src/favicon*");
 

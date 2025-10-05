@@ -1,17 +1,17 @@
 .c-nav-item {
     color: $colour-green-dark;
     display: block;
-    padding: .5rem;
+    padding: 0.5rem;
 
     &__icon {
         display: block;
         fill: currentColor;
-        width: 1.2rem;
+        width: 1rem;
     }
 
     &:hover,
     &:focus {
-        animation: bounce .5s ease-out;
+        animation: bounce 0.5s ease-out;
         color: $colour-cream;
     }
 }

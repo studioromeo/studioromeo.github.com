@@ -1,5 +1,5 @@
 ---
-title: "Dev Diaries Episode 1: Writing a Tool to Help Test Migrating Lots of Code"
+title: "Writing a Tool to Help Test Migrating Lots of Code"
 tags:
     - Dev Diaries
     - Angular

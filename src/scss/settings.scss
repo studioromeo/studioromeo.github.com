@@ -1,7 +1,7 @@
 // Fonts
 $font-size: 125%;
-$line-height: 1.5;
-$font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+$line-height: 1.6;
+$font-family: "Lora", serif;
 
 // Colours
 $colour-grey: #e4e8ec;
@@ -16,6 +16,17 @@ $colour-green-dark: darken($colour-green, 10%);
 $colour-green-light: lighten($colour-green, 45%);
 
 // Widths & Spacing
-$container-width: 50rem;
+$container-width: 46rem;
 $article-gutter: 3.125rem;
 $article-gutter-mobile: $article-gutter / 2;
+
+/* @link https://utopia.fyi/type/calculator?c=360,16,1.2,960,18,1.2,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+    --step-0: clamp(1rem, 0.925rem + 0.3333vw, 1.125rem);
+    --step-1: clamp(1.2rem, 1.11rem + 0.4vw, 1.35rem);
+    --step-2: clamp(1.44rem, 1.332rem + 0.48vw, 1.62rem);
+    --step-3: clamp(1.728rem, 1.5984rem + 0.576vw, 1.944rem);
+    --step-4: clamp(2.0736rem, 1.9181rem + 0.6912vw, 2.3328rem);
+    --step-5: clamp(2.4883rem, 2.3017rem + 0.8294vw, 2.7994rem);
+}

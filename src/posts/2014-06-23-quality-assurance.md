@@ -1,5 +1,5 @@
 ---
-title: A day in the QA Maze
+title: A Day in the QA Maze
 summary: As a developer its easy to forget how your actions affect other roles. In this post I go over my experience shadowing a QA for the day
 ---
 
