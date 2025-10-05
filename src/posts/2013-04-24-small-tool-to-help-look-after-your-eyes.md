@@ -36,7 +36,7 @@ crontab -e
 
 This opens up the users crontab from where we can add our cron job. `*/60` basically means every 60th minute. So it should run on the hour every hour.
 
-```
+```bash
 */60 * * * * sh /rest/app.sh
 ```
 
