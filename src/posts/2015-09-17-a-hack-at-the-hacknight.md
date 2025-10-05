@@ -1,4 +1,5 @@
 ---
+title: A Hack at the Hacknight
 summary: My personal experience running an internal hack night for my work mates and what we built on the night
 ---
 

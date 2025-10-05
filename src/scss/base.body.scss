@@ -1,7 +1,16 @@
+html {
+    font-size: 125%;
+}
+
 body {
     background: $colour-grey;
     color: $colour-space-grey;
-    font: normal #{$font-size} / #{$line-height} $font-family;
+    font-family: $font-family;
+    font-optical-sizing: auto;
+    font-size: var(--step-0);
+    line-height: 1.6;
+    font-optical-sizing: auto;
+    // font-variation-settings: "wdth" 100;
     margin: 0 auto;
     max-width: $container-width;
     text-rendering: optimizeLegibility;
@@ -9,7 +18,7 @@ body {
 
     &::before {
         background: $colour-green;
-        content: '';
+        content: "";
         height: 12.5rem;
         left: 0;
         position: absolute;

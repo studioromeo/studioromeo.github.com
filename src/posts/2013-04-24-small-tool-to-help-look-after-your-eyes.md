@@ -1,5 +1,5 @@
 ---
-title: A small tool to help look after your eyes
+title: A Small Tool to Help Look After Your Eyes
 ---
 
 Both my parents have to wear glasses and a number of my friends do too and while it's recommended that we all take a 5 minute break for every hour we work at a computer very few of us really do.
