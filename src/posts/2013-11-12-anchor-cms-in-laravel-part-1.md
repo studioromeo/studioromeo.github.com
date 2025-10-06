@@ -1,4 +1,5 @@
 ---
+title: Anchor CMS in Laravel Part One
 summary: Part 1 of building AnchorCMS in Laravel. I really like AnchorCMS, its super clean and simple and I like the extensibility of Laravel. Can we combine the two?
 ---
 

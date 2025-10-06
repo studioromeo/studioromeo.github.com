@@ -1,4 +1,5 @@
 ---
+title: Easy Digital Downloads Receipt BCC
 summary: Earlier this evening Pippin, author of Easy Digital Downloads tweeted about an idea for a simple little plugin to extend EDD's customer receipts
 ---
 
