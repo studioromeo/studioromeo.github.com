@@ -32,7 +32,7 @@ We could just risk it and fix problems as we discover them but that sounds like 
 
 A few years ago my friend [Tom](https://www.tomseldon.co.uk) created a section in the app for dev tooling to live which is super handy. A new tool was added which had one job…
 
-## The Task
+## The task
 
 For every topic downloaded in the app, first run all the transformers split between old and new, then compare them! If they match then great carry on. If they don't match then stop and show where they differ in something thats easy to use.
 
@@ -42,7 +42,7 @@ We'd also need to test this against other content languages such as Spanish. Dif
 
 Ok well to build this we have to solve a few problems along the way.
 
-## Problem 1: How to Flip Between Old and New Transformers
+## Problem #1: How to flip &shy;between old and new transformers?
 
 First up we want to restrict how much code we have to write at once before we can get to testing. The transformation layer is sits below the repository layer so thats where we need to switch between old and new transformers. Each repository extends a `BaseRepository` class which contains some helper methods that all repositories can use.
 
@@ -70,7 +70,7 @@ find (topicId) {
 
 Cool thats the first problem sorted, we can now toggle between old and new transformers 🙌
 
-## Problem 2: How Can We Toggle the Feature on Demand
+## Problem #2: How can we &shy;toggle the feature on demand?
 
 In the past our feature flag looked at the state from two sources, either remotely via firebase or locally via the codebase depending on the type of flag it was. This is fine 99% of the time but for our tool we wanted to be able to toggle the feature at runtime, otherwise we'd be comparing the same transformer against itself 🤦‍♂️
 
@@ -100,7 +100,7 @@ Cool, so this allows us to change the state of a flag whenever we want. A nice b
 
 ![A screenshot of the app with a list of feature flags. Next to it are toggles that are currently disabled](/img/2023/dev-dairy-episode-1/featureflag.png)
 
-## Making the Page
+## Making the page
 
 Ok so the page is actually pretty simple, it's just some text that describes what it does and a button that starts the testing.
 
@@ -228,7 +228,7 @@ This is pretty similar to the mock code earlier. We disable the flag, test, enab
 
 If they don't match we throw an error with the repository and topic that failed. Also we log to the console both old and new JSON so we can dig into it and see whats up.
 
-### Quality of Life Extras
+### Quality of life extras
 
 We're more or less done with the tool now which is great news but I wanted to add a few extra things just to make life using the tool a bit nicer. As it stands if there was a difference in the output between transformers it would be pretty tricky to know exactly where that difference is, these objects are often quite big and heavily nested!
 

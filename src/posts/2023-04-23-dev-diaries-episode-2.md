@@ -1,5 +1,5 @@
 ---
-title: Lessons Learned the Hard Way With Dependencies
+title: Lessons Learned the Hard Way with Dependencies
 summary: Learning the hard way that sometimes it's better to build your own than to struggle with existing tools
 tags:
     - Dev Diaries
@@ -25,17 +25,17 @@ Theres a lot that some dependencies offer. They're often authored by multiple pe
 
 But be careful. It's worth taking the time to look at the dependencies available to you. Look at the common things like:
 
--   How many authors are there?
--   Whats the activity like on the repository? Is there a lot of recent action or has it been untouched for years? This might not be a bad thing if the dependency does what it needs to and has no bugs but it could also be a sign of a dead project.
--   Whats the license like? Can you even use this dependency? Is there a fee you need to pay?
+-   _How many authors are there?_
+-   _Whats the activity like on the repository?_ <br/>Is there a lot of recent action or has it been untouched for years? This might not be a bad thing if the dependency does what it needs to and has no bugs but it could also be a sign of a dead project.
+-   _Whats the license like?_ <br/>Can you even use this dependency? Is there a fee you need to pay?
 
-But there are also more nuanced things to look at, personal to you and your team / project.
+There are also more nuanced things to look at, personal to you, your team & project.
 
-Check out the code. How much of what it does is relevant to your needs? For example the dependency we were using was complaint to the entire OpenID Connect spec. We only needed the Authorization Code flow so a lot of the code in the dependency was redundant. When it came to something being wrong we had a lot of irrelevant code to comb through to understand what was going on.
+Check out the code. How much of what it does is relevant to your needs? For example our dependency included code for the entire OpenID Connect spec. We only needed the Authorization Code flow so a lot of the code in the dependency was redundant. During debugging this meant we had a lot of irrelevant code to comb through to understand what was going on.
 
-If you do need to tweak, can you? Without it being a bit of a pain in the bum. Some dependencies that are a bit larger make use of adapter / strategy patterns that allow you to write custom code that adheres to an interface the dependency asks for. If you can't is it patchable?
+If you do need to tweak, can you? Without it being a bit of a pain in the bum. Some dependencies that are a bit larger make use of adapter / strategy patterns that allow you to write custom code that adheres to an interface. If you can't, is it patchable?
 
-Lastly should you need to switch to something else, what options are available to you? Are you spoilt for choice or is it more slim pickings? If its the latter how confident are you in being able to replace it with something you've written?
+Lastly should you need to switch to something else, what options are available to you? Are you spoilt for choice or is it slim pickings? If its the latter how confident are you in being able to replace it with something you've written?
 
 As for us, we're on the road towards writing our own package. It's a slow process but we're getting there, cobbling together knowledge from specs and other projects to build something that works for us.
 

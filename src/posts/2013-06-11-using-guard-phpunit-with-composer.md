@@ -1,5 +1,5 @@
 ---
-title: Using guard-phpunit with composer
+title: Using Guard-phpunit with Composer
 ---
 
 While reading through a book on unit testing with PHP I ran into a few issues using guard with phpunit. This article guides me (and maybe you) through the process of installing & configuring guard with PHPUnit.
