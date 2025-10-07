@@ -10,27 +10,27 @@ I'll leave this list up, if you want to buy something then honestly, you're wond
 
 ## Less than £25
 
--   Coffee beans
--   Socks
--   [Cycling cap](https://uk.pedaled.com/collections/men-accessories-hats-caps)
--   [Sticker pack](https://www.mahalomydude.com/en-gb/collections/stickers)
+- Coffee beans
+- Socks
+- [Cycling cap](https://uk.pedaled.com/collections/men-accessories-hats-caps)
+- [Sticker pack](https://www.mahalomydude.com/en-gb/collections/stickers)
 
 ## £25 - £100
 
 Holy crap please don't buy anything on here, really! But if you do then thank you! you're way too generous!
 
--   [Coffee grinder](https://www.amazon.co.uk/KINGrinder-Straight-Handle-Adjustable-Aeropress/dp/B0CVSDMXFH)
--   [Powerbank](https://www.amazon.co.uk/Anker-Portable-PowerCore-Essential-Technology/dp/)
--   [Rapha base layer merino (XS)](https://www.rapha.cc/gb/en/shop/mens/base-layers)
+- [Coffee grinder](https://www.amazon.co.uk/KINGrinder-Straight-Handle-Adjustable-Aeropress/dp/B0CVSDMXFH)
+- [Powerbank](https://www.amazon.co.uk/Anker-Portable-PowerCore-Essential-Technology/dp/)
+- [Rapha base layer merino (XS)](https://www.rapha.cc/gb/en/shop/mens/base-layers)
 
 ## Also
 
 What I love the most is spending time with you. Here are some things we could do together
 
--   Climbing
--   A bike ride
--   Go for a meal / watch a film
--   A city break
--   Go shopping
+- Climbing
+- A bike ride
+- Go for a meal / watch a film
+- A city break
+- Go shopping
 
 Thank you

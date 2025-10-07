@@ -1,28 +1,30 @@
 ---
 layout: default
 ---
-
 <div class="c-article">
     <h1>Blog Posts</h1>
-    {% assign postsByYear = collections.post | groupByYear %} {%- for group in
-    postsByYear -%}
-    <h2 class="u-margin-extra">{{ group.year }}</h2>
-    {% for post in group.posts reversed %}
-    <article class="c-article-list">
-        <a
-            class="c-article-list__anchor u-link-default"
-            href="{{ post.url }}"
-            title="{{ post.data.title }}"
-            >{{ post.data.title }}</a
-        >
+    {% assign postsByYear = collections.post | groupByYear %}
+    {%- for group in postsByYear -%}
+        <h2 class="u-margin-extra">{{ group.year }}</h2>
+        {% for post in group.posts reversed %}
+            <article class="c-article-list">
+                <a
+                    class="c-article-list__anchor u-link-default"
+                    href="{{ post.url }}"
+                    title="{{ post.data.title }}"
+                >
+                    {{- post.data.title -}}
+                </a>
 
-        <footer class="c-article-list__date">
-            <time
-                class="c-meta__item"
-                datetime="{{ post.date | date_to_xmlschema }}"
-                >{{ post.date | date: "%d %B" }}</time
-            >
-        </footer>
-    </article>
-    {%-endfor -%} {%- endfor -%}
+                <footer class="c-article-list__date">
+                    <time
+                        class="c-meta__item"
+                        datetime="{{ post.date | date_to_xmlschema }}"
+                    >
+                        {{- post.date | date: '%d %B' -}}
+                    </time>
+                </footer>
+            </article>
+        {%- endfor -%}
+    {%- endfor -%}
 </div>

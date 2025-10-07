@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en-GB">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
 
         {% include 'meta.html' %}
 
@@ -11,20 +11,23 @@
             type="application/atom+xml"
             title="Atom feed for studioromeo.co.uk"
             href="/feed.xml"
-        />
+        >
 
         <link
             rel="icon"
             type="image/x-icon"
             href="/favicon.ico?v=1"
             sizes="any"
-        />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=1" />
+        >
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=1">
 
-        <link rel="stylesheet" href="/assets/css/main.css?v=710251" />
+        <link rel="stylesheet" href="/assets/css/main.css?v=710251">
         <title>
-            {%- if title -%}{{ title }} | {{ site.title }} {%- else -%} {{
-            site.title }} | {{ site.description}}{%- endif -%}
+            {%- if title -%}
+                {{ title }} | {{ site.title }}
+            {%- else -%}
+                {{ site.title }} | {{ site.description }}
+            {%- endif -%}
         </title>
     </head>
     <body>
@@ -102,15 +105,15 @@
             </nav>
         </header>
 
-        <main>{{content}}</main>
+        <main>{{ content }}</main>
 
         <script>
-            document.body.addEventListener("click", function (e) {
-                if (event.target.classList.contains("o-media")) {
+            document.body.addEventListener('click', function (e) {
+                if (event.target.classList.contains('o-media')) {
                     e.preventDefault();
-                    let f = document.createElement("iframe");
-                    f.src = e.target.href + "?autoplay=1";
-                    f.classList.add("o-media", "c-media--playing");
+                    let f = document.createElement('iframe');
+                    f.src = e.target.href + '?autoplay=1';
+                    f.classList.add('o-media', 'c-media--playing');
                     f.width = e.target.offsetWidth;
                     f.height = e.target.offsetHeight;
                     e.target.parentNode.insertBefore(f, e.target);

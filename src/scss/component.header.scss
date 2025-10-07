@@ -1,11 +1,11 @@
 .c-header {
     display: flex;
     flex-flow: row wrap;
-    grid-gap: .625rem;
+    grid-gap: 0.625rem;
     margin: 3.125rem;
     place-content: center space-between;
 
-    @media screen and (max-width : $container-width) {
+    @media screen and (max-width: $container-width) {
         margin: 1.875rem;
     }
 
@@ -18,7 +18,7 @@
 
         &:hover,
         &:focus {
-            animation: bounce .5s ease-out;
+            animation: bounce 0.5s ease-out;
         }
     }
 }

@@ -8,7 +8,7 @@
     margin-right: #{-$article-gutter};
     width: calc(100% + #{$article-gutter * 2});
 
-    @media screen and (max-width : $container-width) {
+    @media screen and (max-width: $container-width) {
         margin-left: #{-$article-gutter-mobile};
         margin-right: #{-$article-gutter-mobile};
         width: calc(100% + #{$article-gutter-mobile * 2});

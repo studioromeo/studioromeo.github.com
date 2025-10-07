@@ -13,11 +13,11 @@ Inspired I wanted to try and make our hacknights as fun as theirs. So I hatched 
 
 We sent out a [doodle](https://doodle.com/) poll asking staff to vote on what API tickled their fancy the most. Staff had a choice of these 5 API's:
 
--   [NASA](https://data.nasa.gov/)
--   [ONS](https://www.ons.gov.uk/ons/apiservice/web/apiservice/home)
--   [Facial Recognition](https://market.mashape.com/lambda/face-recognition#!documentation)
--   [Weather Forecasts](https://market.mashape.com/george-vustrey/ultimate-weather-forecasts)
--   [Ordnance Survey](https://www.ordnancesurvey.co.uk/opendatadownload/products.html)
+- [NASA](https://data.nasa.gov/)
+- [ONS](https://www.ons.gov.uk/ons/apiservice/web/apiservice/home)
+- [Facial Recognition](https://market.mashape.com/lambda/face-recognition#!documentation)
+- [Weather Forecasts](https://market.mashape.com/george-vustrey/ultimate-weather-forecasts)
+- [Ordnance Survey](https://www.ordnancesurvey.co.uk/opendatadownload/products.html)
 
 The poll was a close one with facial recognition beating the NASA api's by just a single vote.
 
@@ -31,10 +31,10 @@ We decided to start the night after work at about 5:30pm and finish at around 8p
 
 At the end of the evening we would all gather round and demo our work. To judge we handed out cards to each team to score each other out of 10 on the following:
 
--   Creativity - How creative was their hack?
--   Difficulty - How tricky was their hack to achieve?
--   Idea - Was it a compelling idea?
--   Polish - How well presented was their hack?
+- Creativity - How creative was their hack?
+- Difficulty - How tricky was their hack to achieve?
+- Idea - Was it a compelling idea?
+- Polish - How well presented was their hack?
 
 In the end if there was a tie break we would decide the winning team. We would announce it in our weekly highlights email.
 

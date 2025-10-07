@@ -8,11 +8,11 @@ So I just wanted to run through how I envisage anchor working with Laravel.
 
 So we've got a basic directory structure here
 
--   We've got composer.json, we've got an app folder which contains all the configuration, storage for things like
-    session & cache and language files.
--   Bootstrap which bootstraps our application.
--   We've got a public folder which contains our themes and usual front end asset kind of things like favicon and robots.txt.
--   And we've got artisan and obviously composer.json.
+- We've got composer.json, we've got an app folder which contains all the configuration, storage for things like
+  session & cache and language files.
+- Bootstrap which bootstraps our application.
+- We've got a public folder which contains our themes and usual front end asset kind of things like favicon and robots.txt.
+- And we've got artisan and obviously composer.json.
 
 So taking a look at this composer.json file we've got the name of the application and it's requirements.
 Basically what this file is it's like an instruction booklet for composer, so it's basically saying this application

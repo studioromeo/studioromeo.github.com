@@ -6,7 +6,7 @@ export default class {
         const sourcePath = path.join(
             import.meta.dirname,
             "..",
-            "scss/main.scss"
+            "scss/main.scss",
         );
         return {
             permalink: "/assets/css/main.css",

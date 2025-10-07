@@ -1,7 +1,17 @@
 @keyframes bounce {
-    0% { transform: translatey(0); }
-    25% { transform: translatey(-5px); }
-    50% { transform: translatey(0); }
-    75% { transform: translatey(-2px); }
-    100% { transform: translatey(0); }
+    0% {
+        transform: translatey(0);
+    }
+    25% {
+        transform: translatey(-5px);
+    }
+    50% {
+        transform: translatey(0);
+    }
+    75% {
+        transform: translatey(-2px);
+    }
+    100% {
+        transform: translatey(0);
+    }
 }
