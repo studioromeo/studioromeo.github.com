@@ -8,7 +8,7 @@
     // We need this to ensure the media container is always a certain
     // aspect ratio size without this the div collapses to it's content.
     &::before {
-        content: '';
+        content: "";
         padding-bottom: 62.5%;
     }
 
@@ -17,8 +17,8 @@
         width: 3.125rem;
 
         &--thumbnail {
-            fill: rgba(255, 255, 255, .7);
-            filter: drop-shadow(1px 1px 1px rgba(100, 100, 100, .7));
+            fill: rgba(255, 255, 255, 0.7);
+            filter: drop-shadow(1px 1px 1px rgba(100, 100, 100, 0.7));
         }
     }
 

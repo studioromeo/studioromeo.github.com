@@ -13,7 +13,9 @@
         color: $colour-space-grey;
         content: attr(title);
         position: absolute;
-        transition: transform 150ms ease-in-out, opacity 150ms ease-in-out;
+        transition:
+            transform 150ms ease-in-out,
+            opacity 150ms ease-in-out;
     }
 
     &:hover,
@@ -22,7 +24,7 @@
 
         &::before {
             opacity: 0;
-            transform: scale(.9);
+            transform: scale(0.9);
         }
     }
 }

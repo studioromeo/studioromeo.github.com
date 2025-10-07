@@ -22,11 +22,11 @@ I ended up with this [structure](https://github.com/studioromeo/studioromeo.gith
 
 These aren't just namespaces plucked out of thin air either, they explain how explicit the styles are. Starting from generic wide ranging styles to more focused styles that only affect a handful of elements.
 
--   **Settings & Tools**: Contains sass variables and my animations
--   **Generic**: Resets, spacing and box models
--   **Base**: Element selectors only, no classes here
--   **Object**: Inspired by the media object in OOCSS this contains code shared across two or more components. Purely class selectors from here on
--   **Component**: Main parts of the design, highly specific code that affects very few html elements
+- **Settings & Tools**: Contains sass variables and my animations
+- **Generic**: Resets, spacing and box models
+- **Base**: Element selectors only, no classes here
+- **Object**: Inspired by the media object in OOCSS this contains code shared across two or more components. Purely class selectors from here on
+- **Component**: Main parts of the design, highly specific code that affects very few html elements
 
 Finally theres trumps which is the most explicit layer. Use of `!important` here is OK since I know that this is the final layer of specificity.
 

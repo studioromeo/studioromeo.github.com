@@ -143,7 +143,7 @@ Instead we use promises as they were meant to be used and chain them. (Why didn'
 ```javascript
 this._topicRepository.findAll().then((topics) => {
     return this._$q.all(
-        topics.map((topic) => this._topicRepository.findById(topic.id))
+        topics.map((topic) => this._topicRepository.findById(topic.id)),
     );
 });
 ```
@@ -196,7 +196,7 @@ I wasn't sure how to do this but a quick stack overflow later I found my answer 
 jobs.reduce(
     (promise, job) =>
         promise.then(() => this._test(job.repository, job.topic, job.key)),
-    this._$q.resolve()
+    this._$q.resolve(),
 );
 ```
 

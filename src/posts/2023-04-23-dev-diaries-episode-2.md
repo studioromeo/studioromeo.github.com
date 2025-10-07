@@ -25,9 +25,9 @@ Theres a lot that some dependencies offer. They're often authored by multiple pe
 
 But be careful. It's worth taking the time to look at the dependencies available to you. Look at the common things like:
 
--   _How many authors are there?_
--   _Whats the activity like on the repository?_ <br/>Is there a lot of recent action or has it been untouched for years? This might not be a bad thing if the dependency does what it needs to and has no bugs but it could also be a sign of a dead project.
--   _Whats the license like?_ <br/>Can you even use this dependency? Is there a fee you need to pay?
+- _How many authors are there?_
+- _Whats the activity like on the repository?_ <br/>Is there a lot of recent action or has it been untouched for years? This might not be a bad thing if the dependency does what it needs to and has no bugs but it could also be a sign of a dead project.
+- _Whats the license like?_ <br/>Can you even use this dependency? Is there a fee you need to pay?
 
 There are also more nuanced things to look at, personal to you, your team & project.
 
