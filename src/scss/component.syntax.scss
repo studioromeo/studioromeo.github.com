@@ -2,7 +2,7 @@
 pre {
     @extend %o-media;
     padding: 1.5rem $article-gutter;
-    font: 1.2rem monospace;
+    font: var(--step--1) monospace;
     overflow: scroll;
     background: $colour-cream;
 

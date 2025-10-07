@@ -20,9 +20,10 @@ $container-width: 50rem;
 $article-gutter: 3.125rem;
 $article-gutter-mobile: $article-gutter / 2;
 
-/* @link https://utopia.fyi/type/calculator?c=360,16,1.2,960,18,1.2,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+/* @link https://utopia.fyi/type/calculator?c=360,16,1.2,960,18,1.2,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 :root {
+    --step--1: clamp(0.8333rem, 0.7708rem + 0.2778vw, 0.9375rem);
     --step-0: clamp(1rem, 0.925rem + 0.3333vw, 1.125rem);
     --step-1: clamp(1.2rem, 1.11rem + 0.4vw, 1.35rem);
     --step-2: clamp(1.44rem, 1.332rem + 0.48vw, 1.62rem);
