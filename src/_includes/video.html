@@ -2,9 +2,9 @@
     title="Play Video"
     class="o-media c-media u-link-default"
     href="{{ src }}"
-    {% if thumb %}
+    {%- if thumb -%}
         style="background-image: url({{ thumb }})"
-    {% endif %}
+    {%- endif -%}
 >
     <svg
         class="o-media__body c-media__play {% if include.thumb %} c-media__play--thumbnail{% endif %}"
