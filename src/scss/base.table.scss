@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+thead th {
+    background-color: $colour-grey;
+    color: $colour-space-grey;
+    font-weight: bold;
+}
+
+// Zebra-striping (alternating row colors) for readability
+tbody tr:nth-child(even) {
+    background-color: lighten($colour-grey, 20%);
+}
+
+// Highlight rows that are currently hovered
+tbody tr:hover {
+    background-color: #eee;
+    transition: background-color 0.3s ease;
+}
