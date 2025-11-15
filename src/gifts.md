@@ -27,7 +27,6 @@ Seriously thank you! 🥰
 | Coffee Beans   | < £25          |                          |
 | Socks          | < £25          |                          |
 | Cycling Cap    | £35            | [Pedaled]                |
-| Coffee Grinder | £66            | [Amazon]                 |
 | Powerbank      | £60-£90        |                          |
 | Base Layer     | £80            | [Rapha]                  |
 
