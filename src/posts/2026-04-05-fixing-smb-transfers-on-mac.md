@@ -1,5 +1,5 @@
 ---
-title: Fixing SMB transfers on Mac
+title: Fixing SMB Transfers on Mac
 summary: My notes on how to fix SMB transfer speeds on Mac Tahoe on Unraid NAS
 tags:
     - Server
