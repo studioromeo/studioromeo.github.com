@@ -7,6 +7,14 @@
         flex: 1;
     }
 
+    .c-article-list__summary {
+        display: block;
+        font-style: italic;
+        color: $colour-space-grey-light;
+        margin-top: 0.25rem;
+        font-size: 0.9rem;
+    }
+
     .c-article-list__date {
         flex: 0 0 auto;
         font-size: 0.8em;

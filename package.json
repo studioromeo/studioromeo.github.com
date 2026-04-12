@@ -4,7 +4,8 @@
     "description": "My personal blog",
     "scripts": {
         "start": "eleventy --serve",
-        "build": "eleventy"
+        "build": "eleventy",
+        "new:post": "node scripts/new-post.js"
     },
     "author": "Robert Rhoades",
     "type": "module",

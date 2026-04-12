@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% assign current_year = 'now' | date: '%Y' %}
+
 <div class="c-article">
     <h1>Blog Posts</h1>
     {% assign postsByYear = collections.post | groupByYear %}
@@ -14,6 +16,11 @@ layout: default
                     title="{{ post.data.title }}"
                 >
                     {{- post.data.title -}}
+                    {% if group.year == current_year %}
+                        <span class="c-article-list__summary">
+                            {{- post.data.summary }}
+                        </span>
+                    {% endif %}
                 </a>
 
                 <footer class="c-article-list__date">

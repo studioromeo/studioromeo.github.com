@@ -1,7 +1,7 @@
 // Syntax Pygments (Theme: Tango)
 pre {
-    @extend %o-media;
-    padding: 1.5rem $article-gutter;
+    border-radius: 8px;
+    padding: 1.5rem;
     font: var(--step--1) monospace;
     overflow: scroll;
     background: $colour-cream;
@@ -12,141 +12,132 @@ pre {
 }
 
 p > code {
-    color: #5b520b;
-    background: #f9f5d7;
+    color: #231b34;
+    background: #d4c7f1;
     font-size: 0.8rem;
-    padding: 0.2rem;
-    border: 1px solid #e2d77e;
+    padding: 0.1rem 0.2rem;
+    border: 1px solid #7455b7;
     border-radius: 2px;
     letter-spacing: 0.03rem;
+    margin-right: 2px;
+    position: relative;
+    top: -1px;
 }
 
-/**
- * Gruvbox light theme
+/*
+ * Laserwave Theme originally by Jared Jones for Visual Studio Code
+ * https://github.com/Jaredk3nt/laserwave
  *
- * Based on Gruvbox: https://github.com/morhetz/gruvbox
- * Adapted from PrismJS gruvbox-dark theme: https://github.com/schnerring/prism-themes/blob/master/themes/prism-gruvbox-dark.css
- *
- * @author Michael Schnerring (https://schnerring.net)
- * @version 1.0
+ * Ported for PrismJS by Simon Jespersen [https://github.com/simjes]
  */
 
 code[class*="language-"],
 pre[class*="language-"] {
-    color: #3c3836; /* fg1 / fg */
-    font-family: Consolas, Monaco, "Andale Mono", monospace;
+    background: #27212e;
+    color: #ffffff;
+    font-family:
+        Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace; /* this is the default */
+    /* The following properties are standard, please leave them as they are */
+    font-size: 1em;
     direction: ltr;
     text-align: left;
     white-space: pre;
     word-spacing: normal;
     word-break: normal;
     line-height: 1.5;
-
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+    tab-size: 2;
+    /* The following properties are also standard */
     -webkit-hyphens: none;
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
 }
 
-pre[class*="language-"]::-moz-selection,
-pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection,
-code[class*="language-"] ::-moz-selection {
-    color: #282828; /* fg0 */
-    background: #a89984; /* bg4 */
+code[class*="language-"] ::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection {
+    background: #eb64b927;
+    color: inherit;
 }
 
-pre[class*="language-"]::selection,
-pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
-code[class*="language-"] ::selection {
-    color: #282828; /* fg0 */
-    background: #a89984; /* bg4 */
+code[class*="language-"] ::selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection {
+    background: #eb64b927;
+    color: inherit;
 }
 
-/* Code blocks */
+/* Properties specific to code blocks */
 pre[class*="language-"] {
-    overflow: auto;
+    overflow: auto; /* this is standard */
 }
 
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-    background: #f9f5d7; /* bg0_h */
-}
-
-/* Inline code */
+/* Properties specific to inline code */
 :not(pre) > code[class*="language-"] {
-    padding: 0.1em;
-    border-radius: 0.3em;
+    white-space: normal; /* this is standard */
 }
 
 .token.comment,
 .token.prolog,
 .token.cdata {
-    color: #7c6f64; /* fg4 / gray1 */
+    color: #91889b;
 }
 
-.token.delimiter,
-.token.boolean,
-.token.keyword,
-.token.selector,
-.token.important,
-.token.atrule {
-    color: #9d0006; /* red2 */
+.token.punctuation {
+    color: #7b6995;
 }
 
-.token.operator,
-.token.punctuation,
-.token.attr-name {
-    color: #7c6f64; /* fg4 / gray1 */
-}
-
-.token.tag,
-.token.tag .punctuation,
-.token.doctype,
-.token.builtin {
-    color: #b57614; /* yellow2 */
-}
-
-.token.entity,
-.token.number,
-.token.symbol {
-    color: #8f3f71; /* purple2 */
-}
-
-.token.property,
+.token.builtin,
 .token.constant,
-.token.variable {
-    color: #9d0006; /* red2 */
+.token.boolean {
+    color: #ffe261;
 }
 
-.token.string,
-.token.char {
-    color: #797403; /* green2 */
+.token.number {
+    color: #b381c5;
+}
+
+.token.important,
+.token.atrule,
+.token.property,
+.token.keyword {
+    color: #40b4c4;
+}
+
+.token.doctype,
+.token.operator,
+.token.inserted,
+.token.tag,
+.token.class-name,
+.token.symbol {
+    color: #74dfc4;
+}
+
+.token.attr-name,
+.token.function,
+.token.deleted,
+.token.selector {
+    color: #eb64b9;
 }
 
 .token.attr-value,
-.token.attr-value .punctuation {
-    color: #7c6f64; /* fg4 / gray1 */
+.token.regex,
+.token.char,
+.token.string {
+    color: #b4dce7;
 }
 
-.token.url {
-    color: #797403; /* green2 */
-    text-decoration: underline;
+.token.entity,
+.token.url,
+.token.variable {
+    color: #ffffff;
 }
 
-.token.function {
-    color: #b57614; /* yellow2 */
-}
-
-.token.regex {
-    background: #797403; /* green2 */
-}
-
+/* The following rules are pretty similar across themes, but feel free to adjust them */
 .token.bold {
     font-weight: bold;
 }
@@ -155,10 +146,10 @@ pre[class*="language-"] {
     font-style: italic;
 }
 
-.token.inserted {
-    background: #7c6f64; /* fg4 / gray1 */
+.token.entity {
+    cursor: help;
 }
 
-.token.deleted {
-    background: #9d0006; /* red2 */
+.token.namespace {
+    opacity: 0.7;
 }
