@@ -1,9 +1,9 @@
 a {
-    color: $colour-space-grey-dark;
+    color: var(--color-text-heading);
     text-decoration: none;
 
     &:hover,
     &:focus {
-        color: $colour-space-grey-light;
+        color: var(--color-text-secondary);
     }
 }

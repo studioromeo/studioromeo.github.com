@@ -3,8 +3,8 @@
     "version": "1.0.0",
     "description": "My personal blog",
     "scripts": {
-        "start": "eleventy --serve",
-        "build": "eleventy",
+        "start": "tz build --watch & eleventy --serve",
+        "build": "tz build && eleventy",
         "new:post": "node scripts/new-post.js"
     },
     "author": "Robert Rhoades",
@@ -13,7 +13,10 @@
         "@11ty/eleventy": "^3.1.5",
         "@11ty/eleventy-img": "^6.0.4",
         "@11ty/eleventy-plugin-rss": "^3.0.0",
-        "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2"
+        "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+        "@terrazzo/cli": "^2.1.0",
+        "@terrazzo/plugin-css": "^2.1.0",
+        "@terrazzo/plugin-js": "^2.1.0"
     },
     "devDependencies": {
         "@shopify/prettier-plugin-liquid": "^1.10.2",

@@ -1,14 +1,14 @@
 main {
-    margin-bottom: #{$line-height}em;
+    margin-bottom: calc(var(--font-line-height) * 1em);
 
     * + * {
-        margin-top: 1rem;
+        margin-top: var(--spacing-md);
     }
 }
 
 ul,
 ol {
-    margin-left: #{$line-height}em;
+    margin-left: calc(var(--font-line-height) * 1em);
 }
 
 li * {
@@ -16,5 +16,5 @@ li * {
 }
 
 li + li {
-    margin-top: #{$line-height / 3}em;
+    margin-top: calc(var(--font-line-height) / 3 * 1em);
 }

@@ -1,8 +1,8 @@
 blockquote {
-    border-left: 3px solid $colour-space-grey-light;
-    padding-left: 1rem;
+    border-left: 3px solid var(--color-border-subtle);
+    padding-left: var(--spacing-md);
 
     cite {
-        color: $colour-space-grey-light;
+        color: var(--color-text-secondary);
     }
 }

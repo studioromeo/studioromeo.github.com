@@ -4,13 +4,13 @@
 // - img:not(.emoji) in component.article.scss
 .o-media,
 %o-media {
-    margin-left: #{-$article-gutter};
-    margin-right: #{-$article-gutter};
-    width: calc(100% + #{$article-gutter * 2});
+    margin-left: calc(-1 * var(--size-gutter));
+    margin-right: calc(-1 * var(--size-gutter));
+    width: calc(100% + var(--size-gutter) * 2);
 
     @media screen and (max-width: $container-width) {
-        margin-left: #{-$article-gutter-mobile};
-        margin-right: #{-$article-gutter-mobile};
-        width: calc(100% + #{$article-gutter-mobile * 2});
+        margin-left: calc(-1 * var(--size-gutter) / 2);
+        margin-right: calc(-1 * var(--size-gutter) / 2);
+        width: calc(100% + var(--size-gutter));
     }
 }

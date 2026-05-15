@@ -1,5 +1,6 @@
 import * as sass from "sass";
 import path from "path";
+import fs from "node:fs/promises";
 
 export default class {
     async data() {
@@ -21,7 +22,13 @@ export default class {
 
     async render({ entryFile }) {
         try {
-            return await this.compileSass(entryFile);
+            // Read the tokens.css
+            const tokensPath = path.join(import.meta.dirname, "tokens.css");
+            const tokensCss = await fs.readFile(tokensPath, "utf-8");
+
+            const sassCss = await this.compileSass(entryFile);
+
+            return tokensCss + "\n" + sassCss;
         } catch (error) {
             throw error;
         }
