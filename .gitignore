@@ -1,5 +1,5 @@
 node_modules
 _site
 src/css/tokens.css
-src/_data/tokens.js
+src/_tokens/
 src/_data/tokens.d.ts

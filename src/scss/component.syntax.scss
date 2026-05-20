@@ -1,14 +1,10 @@
 // Syntax Pygments (Theme: Tango)
 pre {
     border-radius: var(--radius-md);
-    padding: var(--spacing-lg);
     font: var(--step--1) monospace;
     overflow: scroll;
     background: var(--color-bg-surface);
-
-    @media screen and (max-width: $container-width) {
-        padding: var(--spacing-lg) calc(var(--size-gutter) / 2);
-    }
+    padding: var(--spacing-lg);
 }
 
 p > code {

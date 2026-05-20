@@ -5,24 +5,6 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import site from "./src/_data/site.js";
 
 export default async function (eleventyConfig) {
-    eleventyConfig.addShortcode("getToken", function (tokenId, mode) {
-        const { resolver } = this.ctx.environments.tokens;
-
-        const tokenSet = resolver.apply(mode ? { mode } : {});
-        const token = tokenSet?.[tokenId];
-
-        if (!token) {
-            console.warn(`Token not found: ${tokenId}`);
-            return "";
-        }
-
-        if (token.$type === "color") {
-            return `oklch(${token.$value.components.join(" ")})`;
-        }
-
-        return token.$value;
-    });
-
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,
         excerpt_separator: "---",
@@ -94,6 +76,9 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         widths: [800],
         htmlOptions: {
+            pictureAttributes: {
+                class: "o-media",
+            },
             imgAttributes: {
                 loading: "lazy",
                 decoding: "async",

@@ -1,10 +1,12 @@
 html {
     // font-size: 112.5%;
     font-size: 100%;
+    background: var(--color-bg-page);
 }
 
 body {
-    background: var(--color-bg-page);
+    container-type: inline-size;
+
     color: var(--color-text-primary);
     font-family: var(--font-family);
     font-optical-sizing: auto;

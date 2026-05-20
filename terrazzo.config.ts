@@ -9,7 +9,7 @@ export default defineConfig({
             filename: "./css/tokens.css",
         }),
         js({
-            filename: "./_data/tokens.js",
+            filename: "./_tokens/index.js",
         }),
     ],
     outDir: "./src/",

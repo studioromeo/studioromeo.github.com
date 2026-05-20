@@ -1,8 +1,9 @@
 .c-article {
+    --article-gutter: calc(var(--size-gutter) / 2);
+
     background: var(--color-bg-surface);
-    border-radius: var(--radius-md);
     box-shadow: var(--shadow-card);
-    padding: var(--spacing-xl) var(--size-gutter) var(--spacing-lg);
+    padding: var(--spacing-xl) var(--article-gutter) var(--spacing-lg);
 
     h1 {
         margin-top: var(--spacing-md);
@@ -29,7 +30,6 @@
     }
 
     picture {
-        @extend %o-media;
         display: flex;
         justify-content: center;
         background: var(--color-bg-page);
@@ -41,9 +41,9 @@
         }
     }
 
-    @media screen and (max-width: $container-width) {
-        border-radius: 0;
-        padding-left: calc(var(--size-gutter) / 2);
-        padding-right: calc(var(--size-gutter) / 2);
+    @container (min-width:  #{$container-width}) {
+        --article-gutter: var(--size-gutter);
+
+        border-radius: var(--radius-md);
     }
 }
