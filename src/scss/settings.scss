@@ -1,24 +1,5 @@
-// Fonts
-$font-size: 125%;
-$line-height: 1.7;
-$font-family: "Lora", serif;
-
-// Colours
-$colour-grey: #e4e8ec;
-$colour-cream: #f8f8f8;
-
-$colour-space-grey: #3b444f;
-$colour-space-grey-dark: darken($colour-space-grey, 20%);
-$colour-space-grey-light: lighten($colour-space-grey, 20%);
-
-$colour-green: #359567;
-$colour-green-dark: darken($colour-green, 10%);
-$colour-green-light: lighten($colour-green, 45%);
-
 // Widths & Spacing
 $container-width: 50rem;
-$article-gutter: 4.75rem;
-$article-gutter-mobile: $article-gutter / 2;
 
 /* @link https://utopia.fyi/type/calculator?c=360,16,1.2,960,18,1.2,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 

@@ -11,18 +11,18 @@ td {
 }
 
 thead th {
-    background-color: $colour-grey;
-    color: $colour-space-grey;
+    background-color: var(--color-bg-page);
+    color: var(--color-text-primary);
     font-weight: bold;
 }
 
 // Zebra-striping (alternating row colors) for readability
 tbody tr:nth-child(even) {
-    background-color: lighten($colour-grey, 20%);
+    background-color: var(--color-bg-subtle);
 }
 
 // Highlight rows that are currently hovered
 tbody tr:hover {
-    background-color: #eee;
+    background-color: var(--color-bg-subtle);
     transition: background-color 0.3s ease;
 }

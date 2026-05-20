@@ -76,6 +76,9 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
         widths: [800],
         htmlOptions: {
+            pictureAttributes: {
+                class: "o-media",
+            },
             imgAttributes: {
                 loading: "lazy",
                 decoding: "async",

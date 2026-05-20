@@ -5,8 +5,8 @@ h4,
 h5 {
     text-wrap: balance;
     line-height: 1.15;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
     word-break: break-word;
     hyphens: auto;
 }

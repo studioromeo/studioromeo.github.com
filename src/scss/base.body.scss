@@ -1,25 +1,26 @@
 html {
     // font-size: 112.5%;
     font-size: 100%;
+    background: var(--color-bg-page);
 }
 
 body {
-    background: rgb(248, 246, 241);
-    // background: $colour-grey;
-    color: $colour-space-grey;
-    font-family: $font-family;
+    container-type: inline-size;
+
+    color: var(--color-text-primary);
+    font-family: var(--font-family);
     font-optical-sizing: auto;
     font-size: var(--step-0);
-    line-height: $line-height;
+    line-height: var(--font-line-height);
     font-optical-sizing: auto;
     // font-variation-settings: "wdth" 100;
     margin: 0 auto;
-    max-width: $container-width;
+    max-width: var(--size-container);
     text-rendering: optimizeLegibility;
     word-wrap: break-word;
 
     &::before {
-        background: $colour-green;
+        background: var(--color-bg-accent);
         content: "";
         height: 12.5rem;
         left: 0;
@@ -31,7 +32,7 @@ body {
 }
 
 ::selection {
-    background: $colour-grey;
-    color: $colour-space-grey-dark;
+    background: var(--color-bg-page);
+    color: var(--color-text-heading);
     text-shadow: none;
 }

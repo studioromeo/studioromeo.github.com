@@ -2,17 +2,17 @@
     display: flex;
     flex-flow: row wrap;
     grid-gap: 0.625rem;
-    margin: 3.125rem;
+    margin: 1.875rem;
     place-content: center space-between;
 
-    @media screen and (max-width: $container-width) {
-        margin: 1.875rem;
+    @container (min-width: #{$container-width}) {
+        margin: 3.125rem;
     }
 
     &__logo {
         svg {
             display: block;
-            fill: $colour-cream;
+            fill: var(--color-icon-inverse);
             width: 2.1875rem;
         }
 
