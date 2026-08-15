@@ -4,10 +4,21 @@ layout: default
 {% assign current_year = 'now' | date: '%Y' %}
 
 <div class="c-article">
-    <h1>Blog Posts</h1>
+    <h1>Robert Rhoades</h1>
+    <p>
+        A software developer by day, tinkerer by night. Owner of too many side projects. 
+
+        For over 20 years I've been building on the web for clients all over the world. Currently working with React Native.
+
+        This is my personal space to write about code, hardware experiments, and whatever else is on my mind.
+    </p>
+    <p>
+        Say hello on <a href="{{ site.author.bluesky }}">Bluesky</a> or drop me an <a href="mailto:hi@studioromeo.co.uk">email</a>.
+    </p>
+    <h2>Blog Posts</h2>
     {% assign postsByYear = collections.post | groupByYear %}
     {%- for group in postsByYear -%}
-        <h2 class="u-margin-extra">{{ group.year }}</h2>
+    <h3 class="u-margin-extra">{{ group.year }}</h3>
         {% for post in group.posts reversed %}
             <article class="c-article-list">
                 <a
