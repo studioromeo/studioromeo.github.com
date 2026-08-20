@@ -1,6 +1,6 @@
 export default {
     title: "Robert Rhoades",
-    description: "️Developer &amp; tea maker",
+    description: "Developer &amp; tea maker",
     url: "https://www.studioromeo.co.uk",
     author: {
         name: "Robert Rhoades",
