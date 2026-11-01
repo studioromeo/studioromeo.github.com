@@ -16,7 +16,7 @@
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2"
     },
     "devDependencies": {
-        "@shopify/prettier-plugin-liquid": "^1.11.1",
+        "@shopify/prettier-plugin-liquid": "^1.11.3",
         "prettier": "^3.9.10",
         "sass": "^1.107.0"
     }
