@@ -10,7 +10,7 @@
     "author": "Robert Rhoades",
     "type": "module",
     "dependencies": {
-        "@11ty/eleventy": "^3.1.6",
+        "@11ty/eleventy": "^3.1.7",
         "@11ty/eleventy-img": "^7.1.1",
         "@11ty/eleventy-plugin-rss": "^3.1.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2"
